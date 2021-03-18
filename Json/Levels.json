@@ -1,7 +1,10 @@
 {
     "levels":[
-        {
-            "path" : "Json/Levels/Runtfaff.json"
-        }
+      {
+        "path": "Json/Levels/Runtfaff.json"
+      },
+      {
+        "path": "Json/Levels/CollisionTest.json"
+      }
     ]
 }
