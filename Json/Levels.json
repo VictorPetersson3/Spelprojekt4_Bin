@@ -1,7 +1,7 @@
 {
     "levels":[
       {
-        "path": "Json/Levels/NewTileSheetTest.json"
+        "path": "Levels/World_1/Level_1-3.json"
       },
       {
         "path": "Json/Levels/TestLevel2.json"
