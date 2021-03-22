@@ -1,0 +1,331 @@
+{
+	"__header__": {
+		"fileType": "LDtk Project JSON",
+		"app": "LDtk",
+		"doc": "https://ldtk.io/json",
+		"schema": "https://ldtk.io/files/JSON_SCHEMA.json",
+		"appAuthor": "Sebastien 'deepnight' Benard",
+		"appVersion": "0.8.1",
+		"url": "https://ldtk.io"
+	},
+	"jsonVersion": "0.8.1",
+	"nextUid": 5,
+	"worldLayout": "Free",
+	"worldGridWidth": 256,
+	"worldGridHeight": 256,
+	"defaultPivotX": 0,
+	"defaultPivotY": 0,
+	"defaultGridSize": 16,
+	"defaultLevelWidth": 256,
+	"defaultLevelHeight": 256,
+	"bgColor": "#40465B",
+	"defaultLevelBgColor": "#696A79",
+	"minifyJson": false,
+	"externalLevels": false,
+	"exportTiled": false,
+	"exportPng": false,
+	"pngFilePattern": null,
+	"backupOnSave": false,
+	"backupLimit": 10,
+	"flags": [],
+	"defs": { "layers": [
+		{
+			"__type": "Entities",
+			"identifier": "Entities",
+			"type": "Entities",
+			"uid": 3,
+			"gridSize": 16,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": null,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		}
+	], "entities": [
+		{
+			"identifier": "Shooter",
+			"uid": 1,
+			"tags": [],
+			"width": 16,
+			"height": 16,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Direction",
+					"__type": "LocalEnum.Direction",
+					"uid": 4,
+					"type": { "id": "F_Enum", "params": [2] },
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
+		}
+	], "tilesets": [], "enums": [{ "identifier": "Direction", "uid": 2, "values": [
+		{ "id": "Up", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Down", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Right", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Left", "tileId": null, "__tileSrcRect": null }
+	], "iconTilesetUid": null, "externalRelPath": null, "externalFileChecksum": null }], "externalEnums": [], "levelFields": [] },
+	"levels": [
+		{
+			"identifier": "Level1",
+			"uid": 0,
+			"worldX": 0,
+			"worldY": 0,
+			"pxWid": 1120,
+			"pxHei": 256,
+			"__bgColor": "#696A79",
+			"bgColor": null,
+			"bgRelPath": null,
+			"bgPos": null,
+			"bgPivotX": 0.5,
+			"bgPivotY": 0.5,
+			"__bgPos": null,
+			"externalRelPath": null,
+			"fieldInstances": [],
+			"layerInstances": [
+				{
+					"__identifier": "Entities",
+					"__type": "Entities",
+					"__cWid": 70,
+					"__cHei": 16,
+					"__gridSize": 16,
+					"__opacity": 1,
+					"__pxTotalOffsetX": 0,
+					"__pxTotalOffsetY": 0,
+					"__tilesetDefUid": null,
+					"__tilesetRelPath": null,
+					"levelId": 0,
+					"layerDefUid": 3,
+					"pxOffsetX": 0,
+					"pxOffsetY": 0,
+					"visible": true,
+					"intGrid": [],
+					"intGridCsv": [],
+					"autoLayerTiles": [],
+					"seed": 5273494,
+					"overrideTilesetUid": null,
+					"gridTiles": [],
+					"entityInstances": [
+						{
+							"__identifier": "Shooter",
+							"__grid": [8,7],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 1,
+							"px": [128,112],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 4,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [16,7],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 1,
+							"px": [256,112],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 4,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [24,7],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 1,
+							"px": [384,112],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 4,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [31,7],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 1,
+							"px": [496,112],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 4,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [38,7],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 1,
+							"px": [608,112],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 4,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [45,7],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 1,
+							"px": [720,112],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 4,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [51,7],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 1,
+							"px": [816,112],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 4,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [57,7],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 1,
+							"px": [912,112],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 4,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [64,7],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 1,
+							"px": [1024,112],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 4,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
+						}
+					]
+				}
+			],
+			"__neighbours": []
+		}
+	]
+}

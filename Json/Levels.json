@@ -5,6 +5,9 @@
       },
       {
         "path": "Json/Levels/TestLevel2.json"
+      },
+      {
+        "path": "Json/Levels/ShooterTests.json"
       }
     ]
 }
