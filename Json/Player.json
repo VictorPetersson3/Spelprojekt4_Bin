@@ -7,7 +7,7 @@
     "Jumping" :
     {
         "Speed" : 1.5,
-        "Deccelereation" : 10.0
+        "Decceleration" : 10.0
     },
     "Wall stuff" : 
     {
