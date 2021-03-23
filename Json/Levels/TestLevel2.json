@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 8,
+	"nextUid": 10,
 	"worldLayout": "Free",
 	"worldGridWidth": 1280,
 	"worldGridHeight": 720,
@@ -138,6 +138,52 @@
 			"pivotX": 0.5,
 			"pivotY": 0.5,
 			"fieldDefs": []
+		},
+		{
+			"identifier": "Saw",
+			"uid": 8,
+			"tags": [],
+			"width": 16,
+			"height": 16,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Point",
+					"__type": "Array<Point>",
+					"uid": 9,
+					"type": "F_Point",
+					"isArray": true,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
 		}
 	], "tilesets": [
 		{
@@ -629,6 +675,32 @@
 							"defUid": 7,
 							"px": [936,152],
 							"fieldInstances": []
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [26,25],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 8,
+							"px": [416,400],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [ { "cx": 39, "cy": 25 }, { "cx": 37, "cy": 17 }, { "cx": 26, "cy": 17 } ],
+								"__type": "Array<Point>",
+								"defUid": 9,
+								"realEditorValues": [ {
+									"id": "V_String",
+									"params": ["39,25"]
+								}, {
+									"id": "V_String",
+									"params": ["37,17"]
+								}, {
+									"id": "V_String",
+									"params": ["26,17"]
+								} ]
+							}]
 						}
 					]
 				}
