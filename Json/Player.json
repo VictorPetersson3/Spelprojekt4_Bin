@@ -27,7 +27,8 @@
         "Maximum horizontal velocity" : 0.25,
         "Maximum vertical velocity" : 1.5,
         "Gravity" : 4.0,
-        "Boost multiplier" : 2.0
+        "Boost multiplier" : 2.0,
+        "Glide falling speed" : 0.2
     },
     "Collider" :
     {
