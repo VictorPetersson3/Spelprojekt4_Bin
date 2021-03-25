@@ -1,0 +1,18 @@
+{
+	"characterLeft" : "Villain",
+	"characterRight" : "Hero",
+	"dialogue" : [
+		{
+			"speaker" : "Hero",
+			"line" : "I have found your weakness Ugly!"
+		},
+		{
+			"speaker" : "Villain",
+			"line" : "Make it staahp =("
+		},
+		{
+			"speaker" : "Hero",
+			"line" : "You are allergic to my sweet nectars!"
+		}
+	]
+}
