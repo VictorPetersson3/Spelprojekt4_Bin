@@ -529,26 +529,6 @@
 									}]
 								}
 							]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [12,36],
-							"__pivot": [0,0],
-							"__tile": { "tilesetUid": 9, "srcRect": [0,128,32,32] },
-							"width": 32,
-							"height": 32,
-							"defUid": 15,
-							"px": [192,576],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Left",
-								"__type": "LocalEnum.Direction",
-								"defUid": 17,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Left"]
-								}]
-							}]
 						}
 					]
 				},
