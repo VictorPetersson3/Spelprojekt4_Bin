@@ -362,7 +362,7 @@
 					"layerDefUid": 11,
 					"pxOffsetX": 0,
 					"pxOffsetY": 0,
-					"visible": false,
+					"visible": true,
 					"intGrid": [],
 					"intGridCsv": [],
 					"autoLayerTiles": [],

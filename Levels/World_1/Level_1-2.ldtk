@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 12,
+	"nextUid": 18,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -197,6 +197,118 @@
 					"textLangageMode": null
 				}
 			]
+		},
+		{
+			"identifier": "Saw",
+			"uid": 12,
+			"tags": [],
+			"width": 32,
+			"height": 32,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": true,
+			"color": "#4B9C6F",
+			"renderMode": "Tile",
+			"showName": true,
+			"tilesetId": 9,
+			"tileId": 54,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Slug",
+					"__type": "Array<Point>",
+					"uid": 13,
+					"type": "F_Point",
+					"isArray": true,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				},
+				{
+					"identifier": "Repeating",
+					"__type": "Bool",
+					"uid": 14,
+					"type": "F_Bool",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
+		},
+		{
+			"identifier": "Shooter",
+			"uid": 15,
+			"tags": [],
+			"width": 32,
+			"height": 32,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Tile",
+			"showName": true,
+			"tilesetId": 9,
+			"tileId": 64,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Direction",
+					"__type": "LocalEnum.Direction",
+					"uid": 17,
+					"type": { "id": "F_Enum", "params": [16] },
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
 		}
 	], "tilesets": [
 		{
@@ -244,7 +356,12 @@
 				"averageColors": "5e9a5d8a5e9a6d8a5e9a5d8a5e9a5d8a5e9a5d8a5e9a5d8a5e9a5d8a5e9a5d8af78af78af78af78af78af78af78af78af78af78af78af78af78af78af78af78a389a489a5c880a6607450000000000000000000000000000000000000000000037993789000078c87c6500009b787b6928b868b82c976c9700000000000000007577346685773467757734677577346766a757a86b765c86000000000000000077987855000000000000000000000000000000000000000000000000000000006da95db95db95cb95bb85ac869c84c8a367a4d8a3679000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 			}
 		}
-	], "enums": [], "externalEnums": [], "levelFields": [] },
+	], "enums": [{ "identifier": "Direction", "uid": 16, "values": [
+		{ "id": "Left", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Right", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Up", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Down", "tileId": null, "__tileSrcRect": null }
+	], "iconTilesetUid": null, "externalRelPath": null, "externalFileChecksum": null }], "externalEnums": [], "levelFields": [] },
 	"levels": [
 		{
 			"identifier": "Level1",
@@ -307,6 +424,90 @@
 							"defUid": 5,
 							"px": [528,368],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 6, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [42,14],
+							"__pivot": [0,0],
+							"__tile": { "tilesetUid": 9, "srcRect": [192,96,32,32] },
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [672,224],
+							"fieldInstances": [
+								{
+									"__identifier": "Slug",
+									"__value": [{ "cx": 27, "cy": 14 }],
+									"__type": "Array<Point>",
+									"defUid": 13,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["27,14"]
+									}]
+								},
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 14, "realEditorValues": [] }
+							]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [42,14],
+							"__pivot": [0,0],
+							"__tile": { "tilesetUid": 9, "srcRect": [192,96,32,32] },
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [672,224],
+							"fieldInstances": [
+								{
+									"__identifier": "Slug",
+									"__value": [ { "cx": 26, "cy": 14 }, { "cx": 26, "cy": 21 }, { "cx": 47, "cy": 21 }, { "cx": 47, "cy": 14 } ],
+									"__type": "Array<Point>",
+									"defUid": 13,
+									"realEditorValues": [ {
+										"id": "V_String",
+										"params": ["26,14"]
+									}, {
+										"id": "V_String",
+										"params": ["26,21"]
+									}, {
+										"id": "V_String",
+										"params": ["47,21"]
+									}, {
+										"id": "V_String",
+										"params": ["47,14"]
+									} ]
+								},
+								{
+									"__identifier": "Repeating",
+									"__value": true,
+									"__type": "Bool",
+									"defUid": 14,
+									"realEditorValues": [{
+										"id": "V_Bool",
+										"params": [ true ]
+									}]
+								}
+							]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [12,36],
+							"__pivot": [0,0],
+							"__tile": { "tilesetUid": 9, "srcRect": [0,128,32,32] },
+							"width": 32,
+							"height": 32,
+							"defUid": 15,
+							"px": [192,576],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Left",
+								"__type": "LocalEnum.Direction",
+								"defUid": 17,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Left"]
+								}]
+							}]
 						}
 					]
 				},
