@@ -4,23 +4,23 @@
 	"dialogue" : [
 		{
 			"speaker" : "Hero",
-			"line" : "I will never ever be as Ugly as you are mister toad man"
+			"line" : ": I will never ever be as Ugly as you are mister toad man"
 		},
 		{
 			"speaker" : "Villain",
-			"line" : "Mohahahaha, you think I want to be as tiny and sprawny like you?!"
+			"line" : ": You think I want to be as tiny and sprawny like you?!"
 		},
 		{
 			"speaker" : "Hero",
-			"line" : "At least I have a face and not only warts all over!"
+			"line" : ": At least I have a face and not only warts all over!"
 		},
 		{
 			"speaker" : "Villain",
-			"line" : "Hey, that actually hurts man, really uneccessary!"
+			"line" : ": Hey, that actually hurts man, really uneccessary!"
 		},
 		{
 			"speaker" : "Hero",
-			"line" : "I will kill you for your Ugliness!"
+			"line" : ": I am now done with this conversation, bye bye!"
 		}
 	]
 }
