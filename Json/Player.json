@@ -11,14 +11,14 @@
     },
     "Wall stuff" : 
     {
-        "Jump speed" : 1.5,
-        "X factor" : 0.5,
-        "Wall drag" : 1.0,
+        "Jump speed" : 1.2,
+        "X factor" : 0.3,
+        "Wall drag" : 0.5,
         "Maximum wall slide speed" : 0.2
     },
     "Air time" :
     {
-        "Acceleration" : 2.0,
+        "Acceleration" : 1.8,
         "Decceleration" : 1.0,
         "Maximum speed" : 0.25
     },
