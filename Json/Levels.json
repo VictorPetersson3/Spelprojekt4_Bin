@@ -19,7 +19,7 @@
           "propsTileSheetPath": "Sprites/props/props.dds",
           "positionX" : 400,
           "positionY" : 300,
-          "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
+          "mapTilePath" : "Sprites/UI/P_Heart01.dds",
           "hasCutscene" : false
         }
       ]
@@ -43,7 +43,7 @@
           "propsTileSheetPath": "Sprites/props/props.dds",
           "positionX" : 600,
           "positionY" : 300,
-          "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
+          "mapTilePath" : "Sprites/UI/P_Heart01.dds",
           "hasCutscene" : false
         }
       ]
@@ -52,7 +52,7 @@
     "actSong" : "Audio/music/Hell_Clown_Core.mp3",
     "levels":[
         {
-          "path": "Levels/World_2/Level_3-1.json",
+          "path": "Levels/World_3/Level_3-1.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
           "propsTileSheetPath": "Sprites/props/props.dds",
           "positionX" : 700,
@@ -62,7 +62,7 @@
           "cutSceneConversationNumber" : 2
         },
         {
-          "path": "Levels/World_2/Level_3-2.json",
+          "path": "Levels/World_3/Level_3-2.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
           "propsTileSheetPath": "Sprites/props/props.dds",
           "positionX" : 800,
@@ -76,38 +76,27 @@
     "actSong" : "Audio/music/Hell_Clown_Core.mp3",
     "levels":[
         {
-          "path": "Levels/World_2/Level_4-1.json",
+          "path": "Levels/World_4/Level_4-1.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
           "propsTileSheetPath": "Sprites/props/props.dds",
           "positionX" : 900,
-          "positionY" : 300,
+          "positionY" : 700,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
           "hasCutscene" : true,
           "cutSceneConversationNumber" : 3
         },
         {
-          "path": "Levels/World_2/Level_4-2.json",
+          "path": "Levels/World_4/Level_4-2.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
           "propsTileSheetPath": "Sprites/props/props.dds",
           "positionX" : 1000,
-          "positionY" : 300,
+          "positionY" : 500,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
           "hasCutscene" : false
         }
       ]
     }
-  ],
-  "World1 Backgrounds" : [
-    {
-      "path": "Levels/World_2/Level_4-2.json"
-    },
-    {
-      "path": "Levels/World_2/Level_4-2.json"
-    },
-    {
-      "path": "Levels/World_2/Level_4-2.json"
-    }
-  ]
+  ]  
 }
 
 

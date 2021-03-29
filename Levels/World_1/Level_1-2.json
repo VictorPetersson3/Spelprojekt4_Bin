@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 12,
+	"nextUid": 18,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -30,25 +30,6 @@
 	"flags": [],
 	"defs": { "layers": [
 		{
-			"__type": "Entities",
-			"identifier": "PlayerStart",
-			"type": "Entities",
-			"uid": 7,
-			"gridSize": 16,
-			"displayOpacity": 1,
-			"pxOffsetX": 0,
-			"pxOffsetY": 0,
-			"requiredTags": [],
-			"excludedTags": [],
-			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
-			"autoTilesetDefUid": null,
-			"autoRuleGroups": [],
-			"autoSourceLayerDefUid": null,
-			"tilesetDefUid": null,
-			"tilePivotX": 0,
-			"tilePivotY": 0
-		},
-		{
 			"__type": "Tiles",
 			"identifier": "Obstacles",
 			"type": "Tiles",
@@ -64,6 +45,25 @@
 			"autoRuleGroups": [],
 			"autoSourceLayerDefUid": null,
 			"tilesetDefUid": 9,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		},
+		{
+			"__type": "Entities",
+			"identifier": "Entities",
+			"type": "Entities",
+			"uid": 7,
+			"gridSize": 16,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": null,
 			"tilePivotX": 0,
 			"tilePivotY": 0
 		},
@@ -197,6 +197,118 @@
 					"textLangageMode": null
 				}
 			]
+		},
+		{
+			"identifier": "Saw",
+			"uid": 12,
+			"tags": [],
+			"width": 32,
+			"height": 32,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": true,
+			"color": "#4B9C6F",
+			"renderMode": "Tile",
+			"showName": true,
+			"tilesetId": 9,
+			"tileId": 54,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Slug",
+					"__type": "Array<Point>",
+					"uid": 13,
+					"type": "F_Point",
+					"isArray": true,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				},
+				{
+					"identifier": "Repeating",
+					"__type": "Bool",
+					"uid": 14,
+					"type": "F_Bool",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
+		},
+		{
+			"identifier": "Shooter",
+			"uid": 15,
+			"tags": [],
+			"width": 32,
+			"height": 32,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Tile",
+			"showName": true,
+			"tilesetId": 9,
+			"tileId": 64,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Direction",
+					"__type": "LocalEnum.Direction",
+					"uid": 17,
+					"type": { "id": "F_Enum", "params": [16] },
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
 		}
 	], "tilesets": [
 		{
@@ -244,7 +356,12 @@
 				"averageColors": "5e9a5d8a5e9a6d8a5e9a5d8a5e9a5d8a5e9a5d8a5e9a5d8a5e9a5d8a5e9a5d8af78af78af78af78af78af78af78af78af78af78af78af78af78af78af78af78a389a489a5c880a6607450000000000000000000000000000000000000000000037993789000078c87c6500009b787b6928b868b82c976c9700000000000000007577346685773467757734677577346766a757a86b765c86000000000000000077987855000000000000000000000000000000000000000000000000000000006da95db95db95cb95bb85ac869c84c8a367a4d8a3679000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 			}
 		}
-	], "enums": [], "externalEnums": [], "levelFields": [] },
+	], "enums": [{ "identifier": "Direction", "uid": 16, "values": [
+		{ "id": "Left", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Right", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Up", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Down", "tileId": null, "__tileSrcRect": null }
+	], "iconTilesetUid": null, "externalRelPath": null, "externalFileChecksum": null }], "externalEnums": [], "levelFields": [] },
 	"levels": [
 		{
 			"identifier": "Level1",
@@ -264,7 +381,48 @@
 			"fieldInstances": [],
 			"layerInstances": [
 				{
-					"__identifier": "PlayerStart",
+					"__identifier": "Obstacles",
+					"__type": "Tiles",
+					"__cWid": 30,
+					"__cHei": 21,
+					"__gridSize": 32,
+					"__opacity": 1,
+					"__pxTotalOffsetX": 0,
+					"__pxTotalOffsetY": 0,
+					"__tilesetDefUid": 9,
+					"__tilesetRelPath": "../../Sprites/obstacles/obstacles.png",
+					"levelId": 0,
+					"layerDefUid": 11,
+					"pxOffsetX": 0,
+					"pxOffsetY": 0,
+					"visible": true,
+					"intGrid": [],
+					"intGridCsv": [],
+					"autoLayerTiles": [],
+					"seed": 8862511,
+					"overrideTilesetUid": null,
+					"gridTiles": [
+						{ "px": [544,64], "src": [320,96], "f": 0, "t": 58, "d": [77] },
+						{ "px": [576,64], "src": [352,96], "f": 0, "t": 59, "d": [78] },
+						{ "px": [288,96], "src": [0,64], "f": 0, "t": 32, "d": [99] },
+						{ "px": [320,96], "src": [32,64], "f": 0, "t": 33, "d": [100] },
+						{ "px": [544,96], "src": [320,128], "f": 0, "t": 74, "d": [107] },
+						{ "px": [576,96], "src": [352,128], "f": 0, "t": 75, "d": [108] },
+						{ "px": [288,128], "src": [0,96], "f": 0, "t": 48, "d": [129] },
+						{ "px": [320,128], "src": [32,96], "f": 0, "t": 49, "d": [130] },
+						{ "px": [64,224], "src": [0,64], "f": 0, "t": 32, "d": [212] },
+						{ "px": [96,224], "src": [32,64], "f": 0, "t": 33, "d": [213] },
+						{ "px": [192,224], "src": [0,64], "f": 0, "t": 32, "d": [216] },
+						{ "px": [224,224], "src": [32,64], "f": 0, "t": 33, "d": [217] },
+						{ "px": [64,256], "src": [0,96], "f": 0, "t": 48, "d": [242] },
+						{ "px": [96,256], "src": [32,96], "f": 0, "t": 49, "d": [243] },
+						{ "px": [192,256], "src": [0,96], "f": 0, "t": 48, "d": [246] },
+						{ "px": [224,256], "src": [32,96], "f": 0, "t": 49, "d": [247] }
+					],
+					"entityInstances": []
+				},
+				{
+					"__identifier": "Entities",
 					"__type": "Entities",
 					"__cWid": 59,
 					"__cHei": 42,
@@ -307,49 +465,72 @@
 							"defUid": 5,
 							"px": [528,368],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 6, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [42,14],
+							"__pivot": [0,0],
+							"__tile": { "tilesetUid": 9, "srcRect": [192,96,32,32] },
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [672,224],
+							"fieldInstances": [
+								{
+									"__identifier": "Slug",
+									"__value": [{ "cx": 27, "cy": 14 }],
+									"__type": "Array<Point>",
+									"defUid": 13,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["27,14"]
+									}]
+								},
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 14, "realEditorValues": [] }
+							]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [42,14],
+							"__pivot": [0,0],
+							"__tile": { "tilesetUid": 9, "srcRect": [192,96,32,32] },
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [672,224],
+							"fieldInstances": [
+								{
+									"__identifier": "Slug",
+									"__value": [ { "cx": 26, "cy": 14 }, { "cx": 26, "cy": 21 }, { "cx": 47, "cy": 21 }, { "cx": 47, "cy": 14 } ],
+									"__type": "Array<Point>",
+									"defUid": 13,
+									"realEditorValues": [ {
+										"id": "V_String",
+										"params": ["26,14"]
+									}, {
+										"id": "V_String",
+										"params": ["26,21"]
+									}, {
+										"id": "V_String",
+										"params": ["47,21"]
+									}, {
+										"id": "V_String",
+										"params": ["47,14"]
+									} ]
+								},
+								{
+									"__identifier": "Repeating",
+									"__value": true,
+									"__type": "Bool",
+									"defUid": 14,
+									"realEditorValues": [{
+										"id": "V_Bool",
+										"params": [ true ]
+									}]
+								}
+							]
 						}
 					]
-				},
-				{
-					"__identifier": "Obstacles",
-					"__type": "Tiles",
-					"__cWid": 30,
-					"__cHei": 21,
-					"__gridSize": 32,
-					"__opacity": 1,
-					"__pxTotalOffsetX": 0,
-					"__pxTotalOffsetY": 0,
-					"__tilesetDefUid": 9,
-					"__tilesetRelPath": "../../Sprites/obstacles/obstacles.png",
-					"levelId": 0,
-					"layerDefUid": 11,
-					"pxOffsetX": 0,
-					"pxOffsetY": 0,
-					"visible": true,
-					"intGrid": [],
-					"intGridCsv": [],
-					"autoLayerTiles": [],
-					"seed": 8862511,
-					"overrideTilesetUid": null,
-					"gridTiles": [
-						{ "px": [544,64], "src": [320,96], "f": 0, "t": 58, "d": [77] },
-						{ "px": [576,64], "src": [352,96], "f": 0, "t": 59, "d": [78] },
-						{ "px": [288,96], "src": [0,64], "f": 0, "t": 32, "d": [99] },
-						{ "px": [320,96], "src": [32,64], "f": 0, "t": 33, "d": [100] },
-						{ "px": [544,96], "src": [320,128], "f": 0, "t": 74, "d": [107] },
-						{ "px": [576,96], "src": [352,128], "f": 0, "t": 75, "d": [108] },
-						{ "px": [288,128], "src": [0,96], "f": 0, "t": 48, "d": [129] },
-						{ "px": [320,128], "src": [32,96], "f": 0, "t": 49, "d": [130] },
-						{ "px": [64,224], "src": [0,64], "f": 0, "t": 32, "d": [212] },
-						{ "px": [96,224], "src": [32,64], "f": 0, "t": 33, "d": [213] },
-						{ "px": [192,224], "src": [0,64], "f": 0, "t": 32, "d": [216] },
-						{ "px": [224,224], "src": [32,64], "f": 0, "t": 33, "d": [217] },
-						{ "px": [64,256], "src": [0,96], "f": 0, "t": 48, "d": [242] },
-						{ "px": [96,256], "src": [32,96], "f": 0, "t": 49, "d": [243] },
-						{ "px": [192,256], "src": [0,96], "f": 0, "t": 48, "d": [246] },
-						{ "px": [224,256], "src": [32,96], "f": 0, "t": 49, "d": [247] }
-					],
-					"entityInstances": []
 				},
 				{
 					"__identifier": "Props",
