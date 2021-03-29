@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 15,
+	"nextUid": 16,
 	"worldLayout": "Free",
 	"worldGridWidth": 1280,
 	"worldGridHeight": 720,
@@ -249,6 +249,31 @@
 					"textLangageMode": null
 				}
 			]
+		},
+		{
+			"identifier": "CollapsingTile",
+			"uid": 15,
+			"tags": [],
+			"width": 32,
+			"height": 32,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": []
 		}
 	], "tilesets": [
 		{
@@ -824,6 +849,28 @@
 									"params": ["26,17"]
 								} ]
 							}]
+						},
+						{
+							"__identifier": "CollapsingTile",
+							"__grid": [32,23],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 15,
+							"px": [512,368],
+							"fieldInstances": []
+						},
+						{
+							"__identifier": "CollapsingTile",
+							"__grid": [32,25],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 15,
+							"px": [512,400],
+							"fieldInstances": []
 						}
 					]
 				}
