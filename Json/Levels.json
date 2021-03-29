@@ -1,27 +1,12 @@
 {
     "levels":[
       {
-        "path": "Levels/World_1/Level_1-1.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
-        "propsTileSheetPath": "Sprites/props/props.dds"
-      },
-      {
         "path": "Levels/World_1/Level_1-2.json",
         "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
         "propsTileSheetPath": "Sprites/props/props.dds"
       },
-	  {
-        "path": "Levels/World_1/Level_1-3.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
-        "propsTileSheetPath": "Sprites/props/props.dds"
-      },
-	  {
-        "path": "Levels/World_1/Level_1-4.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
-        "propsTileSheetPath": "Sprites/props/props.dds"
-      },
-	  {
-        "path": "Levels/World_1/Level_1-5.json",
+      {
+        "path": "Json/Levels/TestLevel2.json",
         "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
         "propsTileSheetPath": "Sprites/props/props.dds"
       }
