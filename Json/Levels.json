@@ -151,7 +151,7 @@
           "positionY" : 500,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
           "hasCutscene" : false
-        },
+        }
       ]
     },
     {
@@ -175,7 +175,7 @@
           "positionY" : 600,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
           "hasCutscene" : false
-        }
+        },
 		{
           "path": "Levels/World_4/Level_4-3.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
@@ -184,7 +184,7 @@
           "positionY" : 600,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
           "hasCutscene" : false
-        }
+        },
 		{
           "path": "Levels/World_4/Level_4-4.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
@@ -193,7 +193,7 @@
           "positionY" : 600,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
           "hasCutscene" : false
-        }
+        },
 		{
           "path": "Levels/World_4/Level_4-5.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
