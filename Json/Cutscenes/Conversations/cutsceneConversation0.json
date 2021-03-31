@@ -3,24 +3,24 @@
 	"characterRight" : "Villain",
 	"dialogue" : [
 		{
+			"speaker" : "Villain",
+			"line" : ": Stop right there!"
+		},
+		{
 			"speaker" : "Hero",
-			"line" : ": I will never ever be as Ugly as you are mister toad man"
+			"line" : ": No, let me through."
 		},
 		{
 			"speaker" : "Villain",
-			"line" : ": You think I want to be as tiny and sprawny like you?!"
+			"line" : ": To do what, with absent flight you'll never reach the top"
 		},
 		{
 			"speaker" : "Hero",
-			"line" : ": At least I have a face and not only warts all over!"
+			"line" : ": Let me show you, stupid toad."
 		},
 		{
 			"speaker" : "Villain",
-			"line" : ": Hey, that actually hurts man, really uneccessary!"
-		},
-		{
-			"speaker" : "Hero",
-			"line" : ": I am now done with this conversation, bye bye!"
+			"line" : ": Yeah good luck, chicken nugget."
 		}
 	]
 }

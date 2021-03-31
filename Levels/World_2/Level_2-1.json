@@ -200,8 +200,8 @@
 		{
 			"identifier": "Level4",
 			"uid": 19,
-			"worldX": 1312,
-			"worldY": -512,
+			"worldX": 0,
+			"worldY": -288,
 			"pxWid": 1216,
 			"pxHei": 576,
 			"__bgColor": "#696A79",
