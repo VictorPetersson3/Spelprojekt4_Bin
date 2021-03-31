@@ -9,13 +9,13 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 14,
+	"nextUid": 16,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
 	"defaultPivotX": 0,
 	"defaultPivotY": 0,
-	"defaultGridSize": 32,
+	"defaultGridSize": 16,
 	"defaultLevelWidth": 256,
 	"defaultLevelHeight": 256,
 	"bgColor": "#40465B",
@@ -69,7 +69,7 @@
 		},
 		{
 			"__type": "Tiles",
-			"identifier": "Tiles2",
+			"identifier": "Props",
 			"type": "Tiles",
 			"uid": 5,
 			"gridSize": 32,
@@ -197,6 +197,52 @@
 					"textLangageMode": null
 				}
 			]
+		},
+		{
+			"identifier": "Saw",
+			"uid": 14,
+			"tags": [],
+			"width": 16,
+			"height": 16,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Point",
+					"__type": "Array<Point>",
+					"uid": 15,
+					"type": "F_Point",
+					"isArray": true,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "PointPath",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
 		}
 	], "tilesets": [
 		{
@@ -285,20 +331,6 @@
 					"seed": 7683501,
 					"overrideTilesetUid": null,
 					"gridTiles": [
-						{ "px": [512,160], "src": [224,192], "f": 0, "t": 103, "d": [171] },
-						{ "px": [544,160], "src": [256,192], "f": 0, "t": 104, "d": [172] },
-						{ "px": [576,160], "src": [64,128], "f": 0, "t": 66, "d": [173] },
-						{ "px": [608,160], "src": [96,128], "f": 0, "t": 67, "d": [174] },
-						{ "px": [288,256], "src": [224,96], "f": 3, "t": 55, "d": [257] },
-						{ "px": [320,256], "src": [192,96], "f": 3, "t": 54, "d": [258] },
-						{ "px": [672,352], "src": [96,128], "f": 1, "t": 67, "d": [362] },
-						{ "px": [704,352], "src": [64,128], "f": 1, "t": 66, "d": [363] },
-						{ "px": [736,352], "src": [256,192], "f": 1, "t": 104, "d": [364] },
-						{ "px": [768,352], "src": [224,192], "f": 1, "t": 103, "d": [365] },
-						{ "px": [288,576], "src": [192,96], "f": 0, "t": 54, "d": [567] },
-						{ "px": [320,576], "src": [224,96], "f": 0, "t": 55, "d": [568] },
-						{ "px": [480,640], "src": [192,96], "f": 0, "t": 54, "d": [635] },
-						{ "px": [512,640], "src": [224,96], "f": 0, "t": 55, "d": [636] },
 						{ "px": [704,640], "src": [64,64], "f": 0, "t": 34, "d": [642] },
 						{ "px": [192,672], "src": [0,0], "f": 0, "t": 0, "d": [657] },
 						{ "px": [192,672], "src": [320,0], "f": 0, "t": 10, "d": [657] },
@@ -362,7 +394,7 @@
 					"layerDefUid": 11,
 					"pxOffsetX": 0,
 					"pxOffsetY": 0,
-					"visible": false,
+					"visible": true,
 					"intGrid": [],
 					"intGridCsv": [],
 					"autoLayerTiles": [],
@@ -391,11 +423,89 @@
 							"defUid": 9,
 							"px": [784,480],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 10, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [17,24],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 14,
+							"px": [272,384],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [ { "cx": 8, "cy": 24 }, { "cx": 8, "cy": 33 }, { "cx": 17, "cy": 33 }, { "cx": 17, "cy": 24 } ],
+								"__type": "Array<Point>",
+								"defUid": 15,
+								"realEditorValues": [ {
+									"id": "V_String",
+									"params": ["8,24"]
+								}, {
+									"id": "V_String",
+									"params": ["8,33"]
+								}, {
+									"id": "V_String",
+									"params": ["17,33"]
+								}, {
+									"id": "V_String",
+									"params": ["17,24"]
+								} ]
+							}]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [33,30],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 14,
+							"px": [528,480],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [
+									{ "cx": 33, "cy": 18 },
+									{ "cx": 26, "cy": 18 },
+									{ "cx": 26, "cy": 37 },
+									{ "cx": 37, "cy": 37 },
+									{ "cx": 37, "cy": 30 },
+									{ "cx": 33, "cy": 30 }
+								],
+								"__type": "Array<Point>",
+								"defUid": 15,
+								"realEditorValues": [
+									{
+										"id": "V_String",
+										"params": ["33,18"]
+									},
+									{
+										"id": "V_String",
+										"params": ["26,18"]
+									},
+									{
+										"id": "V_String",
+										"params": ["26,37"]
+									},
+									{
+										"id": "V_String",
+										"params": ["37,37"]
+									},
+									{
+										"id": "V_String",
+										"params": ["37,30"]
+									},
+									{
+										"id": "V_String",
+										"params": ["33,30"]
+									}
+								]
+							}]
 						}
 					]
 				},
 				{
-					"__identifier": "Tiles2",
+					"__identifier": "Props",
 					"__type": "Tiles",
 					"__cWid": 31,
 					"__cHei": 23,
