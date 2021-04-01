@@ -88,7 +88,7 @@
 		}
 	], "entities": [
 		{
-			"identifier": "PlayStart",
+			"identifier": "PlayerStart",
 			"uid": 3,
 			"tags": [],
 			"width": 16,
@@ -309,7 +309,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "PlayStart",
+							"__identifier": "PlayerStart",
 							"__grid": [30,42],
 							"__pivot": [0,0],
 							"__tile": null,
