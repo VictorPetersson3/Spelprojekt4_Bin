@@ -372,8 +372,8 @@
 		{
 			"identifier": "Level2",
 			"uid": 18,
-			"worldX": -32,
-			"worldY": -1088,
+			"worldX": 32,
+			"worldY": 64,
 			"pxWid": 1920,
 			"pxHei": 1088,
 			"__bgColor": "#696A79",
