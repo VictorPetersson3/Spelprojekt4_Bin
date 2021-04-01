@@ -433,13 +433,13 @@
 						},
 						{
 							"__identifier": "LevelEnd",
-							"__grid": [31,21],
+							"__grid": [32,21],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 5,
-							"px": [992,672],
+							"px": [1024,672],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 6, "realEditorValues": [] }]
 						}
 					]
