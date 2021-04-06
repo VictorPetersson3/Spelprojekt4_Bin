@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 20,
+	"nextUid": 23,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -31,7 +31,7 @@
 	"defs": { "layers": [
 		{
 			"__type": "Entities",
-			"identifier": "PlayerStart",
+			"identifier": "Entities",
 			"type": "Entities",
 			"uid": 7,
 			"gridSize": 16,
@@ -203,6 +203,31 @@
 			"pivotX": 0.5,
 			"pivotY": 0.5,
 			"fieldDefs": []
+		},
+		{
+			"identifier": "Entity",
+			"uid": 20,
+			"tags": [],
+			"width": 16,
+			"height": 16,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": []
 		}
 	], "tilesets": [
 		{
@@ -275,7 +300,7 @@
 			"fieldInstances": [],
 			"layerInstances": [
 				{
-					"__identifier": "PlayerStart",
+					"__identifier": "Entities",
 					"__type": "Entities",
 					"__cWid": 120,
 					"__cHei": 68,
@@ -436,7 +461,6 @@
 						{ "px": [1824,128], "src": [32,32], "f": 0, "t": 9, "d": [297] },
 						{ "px": [1856,128], "src": [32,32], "f": 0, "t": 9, "d": [298] },
 						{ "px": [1888,128], "src": [32,32], "f": 0, "t": 9, "d": [299] },
-						{ "px": [0,160], "src": [0,0], "f": 0, "t": 0, "d": [300] },
 						{ "px": [1696,160], "src": [32,128], "f": 0, "t": 33, "d": [353] },
 						{ "px": [1728,160], "src": [32,0], "f": 0, "t": 1, "d": [354] },
 						{ "px": [1760,160], "src": [128,32], "f": 0, "t": 12, "d": [355] },
