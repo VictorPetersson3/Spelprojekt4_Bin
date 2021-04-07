@@ -37,5 +37,47 @@
             "X" : 32,
             "Y" : 32
         }
+    },
+    "Audio" :
+    {
+        "Looping" : 
+        [
+            {
+                "Running" : "PlayerFootSteps.mp3"
+            },
+            {
+                "Sprinting" : ""
+            },
+            {
+                "Gliding" : ""
+            },
+            {
+                "Wall sliding" : ""
+            }
+        ],
+        "One shot" : 
+        [
+            {
+                "Jump" : ""
+            },
+            {
+                "Double Jump" : ""
+            },
+            {
+                "Wall jump" : ""
+            },
+            {
+                "Death by" :
+                {
+                    "Snail" : "",
+                    "Lava" : "",
+                    "Saw" : "",
+                    "Lizard" : ""
+                }
+            },
+            {
+                "Landing" : ""
+            }
+        ]
     }
 }
