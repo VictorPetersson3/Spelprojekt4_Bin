@@ -58,31 +58,31 @@
         "One shot" : 
         [
             {
-                "Jump" : ""
+                "Jump" : "PlayerJumping.mp3"
             },
             {
-                "Double Jump" : ""
+                "Double Jump" : "PlayerJumping.mp3"
             },
             {
-                "Wall jump" : ""
+                "Wall jump" : "PlayerJumping.mp3"
             },
             {
-                "Landing" : ""
+                "Landing" : "PlayerLanding.mp3"
             }
         ],
         "Death by" :
         [
             {
-                "Snail" : ""
+                "Snail" : "PlayerDeath.mp3"
             },
             {
-                "Lava" : ""
+                "Lava" : "PlayerDeath.mp3"
             },
             {
-                "Saw" : ""
+                "Saw" : "PlayerDeath.mp3"
             },
             {
-                "Lizard" : ""
+                "Lizard" : "PlayerDeath.mp3"
             }
         ]    
     }
