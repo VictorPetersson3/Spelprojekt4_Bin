@@ -654,6 +654,17 @@
 									"params": ["Down"]
 								}]
 							}]
+						},
+						{
+							"__identifier": "LevelEnd",
+							"__grid": [80,28],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 5,
+							"px": [2560,896],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 6, "realEditorValues": [] }]
 						}
 					]
 				},
