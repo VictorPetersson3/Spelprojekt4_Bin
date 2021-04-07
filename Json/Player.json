@@ -61,7 +61,7 @@
                 "Jump" : "PlayerJumping.mp3"
             },
             {
-                "Double Jump" : "PlayerJumping.mp3"
+                "Double jump" : "PlayerJumping.mp3"
             },
             {
                 "Wall jump" : "PlayerJumping.mp3"
