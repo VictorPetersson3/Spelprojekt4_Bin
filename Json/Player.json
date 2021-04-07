@@ -68,16 +68,22 @@
             },
             {
                 "Landing" : ""
+            }
+        ],
+        "Death by" :
+        [
+            {
+                "Snail" : ""
             },
             {
-                "Death by" :
-                {
-                    "Snail" : "",
-                    "Lava" : "",
-                    "Saw" : "",
-                    "Lizard" : ""
-                }
+                "Lava" : ""
+            },
+            {
+                "Saw" : ""
+            },
+            {
+                "Lizard" : ""
             }
-        ]
+        ]    
     }
 }
