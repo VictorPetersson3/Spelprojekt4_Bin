@@ -136,8 +136,8 @@
         },
 		{
           "path": "Levels/World_3/Level_3-4.json",
-          "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
-          "propsTileSheetPath": "Sprites/props/props.dds",
+          "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_sheet_world3.dds",
+          "propsTileSheetPath": "Sprites/Tilesets/tiles_sheet_world3.dds",
           "positionX" : 1330,
           "positionY" : 600,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
