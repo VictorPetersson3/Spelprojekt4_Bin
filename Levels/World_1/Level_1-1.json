@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 38,
+	"nextUid": 39,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -422,13 +422,13 @@
 					"entityInstances": [
 						{
 							"__identifier": "PlayerStart",
-							"__grid": [8,33],
+							"__grid": [9,28],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
 							"height": 16,
 							"defUid": 21,
-							"px": [128,528],
+							"px": [144,448],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 22, "realEditorValues": [] }]
 						},
 						{
@@ -443,59 +443,44 @@
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 25, "realEditorValues": [] }]
 						},
 						{
-							"__identifier": "Shooter",
-							"__grid": [32,22],
-							"__pivot": [0.5,0],
-							"__tile": null,
-							"width": 64,
-							"height": 32,
-							"defUid": 29,
-							"px": [512,352],
-							"fieldInstances": [
-								{
-									"__identifier": "Direction",
-									"__value": "Right",
-									"__type": "LocalEnum.Direction",
-									"defUid": 31,
-									"realEditorValues": [{
-										"id": "V_String",
-										"params": ["Right"]
-									}]
-								},
-								{
-									"__identifier": "Boolean",
-									"__value": true,
-									"__type": "Bool",
-									"defUid": 32,
-									"realEditorValues": [{
-										"id": "V_Bool",
-										"params": [ true ]
-									}]
-								}
-							]
-						},
-						{
 							"__identifier": "MovingPlatform",
-							"__grid": [12,33],
+							"__grid": [9,31],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 16,
 							"defUid": 36,
-							"px": [192,528],
+							"px": [144,496],
 							"fieldInstances": [{
 								"__identifier": "Point",
-								"__value": [ { "cx": 12, "cy": 10 }, { "cx": 38, "cy": 10 } ],
+								"__value": [ { "cx": 9, "cy": 23 }, { "cx": 20, "cy": 23 }, { "cx": 20, "cy": 31 } ],
 								"__type": "Array<Point>",
 								"defUid": 37,
 								"realEditorValues": [ {
 									"id": "V_String",
-									"params": ["12,10"]
+									"params": ["9,23"]
 								}, {
 									"id": "V_String",
-									"params": ["38,10"]
+									"params": ["20,23"]
+								}, {
+									"id": "V_String",
+									"params": ["20,31"]
 								} ]
 							}]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [26,32],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 26,
+							"px": [416,512],
+							"fieldInstances": [
+								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 27, "realEditorValues": [] },
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 28, "realEditorValues": [] }
+							]
 						}
 					]
 				},
