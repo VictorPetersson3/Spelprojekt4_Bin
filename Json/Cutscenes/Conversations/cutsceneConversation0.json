@@ -1,0 +1,26 @@
+{
+	"characterLeft" : "Hero",
+	"characterRight" : "Villain",
+	"dialogue" : [
+		{
+			"speaker" : "Villain",
+			"line" : ": Stop right there!"
+		},
+		{
+			"speaker" : "Hero",
+			"line" : ": No, let me through."
+		},
+		{
+			"speaker" : "Villain",
+			"line" : ": To do what? Without power of flight, you'll never reach the top."
+		},
+		{
+			"speaker" : "Hero",
+			"line" : ": Let me show you, stupid toad."
+		},
+		{
+			"speaker" : "Villain",
+			"line" : ": Yeah good luck, chicken nugget."
+		}
+	]
+}

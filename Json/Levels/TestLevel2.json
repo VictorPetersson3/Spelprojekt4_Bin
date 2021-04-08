@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 10,
+	"nextUid": 16,
 	"worldLayout": "Free",
 	"worldGridWidth": 1280,
 	"worldGridHeight": 720,
@@ -45,6 +45,25 @@
 			"autoRuleGroups": [],
 			"autoSourceLayerDefUid": null,
 			"tilesetDefUid": 1,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		},
+		{
+			"__type": "Tiles",
+			"identifier": "Props",
+			"type": "Tiles",
+			"uid": 14,
+			"gridSize": 32,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": 13,
 			"tilePivotX": 0,
 			"tilePivotY": 0
 		},
@@ -172,6 +191,52 @@
 					"canBeNull": false,
 					"arrayMinLength": null,
 					"arrayMaxLength": null,
+					"editorDisplayMode": "PointPath",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": true,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
+		},
+		{
+			"identifier": "Shooter",
+			"uid": 10,
+			"tags": [],
+			"width": 16,
+			"height": 16,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Direction",
+					"__type": "LocalEnum.Direction",
+					"uid": 12,
+					"type": { "id": "F_Enum", "params": [11] },
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
 					"editorDisplayMode": "Hidden",
 					"editorDisplayPos": "Above",
 					"editorAlwaysShow": false,
@@ -184,6 +249,31 @@
 					"textLangageMode": null
 				}
 			]
+		},
+		{
+			"identifier": "CollapsingTile",
+			"uid": 15,
+			"tags": [],
+			"width": 32,
+			"height": 32,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": []
 		}
 	], "tilesets": [
 		{
@@ -200,8 +290,28 @@
 				"opaqueTiles": "0100111001001100000011000100110010010000000000000000000000000000",
 				"averageColors": "f488f488f488f488f358f358f4881487f469f347f469e469f358f358a5973487e469f469e469e469f368f36885a73487f488f488f488f488f368f368a5970000f35885988598f358f588f58814870000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 			}
+		},
+		{
+			"identifier": "Props",
+			"uid": 13,
+			"relPath": "../../../../Desktop/tga2d - kopia (3)/Bin/Sprites/props/props.png",
+			"pxWid": 256,
+			"pxHei": 256,
+			"tileGridSize": 32,
+			"spacing": 0,
+			"padding": 0,
+			"savedSelections": [],
+			"cachedPixelData": {
+				"opaqueTiles": "0000000000000000000000000000000000000000000000000000000000000000",
+				"averageColors": "364538b838b878b879c979a839a9000096568756176716795ab80000000000000c661e890000000000000000000000006e8a8d8900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+			}
 		}
-	], "enums": [], "externalEnums": [], "levelFields": [] },
+	], "enums": [{ "identifier": "Direction", "uid": 11, "values": [
+		{ "id": "Up", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Down", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Left", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Right", "tileId": null, "__tileSrcRect": null }
+	], "iconTilesetUid": null, "externalRelPath": null, "externalFileChecksum": null }], "externalEnums": [], "levelFields": [] },
 	"levels": [
 		{
 			"identifier": "Level1",
@@ -623,6 +733,44 @@
 					"entityInstances": []
 				},
 				{
+					"__identifier": "Props",
+					"__type": "Tiles",
+					"__cWid": 40,
+					"__cHei": 23,
+					"__gridSize": 32,
+					"__opacity": 1,
+					"__pxTotalOffsetX": 0,
+					"__pxTotalOffsetY": 0,
+					"__tilesetDefUid": 13,
+					"__tilesetRelPath": "../../../../Desktop/tga2d - kopia (3)/Bin/Sprites/props/props.png",
+					"levelId": 0,
+					"layerDefUid": 14,
+					"pxOffsetX": 0,
+					"pxOffsetY": 0,
+					"visible": true,
+					"intGrid": [],
+					"intGridCsv": [],
+					"autoLayerTiles": [],
+					"seed": 5254725,
+					"overrideTilesetUid": null,
+					"gridTiles": [
+						{ "px": [832,160], "src": [96,0], "f": 0, "t": 3, "d": [226] },
+						{ "px": [864,160], "src": [128,0], "f": 0, "t": 4, "d": [227] },
+						{ "px": [32,288], "src": [0,0], "f": 0, "t": 0, "d": [361] },
+						{ "px": [416,416], "src": [96,0], "f": 0, "t": 3, "d": [533] },
+						{ "px": [448,416], "src": [128,0], "f": 0, "t": 4, "d": [534] },
+						{ "px": [544,416], "src": [0,32], "f": 0, "t": 8, "d": [537] },
+						{ "px": [576,416], "src": [32,32], "f": 0, "t": 9, "d": [538] },
+						{ "px": [736,480], "src": [96,0], "f": 0, "t": 3, "d": [623] },
+						{ "px": [768,480], "src": [128,0], "f": 0, "t": 4, "d": [624] },
+						{ "px": [1152,480], "src": [96,0], "f": 0, "t": 3, "d": [636] },
+						{ "px": [1184,480], "src": [128,0], "f": 0, "t": 4, "d": [637] },
+						{ "px": [160,576], "src": [64,32], "f": 0, "t": 10, "d": [725] },
+						{ "px": [288,576], "src": [64,0], "f": 0, "t": 2, "d": [729] }
+					],
+					"entityInstances": []
+				},
+				{
 					"__identifier": "PlayerStart",
 					"__type": "Entities",
 					"__cWid": 80,
@@ -701,6 +849,28 @@
 									"params": ["26,17"]
 								} ]
 							}]
+						},
+						{
+							"__identifier": "CollapsingTile",
+							"__grid": [32,23],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 15,
+							"px": [512,368],
+							"fieldInstances": []
+						},
+						{
+							"__identifier": "CollapsingTile",
+							"__grid": [32,25],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 15,
+							"px": [512,400],
+							"fieldInstances": []
 						}
 					]
 				}

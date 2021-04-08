@@ -1,0 +1,706 @@
+{
+	"__header__": {
+		"fileType": "LDtk Project JSON",
+		"app": "LDtk",
+		"doc": "https://ldtk.io/json",
+		"schema": "https://ldtk.io/files/JSON_SCHEMA.json",
+		"appAuthor": "Sebastien 'deepnight' Benard",
+		"appVersion": "0.8.1",
+		"url": "https://ldtk.io"
+	},
+	"jsonVersion": "0.8.1",
+	"nextUid": 15,
+	"worldLayout": "Free",
+	"worldGridWidth": 256,
+	"worldGridHeight": 256,
+	"defaultPivotX": 0,
+	"defaultPivotY": 0,
+	"defaultGridSize": 16,
+	"defaultLevelWidth": 256,
+	"defaultLevelHeight": 256,
+	"bgColor": "#40465B",
+	"defaultLevelBgColor": "#696A79",
+	"minifyJson": false,
+	"externalLevels": false,
+	"exportTiled": false,
+	"exportPng": false,
+	"pngFilePattern": null,
+	"backupOnSave": false,
+	"backupLimit": 10,
+	"flags": [],
+	"defs": { "layers": [
+		{
+			"__type": "Entities",
+			"identifier": "Entities",
+			"type": "Entities",
+			"uid": 9,
+			"gridSize": 32,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": null,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		},
+		{
+			"__type": "Tiles",
+			"identifier": "Props",
+			"type": "Tiles",
+			"uid": 4,
+			"gridSize": 32,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": 3,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		},
+		{
+			"__type": "Tiles",
+			"identifier": "Tiles",
+			"type": "Tiles",
+			"uid": 2,
+			"gridSize": 32,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": 1,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		}
+	], "entities": [
+		{
+			"identifier": "PlayerStart",
+			"uid": 5,
+			"tags": [],
+			"width": 32,
+			"height": 32,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Point",
+					"__type": "Array<Point>",
+					"uid": 6,
+					"type": "F_Point",
+					"isArray": true,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
+		},
+		{
+			"identifier": "LevelEnd",
+			"uid": 7,
+			"tags": [],
+			"width": 32,
+			"height": 32,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Point",
+					"__type": "Array<Point>",
+					"uid": 8,
+					"type": "F_Point",
+					"isArray": true,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
+		},
+		{
+			"identifier": "MovingPlatform",
+			"uid": 10,
+			"tags": [],
+			"width": 32,
+			"height": 32,
+			"resizableX": true,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Point",
+					"__type": "Array<Point>",
+					"uid": 11,
+					"type": "F_Point",
+					"isArray": true,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "PointPath",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
+		},
+		{
+			"identifier": "Shooter",
+			"uid": 13,
+			"tags": [],
+			"width": 32,
+			"height": 32,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Direction",
+					"__type": "LocalEnum.Direction",
+					"uid": 14,
+					"type": { "id": "F_Enum", "params": [12] },
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
+		}
+	], "tilesets": [
+		{
+			"identifier": "Tiles_Sheet_01",
+			"uid": 1,
+			"relPath": "../../Sprites/Tilesets/tiles_Sheet_01.png",
+			"pxWid": 256,
+			"pxHei": 256,
+			"tileGridSize": 32,
+			"spacing": 0,
+			"padding": 0,
+			"savedSelections": [],
+			"cachedPixelData": {
+				"opaqueTiles": "0100111001001100000011000100110010010000000000000000000000000000",
+				"averageColors": "f488f488f488f488f358f358f4881487f469f347f469e469f358f358a5973487e469f469e469e469f368f36885a73487f488f488f488f488f368f368a5970000f35885988598f358f588f58814870000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+			}
+		},
+		{
+			"identifier": "Props",
+			"uid": 3,
+			"relPath": "../../Sprites/props/props.png",
+			"pxWid": 256,
+			"pxHei": 256,
+			"tileGridSize": 32,
+			"spacing": 0,
+			"padding": 0,
+			"savedSelections": [],
+			"cachedPixelData": {
+				"opaqueTiles": "0000000000000000000000000000000000000000000000000000000000000000",
+				"averageColors": "364538b838b878b879c979a839a9000096568756176716795ab80000000000000c661e890000000000000000000000006e8a8d8900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+			}
+		}
+	], "enums": [{ "identifier": "Direction", "uid": 12, "values": [
+		{ "id": "Up", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Down", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Left", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Right", "tileId": null, "__tileSrcRect": null }
+	], "iconTilesetUid": null, "externalRelPath": null, "externalFileChecksum": null }], "externalEnums": [], "levelFields": [] },
+	"levels": [
+		{
+			"identifier": "Level1",
+			"uid": 0,
+			"worldX": 0,
+			"worldY": -64,
+			"pxWid": 3616,
+			"pxHei": 1088,
+			"__bgColor": "#696A79",
+			"bgColor": null,
+			"bgRelPath": null,
+			"bgPos": null,
+			"bgPivotX": 0.5,
+			"bgPivotY": 0.5,
+			"__bgPos": null,
+			"externalRelPath": null,
+			"fieldInstances": [],
+			"layerInstances": [
+				{
+					"__identifier": "Entities",
+					"__type": "Entities",
+					"__cWid": 113,
+					"__cHei": 34,
+					"__gridSize": 32,
+					"__opacity": 1,
+					"__pxTotalOffsetX": 0,
+					"__pxTotalOffsetY": 0,
+					"__tilesetDefUid": null,
+					"__tilesetRelPath": null,
+					"levelId": 0,
+					"layerDefUid": 9,
+					"pxOffsetX": 0,
+					"pxOffsetY": 0,
+					"visible": true,
+					"intGrid": [],
+					"intGridCsv": [],
+					"autoLayerTiles": [],
+					"seed": 6935769,
+					"overrideTilesetUid": null,
+					"gridTiles": [],
+					"entityInstances": [
+						{
+							"__identifier": "PlayerStart",
+							"__grid": [1,23],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 5,
+							"px": [32,736],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 6, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "LevelEnd",
+							"__grid": [102,5],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 7,
+							"px": [3264,160],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 8, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "MovingPlatform",
+							"__grid": [3,26],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 128,
+							"height": 32,
+							"defUid": 10,
+							"px": [96,832],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [{ "cx": 10, "cy": 26 }],
+								"__type": "Array<Point>",
+								"defUid": 11,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["10,26"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "MovingPlatform",
+							"__grid": [13,29],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 128,
+							"height": 32,
+							"defUid": 10,
+							"px": [416,928],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [ { "cx": 24, "cy": 29 }, { "cx": 24, "cy": 19 } ],
+								"__type": "Array<Point>",
+								"defUid": 11,
+								"realEditorValues": [ {
+									"id": "V_String",
+									"params": ["24,29"]
+								}, {
+									"id": "V_String",
+									"params": ["24,19"]
+								} ]
+							}]
+						},
+						{
+							"__identifier": "MovingPlatform",
+							"__grid": [30,18],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 96,
+							"height": 32,
+							"defUid": 10,
+							"px": [960,576],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [{ "cx": 31, "cy": 22 }],
+								"__type": "Array<Point>",
+								"defUid": 11,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["31,22"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "MovingPlatform",
+							"__grid": [37,21],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 96,
+							"height": 32,
+							"defUid": 10,
+							"px": [1184,672],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [{ "cx": 38, "cy": 14 }],
+								"__type": "Array<Point>",
+								"defUid": 11,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["38,14"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "MovingPlatform",
+							"__grid": [44,14],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 96,
+							"height": 32,
+							"defUid": 10,
+							"px": [1408,448],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [{ "cx": 45, "cy": 22 }],
+								"__type": "Array<Point>",
+								"defUid": 11,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["45,22"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [31,8],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 13,
+							"px": [992,256],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 14,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [45,8],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 13,
+							"px": [1440,256],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 14,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "MovingPlatform",
+							"__grid": [57,15],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 96,
+							"height": 32,
+							"defUid": 10,
+							"px": [1824,480],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [{ "cx": 68, "cy": 15 }],
+								"__type": "Array<Point>",
+								"defUid": 11,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["68,15"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "MovingPlatform",
+							"__grid": [73,12],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 96,
+							"height": 32,
+							"defUid": 10,
+							"px": [2336,384],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [{ "cx": 74, "cy": 3 }],
+								"__type": "Array<Point>",
+								"defUid": 11,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["74,3"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [82,11],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 13,
+							"px": [2624,352],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Left",
+								"__type": "LocalEnum.Direction",
+								"defUid": 14,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Left"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [84,7],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 13,
+							"px": [2688,224],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Left",
+								"__type": "LocalEnum.Direction",
+								"defUid": 14,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Left"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [82,3],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 13,
+							"px": [2624,96],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Left",
+								"__type": "LocalEnum.Direction",
+								"defUid": 14,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Left"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "MovingPlatform",
+							"__grid": [85,3],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 96,
+							"height": 32,
+							"defUid": 10,
+							"px": [2720,96],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [{ "cx": 94, "cy": 3 }],
+								"__type": "Array<Point>",
+								"defUid": 11,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["94,3"]
+								}]
+							}]
+						}
+					]
+				},
+				{
+					"__identifier": "Props",
+					"__type": "Tiles",
+					"__cWid": 113,
+					"__cHei": 34,
+					"__gridSize": 32,
+					"__opacity": 1,
+					"__pxTotalOffsetX": 0,
+					"__pxTotalOffsetY": 0,
+					"__tilesetDefUid": 3,
+					"__tilesetRelPath": "../../Sprites/props/props.png",
+					"levelId": 0,
+					"layerDefUid": 4,
+					"pxOffsetX": 0,
+					"pxOffsetY": 0,
+					"visible": true,
+					"intGrid": [],
+					"intGridCsv": [],
+					"autoLayerTiles": [],
+					"seed": 4945452,
+					"overrideTilesetUid": null,
+					"gridTiles": [],
+					"entityInstances": []
+				},
+				{
+					"__identifier": "Tiles",
+					"__type": "Tiles",
+					"__cWid": 113,
+					"__cHei": 34,
+					"__gridSize": 32,
+					"__opacity": 1,
+					"__pxTotalOffsetX": 0,
+					"__pxTotalOffsetY": 0,
+					"__tilesetDefUid": 1,
+					"__tilesetRelPath": "../../Sprites/Tilesets/tiles_Sheet_01.png",
+					"levelId": 0,
+					"layerDefUid": 2,
+					"pxOffsetX": 0,
+					"pxOffsetY": 0,
+					"visible": true,
+					"intGrid": [],
+					"intGridCsv": [],
+					"autoLayerTiles": [],
+					"seed": 2164411,
+					"overrideTilesetUid": null,
+					"gridTiles": [
+						{ "px": [2656,96], "src": [32,96], "f": 0, "t": 25, "d": [422] },
+						{ "px": [3168,192], "src": [0,0], "f": 0, "t": 0, "d": [777] },
+						{ "px": [3200,192], "src": [32,0], "f": 0, "t": 1, "d": [778] },
+						{ "px": [3232,192], "src": [32,0], "f": 0, "t": 1, "d": [779] },
+						{ "px": [3264,192], "src": [32,0], "f": 0, "t": 1, "d": [780] },
+						{ "px": [3296,192], "src": [32,0], "f": 0, "t": 1, "d": [781] },
+						{ "px": [3328,192], "src": [64,0], "f": 0, "t": 2, "d": [782] },
+						{ "px": [992,224], "src": [32,96], "f": 0, "t": 25, "d": [822] },
+						{ "px": [1440,224], "src": [32,96], "f": 0, "t": 25, "d": [836] },
+						{ "px": [2720,224], "src": [32,96], "f": 0, "t": 25, "d": [876] },
+						{ "px": [2656,352], "src": [32,96], "f": 0, "t": 25, "d": [1326] },
+						{ "px": [0,768], "src": [0,0], "f": 0, "t": 0, "d": [2712] },
+						{ "px": [32,768], "src": [32,0], "f": 0, "t": 1, "d": [2713] },
+						{ "px": [64,768], "src": [64,0], "f": 0, "t": 2, "d": [2714] }
+					],
+					"entityInstances": []
+				}
+			],
+			"__neighbours": []
+		}
+	]
+}
