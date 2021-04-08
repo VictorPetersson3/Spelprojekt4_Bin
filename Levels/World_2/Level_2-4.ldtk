@@ -34,7 +34,7 @@
 			"identifier": "Entities",
 			"type": "Entities",
 			"uid": 7,
-			"gridSize": 32,
+			"gridSize": 16,
 			"displayOpacity": 1,
 			"pxOffsetX": 0,
 			"pxOffsetY": 0,
@@ -72,8 +72,8 @@
 			"identifier": "PlayerStart",
 			"uid": 3,
 			"tags": [],
-			"width": 32,
-			"height": 32,
+			"width": 16,
+			"height": 16,
 			"resizableX": false,
 			"resizableY": false,
 			"keepAspectRatio": false,
@@ -118,8 +118,8 @@
 			"identifier": "LevelEnd",
 			"uid": 5,
 			"tags": [],
-			"width": 32,
-			"height": 32,
+			"width": 16,
+			"height": 16,
 			"resizableX": false,
 			"resizableY": false,
 			"keepAspectRatio": false,
@@ -164,8 +164,8 @@
 			"identifier": "Saw",
 			"uid": 8,
 			"tags": [],
-			"width": 32,
-			"height": 32,
+			"width": 16,
+			"height": 16,
 			"resizableX": false,
 			"resizableY": false,
 			"keepAspectRatio": false,
@@ -210,8 +210,8 @@
 			"identifier": "Shooter",
 			"uid": 13,
 			"tags": [],
-			"width": 32,
-			"height": 32,
+			"width": 16,
+			"height": 16,
 			"resizableX": false,
 			"resizableY": false,
 			"keepAspectRatio": false,
@@ -256,8 +256,8 @@
 			"identifier": "KillZone",
 			"uid": 15,
 			"tags": ["region"],
-			"width": 32,
-			"height": 32,
+			"width": 16,
+			"height": 16,
 			"resizableX": true,
 			"resizableY": true,
 			"keepAspectRatio": false,
@@ -320,9 +320,9 @@
 				{
 					"__identifier": "Entities",
 					"__type": "Entities",
-					"__cWid": 90,
-					"__cHei": 34,
-					"__gridSize": 32,
+					"__cWid": 180,
+					"__cHei": 68,
+					"__gridSize": 16,
 					"__opacity": 1,
 					"__pxTotalOffsetX": 0,
 					"__pxTotalOffsetY": 0,
@@ -342,24 +342,24 @@
 					"entityInstances": [
 						{
 							"__identifier": "PlayerStart",
-							"__grid": [1,29],
+							"__grid": [2,58],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
+							"width": 16,
+							"height": 16,
 							"defUid": 3,
 							"px": [32,928],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 4, "realEditorValues": [] }]
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [25,26],
+							"__grid": [50,53],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
+							"width": 16,
+							"height": 16,
 							"defUid": 13,
-							"px": [800,832],
+							"px": [800,848],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Left",
@@ -373,13 +373,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [28,26],
+							"__grid": [56,53],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
+							"width": 16,
+							"height": 16,
 							"defUid": 13,
-							"px": [896,832],
+							"px": [896,848],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "RIght",
@@ -392,34 +392,14 @@
 							}]
 						},
 						{
-							"__identifier": "Saw",
-							"__grid": [39,26],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 8,
-							"px": [1248,832],
-							"fieldInstances": [{
-								"__identifier": "Point",
-								"__value": [{ "cx": 35, "cy": 26 }],
-								"__type": "Array<Point>",
-								"defUid": 9,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["35,26"]
-								}]
-							}]
-						},
-						{
 							"__identifier": "Shooter",
-							"__grid": [43,31],
+							"__grid": [86,63],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
+							"width": 16,
+							"height": 16,
 							"defUid": 13,
-							"px": [1376,992],
+							"px": [1376,1008],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Up",
@@ -433,13 +413,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [45,31],
+							"__grid": [90,63],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
+							"width": 16,
+							"height": 16,
 							"defUid": 13,
-							"px": [1440,992],
+							"px": [1440,1008],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Up",
@@ -453,77 +433,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [47,31],
+							"__grid": [94,63],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
+							"width": 16,
+							"height": 16,
 							"defUid": 13,
-							"px": [1504,992],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Up",
-								"__type": "LocalEnum.Direction",
-								"defUid": 14,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Up"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [6,26],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 8,
-							"px": [192,832],
-							"fieldInstances": [{
-								"__identifier": "Point",
-								"__value": [
-									{ "cx": 5, "cy": 26 },
-									{ "cx": 5, "cy": 28 },
-									{ "cx": 7, "cy": 28 },
-									{ "cx": 7, "cy": 26 },
-									{ "cx": 6, "cy": 26 }
-								],
-								"__type": "Array<Point>",
-								"defUid": 9,
-								"realEditorValues": [
-									{
-										"id": "V_String",
-										"params": ["5,26"]
-									},
-									{
-										"id": "V_String",
-										"params": ["5,28"]
-									},
-									{
-										"id": "V_String",
-										"params": ["7,28"]
-									},
-									{
-										"id": "V_String",
-										"params": ["7,26"]
-									},
-									{
-										"id": "V_String",
-										"params": ["6,26"]
-									}
-								]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [54,26],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 13,
-							"px": [1728,832],
+							"px": [1504,1008],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Up",
@@ -537,11 +453,31 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [59,5],
+							"__grid": [108,53],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
+							"width": 16,
+							"height": 16,
+							"defUid": 13,
+							"px": [1728,848],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Up",
+								"__type": "LocalEnum.Direction",
+								"defUid": 14,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Up"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [118,10],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
 							"defUid": 13,
 							"px": [1888,160],
 							"fieldInstances": [{
@@ -557,11 +493,11 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [63,5],
+							"__grid": [126,10],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
+							"width": 16,
+							"height": 16,
 							"defUid": 13,
 							"px": [2016,160],
 							"fieldInstances": [{
@@ -577,11 +513,11 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [67,5],
+							"__grid": [134,10],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
+							"width": 16,
+							"height": 16,
 							"defUid": 13,
 							"px": [2144,160],
 							"fieldInstances": [{
@@ -596,32 +532,12 @@
 							}]
 						},
 						{
-							"__identifier": "Saw",
-							"__grid": [55,12],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 8,
-							"px": [1760,384],
-							"fieldInstances": [{
-								"__identifier": "Point",
-								"__value": [{ "cx": 69, "cy": 12 }],
-								"__type": "Array<Point>",
-								"defUid": 9,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["69,12"]
-								}]
-							}]
-						},
-						{
 							"__identifier": "Shooter",
-							"__grid": [74,5],
+							"__grid": [148,10],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
+							"width": 16,
+							"height": 16,
 							"defUid": 13,
 							"px": [2368,160],
 							"fieldInstances": [{
@@ -637,11 +553,11 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [71,5],
+							"__grid": [142,10],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
+							"width": 16,
+							"height": 16,
 							"defUid": 13,
 							"px": [2272,160],
 							"fieldInstances": [{
@@ -657,14 +573,98 @@
 						},
 						{
 							"__identifier": "LevelEnd",
-							"__grid": [80,28],
+							"__grid": [160,57],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
+							"width": 16,
+							"height": 16,
 							"defUid": 5,
-							"px": [2560,896],
+							"px": [2560,912],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 6, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [12,53],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 8,
+							"px": [192,848],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [
+									{ "cx": 11, "cy": 53 },
+									{ "cx": 11, "cy": 56 },
+									{ "cx": 14, "cy": 56 },
+									{ "cx": 14, "cy": 53 },
+									{ "cx": 12, "cy": 53 }
+								],
+								"__type": "Array<Point>",
+								"defUid": 9,
+								"realEditorValues": [
+									{
+										"id": "V_String",
+										"params": ["11,53"]
+									},
+									{
+										"id": "V_String",
+										"params": ["11,56"]
+									},
+									{
+										"id": "V_String",
+										"params": ["14,56"]
+									},
+									{
+										"id": "V_String",
+										"params": ["14,53"]
+									},
+									{
+										"id": "V_String",
+										"params": ["12,53"]
+									}
+								]
+							}]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [70,53],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 8,
+							"px": [1120,848],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [{ "cx": 79, "cy": 53 }],
+								"__type": "Array<Point>",
+								"defUid": 9,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["79,53"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [110,25],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 8,
+							"px": [1760,400],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [{ "cx": 139, "cy": 25 }],
+								"__type": "Array<Point>",
+								"defUid": 9,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["139,25"]
+								}]
+							}]
 						}
 					]
 				},
