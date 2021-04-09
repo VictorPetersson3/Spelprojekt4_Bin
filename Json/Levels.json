@@ -2,6 +2,7 @@
   "Worlds" : [
     {
       "actSong" : "Audio/music/Hell_Clown_Core.mp3",
+      "backgroundFolderPath" : "Sprites/Backgrounds/world_01/",
       "levels":[
         {
           "path": "Levels/World_1/Level_1-1.json",
@@ -11,7 +12,8 @@
           "positionY" : 170,
           "mapTilePath" : "sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
           "hasCutscene" : true,
-          "cutSceneConversationNumber" : 0
+          "cutSceneConversationNumber" : 0,
+          "backgroundSpeedMultiplier" : 1
         },
         {
           "path": "Levels/World_1/Level_1-2.json",
@@ -22,7 +24,7 @@
           "mapTilePath" : "Sprites/UI/P_Heart01.dds",
           "hasCutscene" : false
         },
-		{
+		    {
           "path": "Levels/World_1/Level_1-3.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
           "propsTileSheetPath": "Sprites/props/props.dds",
@@ -31,7 +33,7 @@
           "mapTilePath" : "Sprites/UI/P_Heart01.dds",
           "hasCutscene" : false
         },
-		{
+		    {
           "path": "Levels/World_1/Level_1-4.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
           "propsTileSheetPath": "Sprites/props/props.dds",
@@ -40,7 +42,7 @@
           "mapTilePath" : "Sprites/UI/P_Heart01.dds",
           "hasCutscene" : false
         },
-		{
+		    {
           "path": "Levels/World_1/Level_1-5.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
           "propsTileSheetPath": "Sprites/props/props.dds",
@@ -54,6 +56,7 @@
     },
     {
     "actSong" : "Audio/music/Hell_Clown_Core.mp3",
+    "backgroundFolderPath" : "Sprites/Backgrounds/world_02/",
     "levels":[
         {
           "path": "Levels/World_2/Level_2-1.json",
@@ -105,6 +108,7 @@
     },
     { 
     "actSong" : "Audio/music/Hell_Clown_Core.mp3",
+    "backgroundFolderPath" : "Sprites/Backgrounds/world_03/",
     "levels":[
         {
           "path": "Levels/World_3/Level_3-1.json",
@@ -156,6 +160,7 @@
     },
     {
     "actSong" : "Audio/music/Hell_Clown_Core.mp3",
+    "backgroundFolderPath" : "Sprites/Backgrounds/world_04/",
     "levels":[
         {
           "path": "Levels/World_4/Level_4-1.json",
