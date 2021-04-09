@@ -12,7 +12,13 @@
           "positionY" : 170,
           "mapTilePath" : "sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
           "hasCutscene" : true,
-          "cutSceneConversationNumber" : 0
+          "cutSceneConversationNumber": 0,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition" : [0,0]
         },
         {
           "path": "Levels/World_1/Level_1-2.json",
@@ -21,7 +27,14 @@
           "positionX" : 700,
           "positionY" : 135,
           "mapTilePath" : "Sprites/UI/P_Heart01.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cutSceneConversationNumber": 0,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition" : [0,0]
         },
 		    {
           "path": "Levels/World_1/Level_1-3.json",
@@ -30,7 +43,14 @@
           "positionX" : 1025,
           "positionY" : 130,
           "mapTilePath" : "Sprites/UI/P_Heart01.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cutSceneConversationNumber": 0,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition" : [0,0]
         },
 		    {
           "path": "Levels/World_1/Level_1-4.json",
@@ -39,7 +59,14 @@
           "positionX" : 1350,
           "positionY" : 145,
           "mapTilePath" : "Sprites/UI/P_Heart01.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cutSceneConversationNumber": 0,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition" : [0,0]
         },
 		    {
           "path": "Levels/World_1/Level_1-5.json",
@@ -48,7 +75,14 @@
           "positionX" : 1538,
           "positionY" : 170,
           "mapTilePath" : "Sprites/UI/P_Heart01.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cutSceneConversationNumber" : 0,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         }
 		
       ]
@@ -65,7 +99,13 @@
           "positionY" : 375,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
           "hasCutscene" : true,
-          "cutSceneConversationNumber" : 1
+          "cutSceneConversationNumber" : 1,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         },
         {
           "path": "Levels/World_2/Level_2-2.json",
@@ -74,7 +114,13 @@
           "positionX" : 630,
           "positionY" : 395,
           "mapTilePath" : "Sprites/UI/P_Heart01.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         },
 		{
           "path": "Levels/World_2/Level_2-3.json",
@@ -83,7 +129,13 @@
           "positionX" : 910,
           "positionY" : 360,
           "mapTilePath" : "Sprites/UI/P_Heart01.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         },
 		{
           "path": "Levels/World_2/Level_2-4.json",
@@ -92,7 +144,13 @@
           "positionX" : 1340,
           "positionY" : 355,
           "mapTilePath" : "Sprites/UI/P_Heart01.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         },
 		{
           "path": "Levels/World_2/Level_2-5.json",
@@ -101,8 +159,45 @@
           "positionX" : 1700,
           "positionY" : 390,
           "mapTilePath" : "Sprites/UI/P_Heart01.dds",
-          "hasCutscene" : false
-        }
+          "hasCutscene" : false,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
+        },
+      {
+        "path": "Levels/World_2/Level_2-1.json",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "propsTileSheetPath": "Sprites/props/props.dds",
+        "positionX": 500,
+        "positionY": 300,
+        "mapTilePath": "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
+        "hasCutscene": true,
+        "cutSceneConversationNumber": 1,
+        "cameraAcceleration": 5.0,
+        "cameraMinBorderX": 0.0,
+        "cameraMaxBorderX": 1.0,
+        "cameraMinBorderY": 0.0,
+        "cameraMaxBorderY": 1.0,
+        "cameraPosition": [ 0, 0 ]
+      },
+      {
+        "path": "Levels/World_2/Level_2-2.json",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "propsTileSheetPath": "Sprites/props/props.dds",
+        "positionX": 600,
+        "positionY": 300,
+        "mapTilePath": "Sprites/UI/P_Heart01.dds",
+        "hasCutscene": false,
+        "cameraAcceleration": 5.0,
+        "cameraMinBorderX": 0.0,
+        "cameraMaxBorderX": 1.0,
+        "cameraMinBorderY": 0.0,
+        "cameraMaxBorderY": 1.0,
+        "cameraPosition": [ 0, 0 ]
+      }
       ]
     },
     { 
@@ -117,7 +212,13 @@
           "positionY" : 560,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
           "hasCutscene" : true,
-          "cutSceneConversationNumber" : 2
+          "cutSceneConversationNumber" : 2,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         },
         {
           "path": "Levels/World_3/Level_3-2.json",
@@ -126,7 +227,13 @@
           "positionX" : 720,
           "positionY" : 605,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         },
 		{
           "path": "Levels/World_3/Level_3-3.json",
@@ -135,7 +242,13 @@
           "positionX" : 960,
           "positionY" : 600,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         },
 		{
           "path": "Levels/World_3/Level_3-4.json",
@@ -144,7 +257,13 @@
           "positionX" : 1330,
           "positionY" : 600,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         },
 		{
           "path": "Levels/World_3/Level_3-5.json",
@@ -153,8 +272,45 @@
           "positionX" : 1650,
           "positionY" : 625,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
-          "hasCutscene" : false
-        }
+          "hasCutscene" : false,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
+        },
+      {
+        "path": "Levels/World_3/Level_3-1.json",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "propsTileSheetPath": "Sprites/props/props.dds",
+        "positionX": 700,
+        "positionY": 300,
+        "mapTilePath": "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
+        "hasCutscene": true,
+        "cutSceneConversationNumber": 2,
+        "cameraAcceleration": 5.0,
+        "cameraMinBorderX": 0.0,
+        "cameraMaxBorderX": 1.0,
+        "cameraMinBorderY": 0.0,
+        "cameraMaxBorderY": 1.0,
+        "cameraPosition": [ 0, 0 ]
+      },
+      {
+        "path": "Levels/World_3/Level_3-2.json",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "propsTileSheetPath": "Sprites/props/props.dds",
+        "positionX": 800,
+        "positionY": 300,
+        "mapTilePath": "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
+        "hasCutscene": false,
+        "cameraAcceleration": 5.0,
+        "cameraMinBorderX": 0.0,
+        "cameraMaxBorderX": 1.0,
+        "cameraMinBorderY": 0.0,
+        "cameraMaxBorderY": 1.0,
+        "cameraPosition": [ 0, 0 ]
+      }
       ]
     },
     {
@@ -169,7 +325,13 @@
           "positionY" : 850,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
           "hasCutscene" : true,
-          "cutSceneConversationNumber" : 3
+          "cutSceneConversationNumber" : 3,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         },
         {
           "path": "Levels/World_4/Level_4-2.json",
@@ -178,7 +340,13 @@
           "positionX" : 615,
           "positionY" : 930,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         },
 		{
           "path": "Levels/World_4/Level_4-3.json",
@@ -187,7 +355,13 @@
           "positionX" : 720,
           "positionY" : 845,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         },
 		{
           "path": "Levels/World_4/Level_4-4.json",
@@ -196,7 +370,13 @@
           "positionX" : 1090,
           "positionY" : 860,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
-          "hasCutscene" : false
+          "hasCutscene" : false,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
         },
 		{
           "path": "Levels/World_4/Level_4-5.json",
@@ -205,8 +385,45 @@
           "positionX" : 1450,
           "positionY" : 830,
           "mapTilePath" : "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
-          "hasCutscene" : false
-        }
+          "hasCutscene" : false,
+          "cameraAcceleration": 5.0,
+          "cameraMinBorderX": 0.0,
+          "cameraMaxBorderX": 1.0,
+          "cameraMinBorderY": 0.0,
+          "cameraMaxBorderY": 1.0,
+          "cameraPosition": [ 0, 0 ]
+        },
+      {
+        "path": "Levels/World_4/Level_4-1.json",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "propsTileSheetPath": "Sprites/props/props.dds",
+        "positionX": 900,
+        "positionY": 700,
+        "mapTilePath": "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
+        "hasCutscene": true,
+        "cutSceneConversationNumber": 3,
+        "cameraAcceleration": 5.0,
+        "cameraMinBorderX": 0.0,
+        "cameraMaxBorderX": 1.0,
+        "cameraMinBorderY": 0.0,
+        "cameraMaxBorderY": 1.0,
+        "cameraPosition": [ 0, 0 ]
+      },
+      {
+        "path": "Levels/World_4/Level_4-2.json",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "propsTileSheetPath": "Sprites/props/props.dds",
+        "positionX": 1000,
+        "positionY": 500,
+        "mapTilePath": "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
+        "hasCutscene": false,
+        "cameraAcceleration": 5.0,
+        "cameraMinBorderX": 0.0,
+        "cameraMaxBorderX": 1.0,
+        "cameraMinBorderY": 0.0,
+        "cameraMaxBorderY": 1.0,
+        "cameraPosition": [ 0, 0 ]
+      }
       ]
     }
   ]  
