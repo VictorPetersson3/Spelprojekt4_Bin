@@ -252,9 +252,9 @@
 		}
 	], "tilesets": [
 		{
-			"identifier": "Tiles_Sheet_012",
+			"identifier": "Tiles_Sheet_02",
 			"uid": 14,
-			"relPath": "../../Sprites/Tilesets/tiles_Sheet_01.png",
+			"relPath": "../../Sprites/Tilesets/tiles_Sheet_02.png",
 			"pxWid": 256,
 			"pxHei": 256,
 			"tileGridSize": 32,
@@ -263,7 +263,7 @@
 			"savedSelections": [],
 			"cachedPixelData": {
 				"opaqueTiles": "0100111001001100000011000100110010010000000000000000000000000000",
-				"averageColors": "f488f488f488f488f358f358f4881487f469f347f469e469f358f358a5973487e469f469e469e469f368f36885a73487f488f488f488f488f368f368a5970000f35885988598f358f588f58814870000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+				"averageColors": "f685f685f685e866f433f433f6851585f544f333f544e866f444f444a6963585e544f544e544e866f554f44487a63585e866f866e866e866f444f444a6960000f44486958695f444f685f68515850000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 			}
 		}
 	], "enums": [], "externalEnums": [], "levelFields": [] },
@@ -376,13 +376,13 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [44,23],
+							"__grid": [44,17],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 29,
-							"px": [1408,736],
+							"px": [1408,544],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 30, "realEditorValues": [] }]
 						},
 						{
@@ -408,7 +408,7 @@
 					"__pxTotalOffsetX": 0,
 					"__pxTotalOffsetY": 0,
 					"__tilesetDefUid": 14,
-					"__tilesetRelPath": "../../Sprites/Tilesets/tiles_Sheet_01.png",
+					"__tilesetRelPath": "../../Sprites/Tilesets/tiles_Sheet_02.png",
 					"levelId": 19,
 					"layerDefUid": 15,
 					"pxOffsetX": 0,
