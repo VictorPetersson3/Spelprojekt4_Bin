@@ -2,6 +2,7 @@
   "Worlds" : [
     {
       "actSong" : "Audio/music/Hell_Clown_Core.mp3",
+      "backgroundFolderPath" : "Sprites/Backgrounds/world_01/",
       "levels":[
         {
           "path": "Levels/World_1/Level_1-1.json",
@@ -17,8 +18,8 @@
           "cameraMaxBorderX": 1.0,
           "cameraMinBorderY": 0.0,
           "cameraMaxBorderY": 1.0,
-          "cameraPosition" : [0,0]
-           
+          "cameraPosition" : [0,0],
+          "backgroundSpeedMultiplier" : 1
         },
         {
           "path": "Levels/World_1/Level_1-2.json",
@@ -36,7 +37,7 @@
           "cameraMaxBorderY": 1.0,
           "cameraPosition" : [0,0]
         },
-		{
+		    {
           "path": "Levels/World_1/Level_1-3.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
           "propsTileSheetPath": "Sprites/props/props.dds",
@@ -52,7 +53,7 @@
           "cameraMaxBorderY": 1.0,
           "cameraPosition" : [0,0]
         },
-		{
+		    {
           "path": "Levels/World_1/Level_1-4.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
           "propsTileSheetPath": "Sprites/props/props.dds",
@@ -68,7 +69,7 @@
           "cameraMaxBorderY": 1.0,
           "cameraPosition" : [0,0]
         },
-		{
+		    {
           "path": "Levels/World_1/Level_1-5.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
           "propsTileSheetPath": "Sprites/props/props.dds",
@@ -89,6 +90,7 @@
     },
     {
     "actSong" : "Audio/music/Hell_Clown_Core.mp3",
+    "backgroundFolderPath" : "Sprites/Backgrounds/world_02/",
     "levels":[
         {
           "path": "Levels/World_2/Level_2-1.json",
@@ -201,6 +203,7 @@
     },
     { 
     "actSong" : "Audio/music/Hell_Clown_Core.mp3",
+    "backgroundFolderPath" : "Sprites/Backgrounds/world_03/",
     "levels":[
         {
           "path": "Levels/World_3/Level_3-1.json",
@@ -313,6 +316,7 @@
     },
     {
     "actSong" : "Audio/music/Hell_Clown_Core.mp3",
+    "backgroundFolderPath" : "Sprites/Backgrounds/world_04/",
     "levels":[
         {
           "path": "Levels/World_4/Level_4-1.json",
