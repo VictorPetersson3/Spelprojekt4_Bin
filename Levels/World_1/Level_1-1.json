@@ -206,7 +206,7 @@
 		}
 	], "tilesets": [
 		{
-			"identifier": "Tiles_Sheet_012",
+			"identifier": "GameplayArea",
 			"uid": 14,
 			"relPath": "../../Sprites/Tilesets/tiles_Sheet_01.png",
 			"pxWid": 256,
