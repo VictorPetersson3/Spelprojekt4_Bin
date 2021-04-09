@@ -18,8 +18,7 @@
           "cameraMaxBorderX": 1.0,
           "cameraMinBorderY": 0.0,
           "cameraMaxBorderY": 1.0,
-          "cameraPosition" : [0,0],
-          "backgroundSpeedMultiplier" : 1
+          "cameraPosition" : [0,0]
         },
         {
           "path": "Levels/World_1/Level_1-2.json",
