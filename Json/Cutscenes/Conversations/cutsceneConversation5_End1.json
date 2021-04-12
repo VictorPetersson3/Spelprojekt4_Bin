@@ -1,18 +1,18 @@
 {
 	"levelIndex" : 3,
-	"characterLeft" : "Biff",
-	"characterRight" : "Marty",
+	"characterLeft" : "Marty",
+	"characterRight" : "Lorraine",
 	"dialogue" : [
 		{
-			"speaker" : "Marty",
+			"speaker" : "Lorraine",
 			"line" : "I have found your weakness Ugly!"
 		},
 		{
-			"speaker" : "Biff",
+			"speaker" : "Marty",
 			"line" : "Make it staahp =("
 		},
 		{
-			"speaker" : "Marty",
+			"speaker" : "Lorraine",
 			"line" : "You are allergic to my sweet nectars!"
 		}
 	]
