@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 15,
+	"nextUid": 17,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -34,7 +34,7 @@
 			"identifier": "Entities",
 			"type": "Entities",
 			"uid": 9,
-			"gridSize": 16,
+			"gridSize": 32,
 			"displayOpacity": 1,
 			"pxOffsetX": 0,
 			"pxOffsetY": 0,
@@ -243,6 +243,52 @@
 					"textLangageMode": null
 				}
 			]
+		},
+		{
+			"identifier": "Saw",
+			"uid": 15,
+			"tags": [],
+			"width": 32,
+			"height": 32,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Point",
+					"__type": "Point",
+					"uid": 16,
+					"type": "F_Point",
+					"isArray": false,
+					"canBeNull": true,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
 		}
 	], "tilesets": [
 		{
@@ -312,9 +358,9 @@
 				{
 					"__identifier": "Entities",
 					"__type": "Entities",
-					"__cWid": 158,
-					"__cHei": 68,
-					"__gridSize": 16,
+					"__cWid": 79,
+					"__cHei": 34,
+					"__gridSize": 32,
 					"__opacity": 1,
 					"__pxTotalOffsetX": 0,
 					"__pxTotalOffsetY": 0,
@@ -334,7 +380,7 @@
 					"entityInstances": [
 						{
 							"__identifier": "MovingPlatform",
-							"__grid": [11,62],
+							"__grid": [5,31],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 96,
@@ -354,7 +400,7 @@
 						},
 						{
 							"__identifier": "PlayerStart",
-							"__grid": [4,58],
+							"__grid": [2,29],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -365,7 +411,7 @@
 						},
 						{
 							"__identifier": "LevelEnd",
-							"__grid": [148,48],
+							"__grid": [74,24],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -373,6 +419,28 @@
 							"defUid": 10,
 							"px": [2368,768],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 11, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [50,24],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 15,
+							"px": [1600,768],
+							"fieldInstances": [{ "__identifier": "Point", "__value": null, "__type": "Point", "defUid": 16, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [50,20],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 15,
+							"px": [1600,640],
+							"fieldInstances": [{ "__identifier": "Point", "__value": null, "__type": "Point", "defUid": 16, "realEditorValues": [] }]
 						}
 					]
 				},
@@ -398,15 +466,6 @@
 					"seed": 5984092,
 					"overrideTilesetUid": null,
 					"gridTiles": [
-						{ "px": [1600,640], "src": [0,64], "f": 0, "t": 32, "d": [1630] },
-						{ "px": [1632,640], "src": [32,64], "f": 0, "t": 33, "d": [1631] },
-						{ "px": [1600,672], "src": [0,96], "f": 0, "t": 48, "d": [1709] },
-						{ "px": [1632,672], "src": [32,96], "f": 0, "t": 49, "d": [1710] },
-						{ "px": [1600,736], "src": [0,64], "f": 0, "t": 32, "d": [1867] },
-						{ "px": [1632,736], "src": [32,64], "f": 0, "t": 33, "d": [1868] },
-						{ "px": [1600,768], "src": [0,96], "f": 0, "t": 48, "d": [1946] },
-						{ "px": [1632,768], "src": [32,96], "f": 0, "t": 49, "d": [1947] },
-						{ "px": [1056,800], "src": [64,64], "f": 0, "t": 34, "d": [2008] },
 						{ "px": [0,1024], "src": [0,0], "f": 0, "t": 0, "d": [2528] },
 						{ "px": [32,1024], "src": [32,0], "f": 0, "t": 1, "d": [2529] },
 						{ "px": [64,1024], "src": [0,0], "f": 0, "t": 0, "d": [2530] },
