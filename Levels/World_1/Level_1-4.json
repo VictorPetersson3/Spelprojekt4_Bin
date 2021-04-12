@@ -31,7 +31,7 @@
 	"defs": { "layers": [
 		{
 			"__type": "Entities",
-			"identifier": "Player",
+			"identifier": "Entities",
 			"type": "Entities",
 			"uid": 23,
 			"gridSize": 32,
@@ -88,7 +88,7 @@
 		},
 		{
 			"__type": "Tiles",
-			"identifier": "BackGroundTiles",
+			"identifier": "BackgroundTiles",
 			"type": "Tiles",
 			"uid": 32,
 			"gridSize": 32,
@@ -335,7 +335,7 @@
 			"fieldInstances": [],
 			"layerInstances": [
 				{
-					"__identifier": "Player",
+					"__identifier": "Entities",
 					"__type": "Entities",
 					"__cWid": 60,
 					"__cHei": 34,
@@ -1513,7 +1513,7 @@
 					"entityInstances": []
 				},
 				{
-					"__identifier": "BackGroundTiles",
+					"__identifier": "BackgroundTiles",
 					"__type": "Tiles",
 					"__cWid": 60,
 					"__cHei": 34,
