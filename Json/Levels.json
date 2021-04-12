@@ -95,17 +95,10 @@
           "cameraMaxBorderX": 1.0,
           "cameraMinBorderY": 0.0,
           "cameraMaxBorderY": 1.0,
-          "<<<<<<<" "Updated",
           "upstream": null,
           "cameraPosition": [ 0, 5 ],
           "moveX": true,
-          "moveY": false,
-          "=======": null,
-          "cameraPosition": [ 0, 0 ],
-          "moveX": true,
-          "moveY": true,
-          ">>>>>>>" "Stashed",
-          "changes"
+          "moveY": false
         }
 		
       ]
