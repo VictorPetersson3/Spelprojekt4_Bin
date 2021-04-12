@@ -50,7 +50,7 @@
 		},
 		{
 			"__type": "Tiles",
-			"identifier": "Background",
+			"identifier": "Props",
 			"type": "Tiles",
 			"uid": 5,
 			"gridSize": 32,
@@ -597,30 +597,30 @@
 						},
 						{
 							"__identifier": "PlayerStart",
-							"__grid": [10,60],
+							"__grid": [10,61],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
 							"height": 16,
 							"defUid": 7,
-							"px": [160,960],
+							"px": [160,976],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 8, "realEditorValues": [] }]
 						},
 						{
 							"__identifier": "LevelEnd",
-							"__grid": [110,50],
+							"__grid": [110,51],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
 							"height": 16,
 							"defUid": 9,
-							"px": [1760,800],
+							"px": [1760,816],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 10, "realEditorValues": [] }]
 						}
 					]
 				},
 				{
-					"__identifier": "Background",
+					"__identifier": "Props",
 					"__type": "Tiles",
 					"__cWid": 61,
 					"__cHei": 34,
@@ -641,7 +641,6 @@
 					"seed": 1904563,
 					"overrideTilesetUid": null,
 					"gridTiles": [
-						{ "px": [384,128], "src": [64,32], "f": 0, "t": 10, "d": [256] },
 						{ "px": [608,448], "src": [96,32], "f": 0, "t": 11, "d": [873] },
 						{ "px": [256,704], "src": [64,32], "f": 0, "t": 10, "d": [1350] },
 						{ "px": [32,800], "src": [96,0], "f": 0, "t": 3, "d": [1526] },
