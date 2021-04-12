@@ -69,7 +69,7 @@
 		}
 	], "entities": [
 		{
-			"identifier": "PLayerStart",
+			"identifier": "PlayerStart",
 			"uid": 3,
 			"tags": [],
 			"width": 16,
@@ -316,7 +316,7 @@
 					"gridTiles": [],
 					"entityInstances": [
 						{
-							"__identifier": "PLayerStart",
+							"__identifier": "PlayerStart",
 							"__grid": [1,27],
 							"__pivot": [0,0],
 							"__tile": null,
