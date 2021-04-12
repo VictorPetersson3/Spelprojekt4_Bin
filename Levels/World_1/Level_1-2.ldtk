@@ -293,18 +293,6 @@
 				"opaqueTiles": "0000000000010000000000000000000000000000000000000000000000000000",
 				"averageColors": "f235f235d235e235d2355a876b888a87f234f234e235f124e235000000000000358b358bd235e235d235000000000000358b358b658b658b158b000000000000158b158b258b258b258b000000000000347a347a347a347a647b000000000000248b247b247a647b147a000000000000147b147b347a548b247a000000000000"
 			}
-		},
-		{
-			"identifier": "BackgroundTiles2",
-			"uid": 25,
-			"relPath": null,
-			"pxWid": 0,
-			"pxHei": 0,
-			"tileGridSize": 32,
-			"spacing": 0,
-			"padding": 0,
-			"savedSelections": [],
-			"cachedPixelData": null
 		}
 	], "enums": [{ "identifier": "Direction", "uid": 16, "values": [
 		{ "id": "Left", "tileId": null, "__tileSrcRect": null },
@@ -1527,7 +1515,7 @@
 					"intGridCsv": [],
 					"autoLayerTiles": [],
 					"seed": 7681220,
-					"overrideTilesetUid": null,
+					"overrideTilesetUid": 23,
 					"gridTiles": [
 						{ "px": [1824,0], "src": [64,32], "f": 0, "t": 10, "d": [57] },
 						{ "px": [1856,0], "src": [96,32], "f": 0, "t": 11, "d": [58] },
