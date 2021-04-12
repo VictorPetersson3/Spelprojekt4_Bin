@@ -39,8 +39,8 @@
           "cameraMinBorderY": 0.0,
           "cameraMaxBorderY": 1.0,
           "cameraPosition": [ 0, 0 ],
-          "moveX": false,
-          "moveY": false
+          "moveX": true,
+          "moveY": true
         },
         {
           "path": "Levels/World_1/Level_1-3.json",
@@ -58,8 +58,8 @@
           "cameraMinBorderY": 0.0,
           "cameraMaxBorderY": 1.0,
           "cameraPosition": [ 0, 0 ],
-          "moveX": false,
-          "moveY": false
+          "moveX": true,
+          "moveY": true
         },
         {
           "path": "Levels/World_1/Level_1-4.json",
@@ -77,8 +77,8 @@
           "cameraMinBorderY": 0.0,
           "cameraMaxBorderY": 1.0,
           "cameraPosition": [ 0, 0 ],
-          "moveX": false,
-          "moveY": false
+          "moveX": true,
+          "moveY": true
         },
         {
           "path": "Levels/World_1/Level_1-5.json",
@@ -123,8 +123,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_2/Level_2-2.json",
@@ -141,8 +141,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_2/Level_2-3.json",
@@ -159,8 +159,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_2/Level_2-4.json",
@@ -177,8 +177,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_2/Level_2-5.json",
@@ -195,8 +195,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_2/Level_2-1.json",
@@ -214,8 +214,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_2/Level_2-2.json",
@@ -232,8 +232,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       }
       ]
     },
@@ -257,8 +257,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_3/Level_3-2.json",
@@ -275,8 +275,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_3/Level_3-3.json",
@@ -293,8 +293,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_3/Level_3-4.json",
@@ -311,8 +311,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_3/Level_3-5.json",
@@ -329,8 +329,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_3/Level_3-1.json",
@@ -348,8 +348,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_3/Level_3-2.json",
@@ -366,8 +366,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       }
       ]
     },
@@ -391,8 +391,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_4/Level_4-2.json",
@@ -409,8 +409,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_4/Level_4-3.json",
@@ -427,8 +427,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_4/Level_4-4.json",
@@ -445,8 +445,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_4/Level_4-5.json",
@@ -463,8 +463,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_4/Level_4-1.json",
@@ -482,8 +482,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       },
       {
         "path": "Levels/World_4/Level_4-2.json",
@@ -500,8 +500,8 @@
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
-        "moveX": false,
-        "moveY": false
+        "moveX": true,
+        "moveY": true
       }
       ]
     }
