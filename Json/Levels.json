@@ -90,8 +90,8 @@
           "cameraMaxBorderX": 1.0,
           "cameraMinBorderY": 0.0,
           "cameraMaxBorderY": 1.0,
-          "cameraPosition": [ 0, 0 ],
-          "moveX": false,
+          "cameraPosition": [ 0, 5 ],
+          "moveX": true,
           "moveY": false
         }
 		
