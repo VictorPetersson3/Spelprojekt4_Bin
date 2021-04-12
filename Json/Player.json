@@ -35,7 +35,7 @@
         "Size in pixels" :
         {
             "X" : 32,
-            "Y" : 32
+            "Y" : 24
         }
     },
     "Audio" :
