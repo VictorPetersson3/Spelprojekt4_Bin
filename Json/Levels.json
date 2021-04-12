@@ -125,7 +125,7 @@
 		{
           "path": "Levels/World_2/Level_2-3.json",
           "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
-          "propsTileSheetPath": "Sprites/Tilesets/tiles_Sheet_02",
+          "propsTileSheetPath": "Sprites/Tilesets/tiles_Sheet_02.dds",
           "positionX" : 910,
           "positionY" : 360,
           "mapTilePath" : "Sprites/UI/P_Heart01.dds",
