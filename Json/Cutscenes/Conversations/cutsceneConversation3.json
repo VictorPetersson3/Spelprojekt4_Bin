@@ -1,19 +1,26 @@
 {
-	"levelIndex" : 3,
-	"characterLeft" : "Villain",
-	"characterRight" : "Hero",
+	"characterLeft" : "Marty",
+	"characterRight" : "Biff",
 	"dialogue" : [
 		{
-			"speaker" : "Hero",
-			"line" : "I have found your weakness Ugly!"
+			"speaker" : "Marty",
+			"line" : ": I will never ever be as Ugly as you are mister toad man"
 		},
 		{
-			"speaker" : "Villain",
-			"line" : "Make it staahp =("
+			"speaker" : "Biff",
+			"line" : ": You think I want to be as tiny and sprawny like you?!"
 		},
 		{
-			"speaker" : "Hero",
-			"line" : "You are allergic to my sweet nectars!"
+			"speaker" : "Marty",
+			"line" : ": At least I have a face and not only warts all over!"
+		},
+		{
+			"speaker" : "Biff",
+			"line" : ": Hey, that actually hurts man, really uneccessary!"
+		},
+		{
+			"speaker" : "Marty",
+			"line" : ": I am now done with this conversation, bye bye!"
 		}
 	]
 }

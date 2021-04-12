@@ -1,19 +1,26 @@
 {
-	"levelIndex" : 3,
-	"characterLeft" : "Villain",
-	"characterRight" : "Hero",
+	"characterLeft" : "Marty",
+	"characterRight" : "Biff",
 	"dialogue" : [
 		{
-			"speaker" : "Hero",
-			"line" : "I have found your weakness Ugly!"
+			"speaker" : "Biff",
+			"line" : ": Stop right there!"
 		},
 		{
-			"speaker" : "Villain",
-			"line" : "Make it staahp =("
+			"speaker" : "Marty",
+			"line" : ": No, let me through."
 		},
 		{
-			"speaker" : "Hero",
-			"line" : "You are allergic to my sweet nectars!"
+			"speaker" : "Biff",
+			"line" : ": To do what? Without power of flight, you'll never reach the top."
+		},
+		{
+			"speaker" : "Marty",
+			"line" : ": Let me show you, stupid toad."
+		},
+		{
+			"speaker" : "Biff",
+			"line" : ": Yeah good luck, chicken nugget."
 		}
 	]
 }
