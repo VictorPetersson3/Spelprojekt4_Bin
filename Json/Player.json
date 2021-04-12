@@ -1,7 +1,7 @@
 {
     "Walking and running" :
     {
-        "Speed" : 2.0,
+        "Speed" : 1.5,
         "Decceleration" : 2.0
     },
     "Jumping" :

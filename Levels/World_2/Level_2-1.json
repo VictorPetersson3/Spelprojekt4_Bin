@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 31,
+	"nextUid": 35,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -249,6 +249,52 @@
 					"textLangageMode": null
 				}
 			]
+		},
+		{
+			"identifier": "Shooter",
+			"uid": 32,
+			"tags": [],
+			"width": 32,
+			"height": 32,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Direction",
+					"__type": "LocalEnum.Direction",
+					"uid": 34,
+					"type": { "id": "F_Enum", "params": [31] },
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
 		}
 	], "tilesets": [
 		{
@@ -266,7 +312,12 @@
 				"averageColors": "f685f685f685e866f433f433f6851585f544f333f544e866f444f444a6963585e544f544e544e866f554f44487a63585e866f866e866e866f444f444a6960000f44486958695f444f685f68515850000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 			}
 		}
-	], "enums": [], "externalEnums": [], "levelFields": [] },
+	], "enums": [{ "identifier": "Direction", "uid": 31, "values": [
+		{ "id": "Up", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Down", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Left", "tileId": null, "__tileSrcRect": null },
+		{ "id": "Right", "tileId": null, "__tileSrcRect": null }
+	], "iconTilesetUid": null, "externalRelPath": null, "externalFileChecksum": null }], "externalEnums": [], "levelFields": [] },
 	"levels": [
 		{
 			"identifier": "Level4",
@@ -376,25 +427,56 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [44,17],
+							"__grid": [44,15],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 29,
-							"px": [1408,544],
+							"px": [1408,480],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 30, "realEditorValues": [] }]
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [31,25],
+							"__grid": [33,25],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 29,
-							"px": [992,800],
+							"px": [1056,800],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 30, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [34,23],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 29,
+							"px": [1088,736],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 30, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [55,13],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 32,
+							"px": [1760,416],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 34,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
 						}
 					]
 				},

@@ -38,8 +38,8 @@
           "cameraMaxBorderX": 1.0,
           "cameraMinBorderY": 0.0,
           "cameraMaxBorderY": 1.0,
-          "cameraPosition": [ 0, 0 ],
-          "moveX": true,
+          "cameraPosition": [ 0.65, 0.8 ],
+          "moveX": false,
           "moveY": true
         },
         {
@@ -57,9 +57,9 @@
           "cameraMaxBorderX": 1.0,
           "cameraMinBorderY": 0.0,
           "cameraMaxBorderY": 1.0,
-          "cameraPosition": [ 0, 0 ],
+          "cameraPosition": [ 0, 0.9 ],
           "moveX": true,
-          "moveY": true
+          "moveY": false
         },
         {
           "path": "Levels/World_1/Level_1-4.json",
@@ -109,7 +109,7 @@
     "levels":[
       {
         "path": "Levels/World_2/Level_2-1.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_02.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
         "positionX": 280,
@@ -128,7 +128,7 @@
       },
       {
         "path": "Levels/World_2/Level_2-2.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_02.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
         "positionX": 630,
@@ -146,7 +146,7 @@
       },
       {
         "path": "Levels/World_2/Level_2-3.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_02.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
         "positionX": 910,
@@ -164,7 +164,7 @@
       },
       {
         "path": "Levels/World_2/Level_2-4.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_02.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
         "positionX": 1340,
@@ -182,7 +182,7 @@
       },
       {
         "path": "Levels/World_2/Level_2-5.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_02.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
         "positionX": 1700,
@@ -377,7 +377,7 @@
     "levels":[
       {
         "path": "Levels/World_4/Level_4-1.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
         "positionX": 350,
@@ -396,7 +396,7 @@
       },
       {
         "path": "Levels/World_4/Level_4-2.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
         "positionX": 615,
@@ -414,7 +414,7 @@
       },
       {
         "path": "Levels/World_4/Level_4-3.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
         "positionX": 720,
@@ -432,7 +432,7 @@
       },
       {
         "path": "Levels/World_4/Level_4-4.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
         "positionX": 1090,
@@ -450,7 +450,7 @@
       },
       {
         "path": "Levels/World_4/Level_4-5.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
         "positionX": 1450,
@@ -468,7 +468,7 @@
       },
       {
         "path": "Levels/World_4/Level_4-1.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
         "positionX": 900,
@@ -487,7 +487,7 @@
       },
       {
         "path": "Levels/World_4/Level_4-2.json",
-        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tiles_Sheet_01.dds",
+        "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
         "positionX": 1000,
