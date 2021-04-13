@@ -1,4 +1,5 @@
 {
 	"name" : "Marty",
-	"imagepath" : "Sprites/Cutscenes/CharacterPortraits/c_kiwi.dds"
+	"imagepath" : "Sprites/Cutscenes/CharacterPortraits/c_kiwi.dds",	
+	"angryImagePath" : "Sprites/Cutscenes/CharacterPortraits/c_kiwi_mad.dds"
 }

@@ -4,23 +4,28 @@
 	"dialogue" : [
 		{
 			"speaker" : "Biff",
-			"line" : ": Stop right there!"
+			"line" : ": Stop right there!",
+			"mood" : "default"
 		},
 		{
 			"speaker" : "Marty",
-			"line" : ": No, let me through."
+			"line" : ": No, let me through.",
+			"mood" : "default"
 		},
 		{
 			"speaker" : "Biff",
-			"line" : ": To do what? Without power of flight, you'll never reach the top."
+			"line" : ": To do what? Without power of flight, you'll never reach the top.",
+			"mood" : "default"
 		},
 		{
 			"speaker" : "Marty",
-			"line" : ": Let me show you, stupid toad."
+			"line" : ": Let me show you, stupid toad.",
+			"mood" : "Angry"
 		},
 		{
 			"speaker" : "Biff",
-			"line" : ": Yeah good luck, chicken nugget."
+			"line" : ": Yeah good luck, chicken nugget.",
+			"mood" : "default"
 		}
 	]
 }

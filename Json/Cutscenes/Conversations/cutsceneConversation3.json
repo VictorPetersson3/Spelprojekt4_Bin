@@ -4,23 +4,28 @@
 	"dialogue" : [
 		{
 			"speaker" : "Marty",
-			"line" : ": I will never ever be as Ugly as you are mister toad man"
+			"line" : ": I will never ever be as Ugly as you are mister toad man",
+			"mood" : "default"
 		},
 		{
 			"speaker" : "Biff",
-			"line" : ": You think I want to be as tiny and sprawny like you?!"
+			"line" : ": You think I want to be as tiny and sprawny like you?!",
+			"mood" : "default"
 		},
 		{
 			"speaker" : "Marty",
-			"line" : ": At least I have a face and not only warts all over!"
+			"line" : ": At least I have a face and not only warts all over!",
+			"mood" : "default"
 		},
 		{
 			"speaker" : "Biff",
-			"line" : ": Hey, that actually hurts man, really uneccessary!"
+			"line" : ": Hey, that actually hurts man, really uneccessary!",
+			"mood" : "default"
 		},
 		{
 			"speaker" : "Marty",
-			"line" : ": I am now done with this conversation, bye bye!"
+			"line" : ": I am now done with this conversation, bye bye!",
+			"mood" : "default"
 		}
 	]
 }
