@@ -737,6 +737,39 @@
 							"defUid": 15,
 							"px": [608,736],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 16, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "CollapsingTile",
+							"__grid": [13,11],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 19,
+							"px": [416,352],
+							"fieldInstances": []
+						},
+						{
+							"__identifier": "CollapsingTile",
+							"__grid": [17,18],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 19,
+							"px": [544,576],
+							"fieldInstances": []
+						},
+						{
+							"__identifier": "PlayerStart",
+							"__grid": [4,21],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 9,
+							"px": [128,672],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 10, "realEditorValues": [] }]
 						}
 					]
 				},
