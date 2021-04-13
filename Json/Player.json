@@ -2,7 +2,7 @@
     "Walking and running" :
     {
         "Speed" : 1.5,
-        "Decceleration" : 2.0
+        "Decceleration" : 2.7
     },
     "Jumping" :
     {
@@ -19,7 +19,7 @@
     "Air time" :
     {
         "Acceleration" : 1.3,
-        "Decceleration" : 1.0,
+        "Decceleration" : 1.5,
         "Maximum speed" : 0.25
     },
     "Maximum velocities and gravity" :
