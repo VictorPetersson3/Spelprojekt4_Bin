@@ -72,8 +72,8 @@
 			"identifier": "PlayerStart",
 			"uid": 3,
 			"tags": [],
-			"width": 16,
-			"height": 16,
+			"width": 32,
+			"height": 32,
 			"resizableX": false,
 			"resizableY": false,
 			"keepAspectRatio": false,
@@ -118,8 +118,8 @@
 			"identifier": "LevelEnd",
 			"uid": 5,
 			"tags": [],
-			"width": 16,
-			"height": 16,
+			"width": 32,
+			"height": 32,
 			"resizableX": false,
 			"resizableY": false,
 			"keepAspectRatio": false,
@@ -386,28 +386,6 @@
 					"overrideTilesetUid": null,
 					"gridTiles": [],
 					"entityInstances": [
-						{
-							"__identifier": "PlayerStart",
-							"__grid": [1,17],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 16,
-							"height": 16,
-							"defUid": 3,
-							"px": [32,560],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 4, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "LevelEnd",
-							"__grid": [78,9],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 16,
-							"height": 16,
-							"defUid": 5,
-							"px": [2512,304],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 6, "realEditorValues": [] }]
-						},
 						{
 							"__identifier": "Shooter",
 							"__grid": [8,13],
@@ -1045,6 +1023,28 @@
 							"defUid": 12,
 							"px": [1504,704],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "PlayerStart",
+							"__grid": [1,17],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 3,
+							"px": [32,544],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 4, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "LevelEnd",
+							"__grid": [79,9],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 5,
+							"px": [2528,288],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 6, "realEditorValues": [] }]
 						}
 					]
 				},
