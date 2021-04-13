@@ -11,7 +11,7 @@
     },
     "Wall stuff" : 
     {
-        "Jump speed" : 1.2,
+        "Jump speed" : 1.6,
         "X factor" : 0.3,
         "Wall drag" : 0.5,
         "Maximum wall slide speed" : 0.2
