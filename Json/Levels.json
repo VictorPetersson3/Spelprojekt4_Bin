@@ -174,7 +174,7 @@
         "cameraAcceleration": 5.0,
         "cameraMinBorderX": 0.0,
         "cameraMaxBorderX": 1.7,
-        "cameraMinBorderY": 1.0,
+        "cameraMinBorderY": 0.5,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 5 ],
         "moveX": true,
