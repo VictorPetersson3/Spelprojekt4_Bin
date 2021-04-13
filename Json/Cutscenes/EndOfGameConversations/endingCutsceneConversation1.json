@@ -1,0 +1,23 @@
+{
+	"levelIndex" : 3,
+	"characterLeft" : "Marty",
+	"characterRight" : "Lorraine",
+	"AfterConversationImage" : "sprites/princesses/princess_duckling.dds",
+	"dialogue" : [
+		{
+			"speaker" : "Lorraine",
+			"line" : "I have found your weakness Ugly!",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Marty",
+			"line" : "Make it staahp =(",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Lorraine",
+			"line" : "You are allergic to my sweet nectars!",
+			"mood" : "default"
+		}
+	]
+}
