@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 14,
+	"nextUid": 15,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -251,6 +251,31 @@
 					"textLangageMode": null
 				}
 			]
+		},
+		{
+			"identifier": "KillZone",
+			"uid": 14,
+			"tags": ["region"],
+			"width": 32,
+			"height": 32,
+			"resizableX": true,
+			"resizableY": true,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": true,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0.5,
+			"pivotY": 0.5,
+			"fieldDefs": []
 		}
 	], "tilesets": [
 		{
@@ -576,6 +601,17 @@
 									"params": ["Up"]
 								}]
 							}]
+						},
+						{
+							"__identifier": "KillZone",
+							"__grid": [46,68],
+							"__pivot": [0.5,0.5],
+							"__tile": null,
+							"width": 1520,
+							"height": 32,
+							"defUid": 14,
+							"px": [744,1096],
+							"fieldInstances": []
 						}
 					]
 				},
