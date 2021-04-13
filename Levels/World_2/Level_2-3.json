@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 21,
+	"nextUid": 24,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -137,8 +137,8 @@
 			"identifier": "LevelEnd",
 			"uid": 9,
 			"tags": [],
-			"width": 16,
-			"height": 16,
+			"width": 32,
+			"height": 32,
 			"resizableX": false,
 			"resizableY": false,
 			"keepAspectRatio": false,
@@ -249,6 +249,52 @@
 			"pivotX": 0.5,
 			"pivotY": 0.5,
 			"fieldDefs": []
+		},
+		{
+			"identifier": "Saw",
+			"uid": 21,
+			"tags": [],
+			"width": 16,
+			"height": 16,
+			"resizableX": false,
+			"resizableY": false,
+			"keepAspectRatio": false,
+			"fillOpacity": 1,
+			"lineOpacity": 1,
+			"hollow": false,
+			"color": "#94D9B3",
+			"renderMode": "Rectangle",
+			"showName": true,
+			"tilesetId": null,
+			"tileId": null,
+			"tileRenderMode": "FitInside",
+			"maxCount": 0,
+			"limitScope": "PerLevel",
+			"limitBehavior": "MoveLastOne",
+			"pivotX": 0,
+			"pivotY": 0,
+			"fieldDefs": [
+				{
+					"identifier": "Point",
+					"__type": "Array<Point>",
+					"uid": 22,
+					"type": "F_Point",
+					"isArray": true,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "PointPath",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				}
+			]
 		}
 	], "tilesets": [
 		{
@@ -284,7 +330,7 @@
 		{
 			"identifier": "Props",
 			"uid": 19,
-			"relPath": "../../Sprites/Tilesets/tiles_Sheet_02.png",
+			"relPath": "../../Sprites/props/world2_props.png",
 			"pxWid": 256,
 			"pxHei": 256,
 			"tileGridSize": 32,
@@ -292,8 +338,8 @@
 			"padding": 0,
 			"savedSelections": [],
 			"cachedPixelData": {
-				"opaqueTiles": "0100111001001100000011000100110010010000000000000000000000000000",
-				"averageColors": "f685f685f685e866f433f433f6851585f544f333f544e866f444f444a6963585e544f544e544e866f554f44487a63585e866f866e866e866f444f444a6960000f44486958695f444f685f68515850000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+				"opaqueTiles": "0000000000010000000000000000000000000000000000000000000000000000",
+				"averageColors": "000000003aa937663aa9000000004bda375567557756f7567766665536553ac9021402130213f75600000000000038992324332423240000000000000000000024341534142317561855175500001765000098879678b9779755c8559866b9860000000000004bcc0755064500000755000098879678b977a855b7559866b986"
 			}
 		}
 	], "enums": [{ "identifier": "Direction", "uid": 14, "values": [
@@ -345,125 +391,14 @@
 					"entityInstances": [
 						{
 							"__identifier": "LevelEnd",
-							"__grid": [67,9],
+							"__grid": [67,8],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 16,
-							"height": 16,
+							"width": 32,
+							"height": 32,
 							"defUid": 9,
-							"px": [1072,144],
+							"px": [1072,128],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 10, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "PlayerStart",
-							"__grid": [50,69],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 16,
-							"height": 16,
-							"defUid": 7,
-							"px": [800,1104],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 8, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [76,46],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 16,
-							"height": 16,
-							"defUid": 15,
-							"px": [1216,736],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Left",
-								"__type": "LocalEnum.Direction",
-								"defUid": 16,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Left"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [76,62],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 16,
-							"height": 16,
-							"defUid": 15,
-							"px": [1216,992],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Left",
-								"__type": "LocalEnum.Direction",
-								"defUid": 16,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Left"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [47,58],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 16,
-							"height": 16,
-							"defUid": 15,
-							"px": [752,928],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Right",
-								"__type": "LocalEnum.Direction",
-								"defUid": 16,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Right"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [49,34],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 16,
-							"height": 16,
-							"defUid": 15,
-							"px": [784,544],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Right",
-								"__type": "LocalEnum.Direction",
-								"defUid": 16,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Right"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [47,22],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 16,
-							"height": 16,
-							"defUid": 15,
-							"px": [752,352],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Right",
-								"__type": "LocalEnum.Direction",
-								"defUid": 16,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Right"]
-								}]
-							}]
 						},
 						{
 							"__identifier": "KillZone",
@@ -508,6 +443,161 @@
 							"defUid": 18,
 							"px": [792,8],
 							"fieldInstances": []
+						},
+						{
+							"__identifier": "PlayerStart",
+							"__grid": [50,68],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 7,
+							"px": [800,1088],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 8, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [46,59],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 15,
+							"px": [736,944],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Right",
+								"__type": "LocalEnum.Direction",
+								"defUid": 16,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Right"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [77,63],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 15,
+							"px": [1232,1008],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Left",
+								"__type": "LocalEnum.Direction",
+								"defUid": 16,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Left"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [77,47],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 15,
+							"px": [1232,752],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Left",
+								"__type": "LocalEnum.Direction",
+								"defUid": 16,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Left"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [49,35],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 15,
+							"px": [784,560],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Right",
+								"__type": "LocalEnum.Direction",
+								"defUid": 16,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Right"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [47,23],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 15,
+							"px": [752,368],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Right",
+								"__type": "LocalEnum.Direction",
+								"defUid": 16,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Right"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [74,34],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 21,
+							"px": [1184,544],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 22, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [74,26],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 21,
+							"px": [1184,416],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 22, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [74,18],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 21,
+							"px": [1184,288],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 22, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [74,42],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 21,
+							"px": [1184,672],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 22, "realEditorValues": [] }]
 						}
 					]
 				},
@@ -2545,7 +2635,7 @@
 					"__pxTotalOffsetX": 0,
 					"__pxTotalOffsetY": 0,
 					"__tilesetDefUid": 19,
-					"__tilesetRelPath": "../../Sprites/Tilesets/tiles_Sheet_02.png",
+					"__tilesetRelPath": "../../Sprites/props/world2_props.png",
 					"levelId": 0,
 					"layerDefUid": 20,
 					"pxOffsetX": 0,
@@ -2556,7 +2646,13 @@
 					"autoLayerTiles": [],
 					"seed": 8282973,
 					"overrideTilesetUid": null,
-					"gridTiles": [],
+					"gridTiles": [
+						{ "px": [736,544], "src": [224,32], "f": 0, "t": 15, "d": [1043] },
+						{ "px": [832,704], "src": [128,0], "f": 0, "t": 4, "d": [1346] },
+						{ "px": [1088,768], "src": [128,0], "f": 0, "t": 4, "d": [1474] },
+						{ "px": [1152,1088], "src": [224,0], "f": 0, "t": 7, "d": [2076] },
+						{ "px": [1152,1088], "src": [128,0], "f": 0, "t": 4, "d": [2076] }
+					],
 					"entityInstances": []
 				}
 			],
