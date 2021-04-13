@@ -389,13 +389,13 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [49,23],
+							"__grid": [49,24],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 15,
-							"px": [1568,736],
+							"px": [1568,768],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 19, "realEditorValues": [] }]
 						},
 						{
@@ -408,17 +408,6 @@
 							"defUid": 15,
 							"px": [1600,640],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 19, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "KillZone",
-							"__grid": [42,33],
-							"__pivot": [0.5,0.5],
-							"__tile": null,
-							"width": 2400,
-							"height": 96,
-							"defUid": 17,
-							"px": [1360,1072],
-							"fieldInstances": []
 						},
 						{
 							"__identifier": "MovingPlatform",
@@ -464,31 +453,123 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [22,30],
+							"__grid": [22,29],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 15,
-							"px": [704,960],
+							"px": [704,928],
 							"fieldInstances": [{
 								"__identifier": "Point",
-								"__value": [ { "cx": 22, "cy": 28 }, { "cx": 16, "cy": 28 }, { "cx": 16, "cy": 31 }, { "cx": 22, "cy": 31 } ],
+								"__value": [
+									{ "cx": 22, "cy": 28 },
+									{ "cx": 16, "cy": 28 },
+									{ "cx": 16, "cy": 31 },
+									{ "cx": 22, "cy": 31 },
+									{ "cx": 22, "cy": 29 }
+								],
 								"__type": "Array<Point>",
 								"defUid": 19,
-								"realEditorValues": [ {
-									"id": "V_String",
-									"params": ["22,28"]
-								}, {
-									"id": "V_String",
-									"params": ["16,28"]
-								}, {
-									"id": "V_String",
-									"params": ["16,31"]
-								}, {
-									"id": "V_String",
-									"params": ["22,31"]
-								} ]
+								"realEditorValues": [
+									{
+										"id": "V_String",
+										"params": ["22,28"]
+									},
+									{
+										"id": "V_String",
+										"params": ["16,28"]
+									},
+									{
+										"id": "V_String",
+										"params": ["16,31"]
+									},
+									{
+										"id": "V_String",
+										"params": ["22,31"]
+									},
+									{
+										"id": "V_String",
+										"params": ["22,29"]
+									}
+								]
+							}]
+						},
+						{
+							"__identifier": "KillZone",
+							"__grid": [14,33],
+							"__pivot": [0.5,0.5],
+							"__tile": null,
+							"width": 928,
+							"height": 32,
+							"defUid": 17,
+							"px": [464,1072],
+							"fieldInstances": []
+						},
+						{
+							"__identifier": "KillZone",
+							"__grid": [45,33],
+							"__pivot": [0.5,0.5],
+							"__tile": null,
+							"width": 1056,
+							"height": 32,
+							"defUid": 17,
+							"px": [1456,1072],
+							"fieldInstances": []
+						},
+						{
+							"__identifier": "KillZone",
+							"__grid": [70,33],
+							"__pivot": [0.5,0.5],
+							"__tile": null,
+							"width": 544,
+							"height": 32,
+							"defUid": 17,
+							"px": [2256,1072],
+							"fieldInstances": []
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [36,28],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 15,
+							"px": [1152,896],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [
+									{ "cx": 36, "cy": 25 },
+									{ "cx": 33, "cy": 25 },
+									{ "cx": 33, "cy": 31 },
+									{ "cx": 36, "cy": 31 },
+									{ "cx": 36, "cy": 28 }
+								],
+								"__type": "Array<Point>",
+								"defUid": 19,
+								"realEditorValues": [
+									{
+										"id": "V_String",
+										"params": ["36,25"]
+									},
+									{
+										"id": "V_String",
+										"params": ["33,25"]
+									},
+									{
+										"id": "V_String",
+										"params": ["33,31"]
+									},
+									{
+										"id": "V_String",
+										"params": ["36,31"]
+									},
+									{
+										"id": "V_String",
+										"params": ["36,28"]
+									}
+								]
 							}]
 						}
 					]
