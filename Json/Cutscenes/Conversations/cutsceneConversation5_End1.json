@@ -5,15 +5,18 @@
 	"dialogue" : [
 		{
 			"speaker" : "Lorraine",
-			"line" : "I have found your weakness Ugly!"
+			"line" : "I have found your weakness Ugly!",
+			"mood" : "default"
 		},
 		{
 			"speaker" : "Marty",
-			"line" : "Make it staahp =("
+			"line" : "Make it staahp =(",
+			"mood" : "default"
 		},
 		{
 			"speaker" : "Lorraine",
-			"line" : "You are allergic to my sweet nectars!"
+			"line" : "You are allergic to my sweet nectars!",
+			"mood" : "default"
 		}
 	]
 }
