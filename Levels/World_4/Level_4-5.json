@@ -388,33 +388,13 @@
 					"entityInstances": [
 						{
 							"__identifier": "Shooter",
-							"__grid": [8,13],
+							"__grid": [6,13],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 10,
-							"px": [256,416],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Down",
-								"__type": "LocalEnum.Direction",
-								"defUid": 11,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Down"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [11,12],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 10,
-							"px": [352,384],
+							"px": [192,416],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Down",
@@ -448,21 +428,21 @@
 						},
 						{
 							"__identifier": "MovingPlatform",
-							"__grid": [18,17],
+							"__grid": [19,17],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 128,
+							"width": 96,
 							"height": 32,
 							"defUid": 14,
-							"px": [576,544],
+							"px": [608,544],
 							"fieldInstances": [{
 								"__identifier": "Point",
-								"__value": [{ "cx": 19, "cy": 21 }],
+								"__value": [{ "cx": 20, "cy": 21 }],
 								"__type": "Array<Point>",
 								"defUid": 15,
 								"realEditorValues": [{
 									"id": "V_String",
-									"params": ["19,21"]
+									"params": ["20,21"]
 								}]
 							}]
 						},
@@ -488,13 +468,13 @@
 						},
 						{
 							"__identifier": "MovingPlatform",
-							"__grid": [44,29],
+							"__grid": [45,29],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 192,
+							"width": 96,
 							"height": 32,
 							"defUid": 14,
-							"px": [1408,928],
+							"px": [1440,928],
 							"fieldInstances": [{
 								"__identifier": "Point",
 								"__value": [{ "cx": 46, "cy": 16 }],
@@ -503,174 +483,6 @@
 								"realEditorValues": [{
 									"id": "V_String",
 									"params": ["46,16"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [50,12],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1600,384],
-							"fieldInstances": [{
-								"__identifier": "Point",
-								"__value": [
-									{ "cx": 49, "cy": 12 },
-									{ "cx": 49, "cy": 14 },
-									{ "cx": 51, "cy": 14 },
-									{ "cx": 51, "cy": 12 },
-									{ "cx": 50, "cy": 12 }
-								],
-								"__type": "Array<Point>",
-								"defUid": 13,
-								"realEditorValues": [
-									{
-										"id": "V_String",
-										"params": ["49,12"]
-									},
-									{
-										"id": "V_String",
-										"params": ["49,14"]
-									},
-									{
-										"id": "V_String",
-										"params": ["51,14"]
-									},
-									{
-										"id": "V_String",
-										"params": ["51,12"]
-									},
-									{
-										"id": "V_String",
-										"params": ["50,12"]
-									}
-								]
-							}]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [54,10],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1728,320],
-							"fieldInstances": [{
-								"__identifier": "Point",
-								"__value": [
-									{ "cx": 55, "cy": 10 },
-									{ "cx": 55, "cy": 12 },
-									{ "cx": 53, "cy": 12 },
-									{ "cx": 53, "cy": 10 },
-									{ "cx": 54, "cy": 10 }
-								],
-								"__type": "Array<Point>",
-								"defUid": 13,
-								"realEditorValues": [
-									{
-										"id": "V_String",
-										"params": ["55,10"]
-									},
-									{
-										"id": "V_String",
-										"params": ["55,12"]
-									},
-									{
-										"id": "V_String",
-										"params": ["53,12"]
-									},
-									{
-										"id": "V_String",
-										"params": ["53,10"]
-									},
-									{
-										"id": "V_String",
-										"params": ["54,10"]
-									}
-								]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [58,12],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 10,
-							"px": [1856,384],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Up",
-								"__type": "LocalEnum.Direction",
-								"defUid": 11,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Up"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [61,12],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 10,
-							"px": [1952,384],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Up",
-								"__type": "LocalEnum.Direction",
-								"defUid": 11,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Up"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [66,13],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 10,
-							"px": [2112,416],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Up",
-								"__type": "LocalEnum.Direction",
-								"defUid": 11,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Up"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [69,13],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 10,
-							"px": [2208,416],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Up",
-								"__type": "LocalEnum.Direction",
-								"defUid": 11,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Up"]
 								}]
 							}]
 						},
@@ -707,171 +519,6 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [23,16],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [736,512],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [20,14],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [640,448],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [36,10],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1152,320],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [35,9],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1120,288],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [36,8],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1152,256],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [35,7],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1120,224],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [36,6],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1152,192],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [35,5],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1120,160],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [35,20],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1120,640],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [36,18],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1152,576],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [35,15],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1120,480],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [36,13],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1152,416],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [37,12],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1184,384],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [35,11],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1120,352],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [31,17],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [992,544],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
 							"__grid": [30,15],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -879,149 +526,6 @@
 							"height": 32,
 							"defUid": 12,
 							"px": [960,480],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [30,20],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [960,640],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [31,23],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [992,736],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [31,27],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [992,864],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [35,23],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1120,736],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [36,29],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1152,928],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [32,30],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1024,960],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [45,24],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1440,768],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [43,22],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1376,704],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [48,27],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1536,864],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [50,24],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1600,768],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [49,19],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1568,608],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [45,17],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1440,544],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [47,22],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 12,
-							"px": [1504,704],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
 						},
 						{
@@ -1045,6 +549,427 @@
 							"defUid": 5,
 							"px": [2528,288],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 6, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [31,17],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [992,544],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [30,19],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [960,608],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [31,21],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [992,672],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [30,23],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [960,736],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [31,25],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [992,800],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [30,27],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [960,864],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [31,29],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [992,928],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [30,31],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [960,992],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [37,23],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1184,736],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [36,21],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1152,672],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [37,19],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1184,608],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [36,17],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1152,544],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [37,15],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1184,480],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [36,13],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1152,416],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [35,10],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1120,320],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [33,8],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1056,256],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [31,6],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [992,192],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [29,4],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [928,128],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [26,5],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [832,160],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [23,8],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [736,256],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [54,12],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1728,384],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [{ "cx": 49, "cy": 12 }],
+								"__type": "Array<Point>",
+								"defUid": 13,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["49,12"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [73,11],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [2336,352],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [72,9],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [2304,288],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [71,7],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [2272,224],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [71,5],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [2272,160],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [72,3],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [2304,96],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [47,26],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1504,832],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [56,9],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1792,288],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [{ "cx": 59, "cy": 9 }],
+								"__type": "Array<Point>",
+								"defUid": 13,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["59,9"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [63,14],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 10,
+							"px": [2016,448],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Up",
+								"__type": "LocalEnum.Direction",
+								"defUid": 11,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Up"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [68,14],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 10,
+							"px": [2176,448],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Up",
+								"__type": "LocalEnum.Direction",
+								"defUid": 11,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Up"]
+								}]
+							}]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [19,14],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [608,448],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [23,15],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [736,480],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [45,23],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1440,736],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [46,19],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [1472,608],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [10,19],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 12,
+							"px": [320,608],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
 						}
 					]
 				},
@@ -1070,54 +995,54 @@
 					"seed": 7777401,
 					"overrideTilesetUid": null,
 					"gridTiles": [
+						{ "px": [1792,320], "src": [0,96], "f": 0, "t": 24, "d": [866] },
+						{ "px": [1824,320], "src": [32,96], "f": 0, "t": 25, "d": [867] },
+						{ "px": [1856,320], "src": [32,96], "f": 0, "t": 25, "d": [868] },
+						{ "px": [1888,320], "src": [64,96], "f": 0, "t": 26, "d": [869] },
 						{ "px": [2464,320], "src": [0,0], "f": 0, "t": 0, "d": [887] },
 						{ "px": [2496,320], "src": [32,0], "f": 0, "t": 1, "d": [888] },
 						{ "px": [2528,320], "src": [32,0], "f": 0, "t": 1, "d": [889] },
 						{ "px": [2560,320], "src": [64,0], "f": 0, "t": 2, "d": [890] },
-						{ "px": [352,352], "src": [96,96], "f": 0, "t": 27, "d": [902] },
-						{ "px": [896,352], "src": [0,96], "f": 0, "t": 24, "d": [919] },
-						{ "px": [928,352], "src": [32,96], "f": 0, "t": 25, "d": [920] },
-						{ "px": [960,352], "src": [64,96], "f": 0, "t": 26, "d": [921] },
 						{ "px": [1216,352], "src": [96,96], "f": 0, "t": 27, "d": [929] },
-						{ "px": [1728,352], "src": [32,0], "f": 0, "t": 1, "d": [945] },
 						{ "px": [2464,352], "src": [0,32], "f": 0, "t": 8, "d": [968] },
 						{ "px": [2496,352], "src": [32,32], "f": 0, "t": 9, "d": [969] },
 						{ "px": [2528,352], "src": [32,32], "f": 0, "t": 9, "d": [970] },
 						{ "px": [2560,352], "src": [64,32], "f": 0, "t": 10, "d": [971] },
-						{ "px": [256,384], "src": [96,96], "f": 0, "t": 27, "d": [980] },
-						{ "px": [448,384], "src": [96,96], "f": 0, "t": 27, "d": [986] },
 						{ "px": [2464,384], "src": [0,32], "f": 0, "t": 8, "d": [1049] },
 						{ "px": [2496,384], "src": [32,32], "f": 0, "t": 9, "d": [1050] },
 						{ "px": [2528,384], "src": [32,32], "f": 0, "t": 9, "d": [1051] },
 						{ "px": [2560,384], "src": [64,32], "f": 0, "t": 10, "d": [1052] },
-						{ "px": [1600,416], "src": [32,0], "f": 0, "t": 1, "d": [1103] },
-						{ "px": [1856,416], "src": [0,96], "f": 0, "t": 24, "d": [1111] },
-						{ "px": [1888,416], "src": [32,96], "f": 0, "t": 25, "d": [1112] },
-						{ "px": [1920,416], "src": [32,96], "f": 0, "t": 25, "d": [1113] },
-						{ "px": [1952,416], "src": [64,96], "f": 0, "t": 26, "d": [1114] },
+						{ "px": [224,416], "src": [96,96], "f": 0, "t": 27, "d": [1060] },
+						{ "px": [416,416], "src": [96,96], "f": 0, "t": 27, "d": [1066] },
+						{ "px": [1568,416], "src": [0,96], "f": 0, "t": 24, "d": [1102] },
+						{ "px": [1600,416], "src": [32,96], "f": 0, "t": 25, "d": [1103] },
+						{ "px": [1632,416], "src": [32,96], "f": 0, "t": 25, "d": [1104] },
+						{ "px": [1664,416], "src": [32,96], "f": 0, "t": 25, "d": [1105] },
+						{ "px": [1696,416], "src": [32,96], "f": 0, "t": 25, "d": [1106] },
+						{ "px": [1728,416], "src": [64,96], "f": 0, "t": 26, "d": [1107] },
 						{ "px": [2464,416], "src": [0,32], "f": 0, "t": 8, "d": [1130] },
 						{ "px": [2496,416], "src": [32,32], "f": 0, "t": 9, "d": [1131] },
 						{ "px": [2528,416], "src": [32,32], "f": 0, "t": 9, "d": [1132] },
 						{ "px": [2560,416], "src": [64,32], "f": 0, "t": 10, "d": [1133] },
-						{ "px": [832,448], "src": [96,96], "f": 0, "t": 27, "d": [1160] },
-						{ "px": [2112,448], "src": [0,96], "f": 0, "t": 24, "d": [1200] },
-						{ "px": [2144,448], "src": [32,96], "f": 0, "t": 25, "d": [1201] },
-						{ "px": [2176,448], "src": [32,96], "f": 0, "t": 25, "d": [1202] },
-						{ "px": [2208,448], "src": [64,96], "f": 0, "t": 26, "d": [1203] },
+						{ "px": [2048,448], "src": [0,96], "f": 0, "t": 24, "d": [1198] },
+						{ "px": [2080,448], "src": [32,96], "f": 0, "t": 25, "d": [1199] },
+						{ "px": [2112,448], "src": [32,96], "f": 0, "t": 25, "d": [1200] },
+						{ "px": [2144,448], "src": [64,96], "f": 0, "t": 26, "d": [1201] },
 						{ "px": [2464,448], "src": [0,32], "f": 0, "t": 8, "d": [1211] },
 						{ "px": [2496,448], "src": [32,32], "f": 0, "t": 9, "d": [1212] },
 						{ "px": [2528,448], "src": [32,32], "f": 0, "t": 9, "d": [1213] },
 						{ "px": [2560,448], "src": [64,32], "f": 0, "t": 10, "d": [1214] },
+						{ "px": [800,480], "src": [0,96], "f": 0, "t": 24, "d": [1240] },
+						{ "px": [832,480], "src": [32,96], "f": 0, "t": 25, "d": [1241] },
+						{ "px": [864,480], "src": [64,96], "f": 0, "t": 26, "d": [1242] },
 						{ "px": [2464,480], "src": [0,32], "f": 0, "t": 8, "d": [1292] },
 						{ "px": [2496,480], "src": [32,32], "f": 0, "t": 9, "d": [1293] },
 						{ "px": [2528,480], "src": [32,32], "f": 0, "t": 9, "d": [1294] },
 						{ "px": [2560,480], "src": [64,32], "f": 0, "t": 10, "d": [1295] },
-						{ "px": [352,512], "src": [96,0], "f": 0, "t": 3, "d": [1307] },
 						{ "px": [2464,512], "src": [0,32], "f": 0, "t": 8, "d": [1373] },
 						{ "px": [2496,512], "src": [32,32], "f": 0, "t": 9, "d": [1374] },
 						{ "px": [2528,512], "src": [32,32], "f": 0, "t": 9, "d": [1375] },
 						{ "px": [2560,512], "src": [64,32], "f": 0, "t": 10, "d": [1376] },
-						{ "px": [352,544], "src": [96,32], "f": 0, "t": 11, "d": [1388] },
 						{ "px": [2464,544], "src": [0,32], "f": 0, "t": 8, "d": [1454] },
 						{ "px": [2496,544], "src": [32,32], "f": 0, "t": 9, "d": [1455] },
 						{ "px": [2528,544], "src": [32,32], "f": 0, "t": 9, "d": [1456] },
@@ -1125,7 +1050,6 @@
 						{ "px": [0,576], "src": [0,0], "f": 0, "t": 0, "d": [1458] },
 						{ "px": [32,576], "src": [32,0], "f": 0, "t": 1, "d": [1459] },
 						{ "px": [64,576], "src": [64,0], "f": 0, "t": 2, "d": [1460] },
-						{ "px": [352,576], "src": [96,32], "f": 0, "t": 11, "d": [1469] },
 						{ "px": [2368,576], "src": [0,0], "f": 0, "t": 0, "d": [1532] },
 						{ "px": [2400,576], "src": [32,0], "f": 0, "t": 1, "d": [1533] },
 						{ "px": [2432,576], "src": [32,0], "f": 0, "t": 1, "d": [1534] },
@@ -1136,7 +1060,6 @@
 						{ "px": [0,608], "src": [0,32], "f": 0, "t": 8, "d": [1539] },
 						{ "px": [32,608], "src": [32,32], "f": 0, "t": 9, "d": [1540] },
 						{ "px": [64,608], "src": [64,32], "f": 0, "t": 10, "d": [1541] },
-						{ "px": [352,608], "src": [96,32], "f": 0, "t": 11, "d": [1550] },
 						{ "px": [2368,608], "src": [0,32], "f": 0, "t": 8, "d": [1613] },
 						{ "px": [2400,608], "src": [32,32], "f": 0, "t": 9, "d": [1614] },
 						{ "px": [2432,608], "src": [32,32], "f": 0, "t": 9, "d": [1615] },
@@ -1147,7 +1070,6 @@
 						{ "px": [0,640], "src": [0,32], "f": 0, "t": 8, "d": [1620] },
 						{ "px": [32,640], "src": [32,32], "f": 0, "t": 9, "d": [1621] },
 						{ "px": [64,640], "src": [64,32], "f": 0, "t": 10, "d": [1622] },
-						{ "px": [352,640], "src": [96,32], "f": 0, "t": 11, "d": [1631] },
 						{ "px": [2368,640], "src": [0,32], "f": 0, "t": 8, "d": [1694] },
 						{ "px": [2400,640], "src": [32,32], "f": 0, "t": 9, "d": [1695] },
 						{ "px": [2432,640], "src": [32,32], "f": 0, "t": 9, "d": [1696] },
@@ -1158,9 +1080,12 @@
 						{ "px": [0,672], "src": [0,32], "f": 0, "t": 8, "d": [1701] },
 						{ "px": [32,672], "src": [32,32], "f": 0, "t": 9, "d": [1702] },
 						{ "px": [64,672], "src": [64,32], "f": 0, "t": 10, "d": [1703] },
-						{ "px": [256,672], "src": [96,96], "f": 0, "t": 27, "d": [1709] },
-						{ "px": [352,672], "src": [96,64], "f": 0, "t": 19, "d": [1712] },
-						{ "px": [448,672], "src": [96,96], "f": 0, "t": 27, "d": [1715] },
+						{ "px": [160,672], "src": [0,96], "f": 0, "t": 24, "d": [1706] },
+						{ "px": [192,672], "src": [32,96], "f": 0, "t": 25, "d": [1707] },
+						{ "px": [224,672], "src": [64,96], "f": 0, "t": 26, "d": [1708] },
+						{ "px": [416,672], "src": [0,96], "f": 0, "t": 24, "d": [1714] },
+						{ "px": [448,672], "src": [32,96], "f": 0, "t": 25, "d": [1715] },
+						{ "px": [480,672], "src": [64,96], "f": 0, "t": 26, "d": [1716] },
 						{ "px": [2368,672], "src": [0,32], "f": 0, "t": 8, "d": [1775] },
 						{ "px": [2400,672], "src": [32,32], "f": 0, "t": 9, "d": [1776] },
 						{ "px": [2432,672], "src": [32,32], "f": 0, "t": 9, "d": [1777] },
@@ -1243,9 +1168,6 @@
 						{ "px": [2560,928], "src": [64,32], "f": 0, "t": 10, "d": [2429] },
 						{ "px": [0,960], "src": [0,32], "f": 0, "t": 8, "d": [2430] },
 						{ "px": [32,960], "src": [64,32], "f": 0, "t": 10, "d": [2431] },
-						{ "px": [1280,960], "src": [0,96], "f": 0, "t": 24, "d": [2470] },
-						{ "px": [1312,960], "src": [32,96], "f": 0, "t": 25, "d": [2471] },
-						{ "px": [1344,960], "src": [64,96], "f": 0, "t": 26, "d": [2472] },
 						{ "px": [2368,960], "src": [0,32], "f": 0, "t": 8, "d": [2504] },
 						{ "px": [2400,960], "src": [32,32], "f": 0, "t": 9, "d": [2505] },
 						{ "px": [2432,960], "src": [32,32], "f": 0, "t": 9, "d": [2506] },
@@ -1255,8 +1177,16 @@
 						{ "px": [2560,960], "src": [64,32], "f": 0, "t": 10, "d": [2510] },
 						{ "px": [0,992], "src": [0,32], "f": 0, "t": 8, "d": [2511] },
 						{ "px": [32,992], "src": [64,32], "f": 0, "t": 10, "d": [2512] },
-						{ "px": [1088,992], "src": [0,96], "f": 0, "t": 24, "d": [2545] },
-						{ "px": [1120,992], "src": [64,96], "f": 0, "t": 26, "d": [2546] },
+						{ "px": [1024,992], "src": [0,96], "f": 0, "t": 24, "d": [2543] },
+						{ "px": [1056,992], "src": [32,96], "f": 0, "t": 25, "d": [2544] },
+						{ "px": [1088,992], "src": [32,96], "f": 0, "t": 25, "d": [2545] },
+						{ "px": [1120,992], "src": [32,96], "f": 0, "t": 25, "d": [2546] },
+						{ "px": [1152,992], "src": [32,96], "f": 0, "t": 25, "d": [2547] },
+						{ "px": [1184,992], "src": [32,96], "f": 0, "t": 25, "d": [2548] },
+						{ "px": [1216,992], "src": [32,96], "f": 0, "t": 25, "d": [2549] },
+						{ "px": [1248,992], "src": [32,96], "f": 0, "t": 25, "d": [2550] },
+						{ "px": [1280,992], "src": [32,96], "f": 0, "t": 25, "d": [2551] },
+						{ "px": [1312,992], "src": [64,96], "f": 0, "t": 26, "d": [2552] },
 						{ "px": [2368,992], "src": [0,32], "f": 0, "t": 8, "d": [2585] },
 						{ "px": [2400,992], "src": [32,32], "f": 0, "t": 9, "d": [2586] },
 						{ "px": [2432,992], "src": [32,32], "f": 0, "t": 9, "d": [2587] },
