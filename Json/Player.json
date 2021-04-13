@@ -2,7 +2,7 @@
     "Walking and running" :
     {
         "Speed" : 1.5,
-        "Decceleration" : 2.7
+        "Decceleration" : 3.0
     },
     "Jumping" :
     {
@@ -25,9 +25,9 @@
     "Maximum velocities and gravity" :
     {
         "Maximum horizontal velocity" : 0.25,
-        "Maximum vertical velocity" : 1.5,
+        "Maximum vertical velocity" : 3.0,
         "Gravity" : 4.0,
-        "Boost multiplier" : 2.0,
+        "Boost multiplier" : 1.9,
         "Glide falling speed" : 0.2
     },
     "Collider" :
