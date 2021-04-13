@@ -254,9 +254,9 @@
 		}
 	], "tilesets": [
 		{
-			"identifier": "Tiles_Sheet_01",
+			"identifier": "TileSet_world4",
 			"uid": 1,
-			"relPath": "../../Sprites/Tilesets/tiles_Sheet_01.png",
+			"relPath": "../../Sprites/Tilesets/tileSet_world4.png",
 			"pxWid": 256,
 			"pxHei": 256,
 			"tileGridSize": 32,
@@ -264,8 +264,8 @@
 			"padding": 0,
 			"savedSelections": [],
 			"cachedPixelData": {
-				"opaqueTiles": "0100111001001100000011000100110010010000000000000000000000000000",
-				"averageColors": "f488f488f488f488f358f358f4881487f469f347f469e469f358f358a5973487e469f469e469e469f368f36885a73487f488f488f488f488f368f368a5970000f35885988598f358f588f58814870000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+				"opaqueTiles": "0000000001000000000000000000000010010000000000000000000000000000",
+				"averageColors": "fc69fc69fc69fc69fc59fc5900000000fc69f93afc69fc69fc59fc5900000000fc69fc69fc69fc69fc5a000000000000fc69fc69fc69fc59fc59fc5900000000fc598c698c69fc590000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 			}
 		}
 	], "enums": [{ "identifier": "Direction", "uid": 11, "values": [
@@ -609,7 +609,7 @@
 					"__pxTotalOffsetX": 0,
 					"__pxTotalOffsetY": 0,
 					"__tilesetDefUid": 1,
-					"__tilesetRelPath": "../../Sprites/Tilesets/tiles_Sheet_01.png",
+					"__tilesetRelPath": "../../Sprites/Tilesets/tileSet_world4.png",
 					"levelId": 0,
 					"layerDefUid": 2,
 					"pxOffsetX": 0,
