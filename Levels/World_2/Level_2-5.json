@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 22,
+	"nextUid": 23,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -317,6 +317,26 @@
 					"__type": "LocalEnum.Direction",
 					"uid": 21,
 					"type": { "id": "F_Enum", "params": [20] },
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				},
+				{
+					"identifier": "Boolean",
+					"__type": "Bool",
+					"uid": 22,
+					"type": "F_Bool",
 					"isArray": false,
 					"canBeNull": false,
 					"arrayMinLength": null,
@@ -649,36 +669,51 @@
 							"height": 32,
 							"defUid": 19,
 							"px": [2112,384],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Down",
-								"__type": "LocalEnum.Direction",
-								"defUid": 21,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Down"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Down",
+									"__type": "LocalEnum.Direction",
+									"defUid": 21,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Down"]
+									}]
+								},
+								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] }
+							]
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [52,27],
+							"__grid": [52,28],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 19,
-							"px": [1664,864],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Right",
-								"__type": "LocalEnum.Direction",
-								"defUid": 21,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Right"]
-								}]
-							}]
+							"px": [1664,896],
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Right",
+									"__type": "LocalEnum.Direction",
+									"defUid": 21,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Right"]
+									}]
+								},
+								{
+									"__identifier": "Boolean",
+									"__value": true,
+									"__type": "Bool",
+									"defUid": 22,
+									"realEditorValues": [{
+										"id": "V_Bool",
+										"params": [ true ]
+									}]
+								}
+							]
 						},
 						{
 							"__identifier": "Saw",
