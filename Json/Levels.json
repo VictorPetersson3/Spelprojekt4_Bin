@@ -1,7 +1,7 @@
 {
   "Worlds" : [
     {
-      "actSong" : "Audio/music/Hell_Clown_Core.mp3",
+      "actSong" : "Audio/music/World_1.mp3",
       "backgroundFolderPath" : "Sprites/Backgrounds/world_01/",
       "levels":[
         {
@@ -109,7 +109,7 @@
       ]
     },
     {
-    "actSong" : "Audio/music/Hell_Clown_Core.mp3",
+    "actSong" : "Audio/music/World_2.mp3",
     "backgroundFolderPath" : "Sprites/Backgrounds/world_02/",
     "levels":[
       {
@@ -201,7 +201,7 @@
         "hasCutscene": false,
         "cameraAcceleration": 5.0,
         "cameraMinBorderX": 0.5,
-        "cameraMaxBorderX": 1.15,
+        "cameraMaxBorderX": 1.20,
         "cameraMinBorderY": 0.4,
         "cameraMaxBorderY": 0.85,
         "cameraPosition": [ 0, 0 ],
@@ -212,7 +212,7 @@
       ]
     },
     { 
-    "actSong" : "Audio/music/Hell_Clown_Core.mp3",
+    "actSong" : "Audio/music/World_3.mp3",
     "backgroundFolderPath" : "Sprites/Backgrounds/world_03/",
     "levels":[
       {
@@ -228,7 +228,7 @@
         "cameraAcceleration": 5.0,
         "cameraMinBorderX": 0.5,
         "cameraMaxBorderX": 0.9,
-        "cameraMinBorderY": 0.2,
+        "cameraMinBorderY": 0.5,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],
         "moveX": true,
@@ -314,7 +314,7 @@
       ]
     },
     {
-    "actSong" : "Audio/music/Hell_Clown_Core.mp3",
+    "actSong" : "Audio/music/World_4.mp3",
     "backgroundFolderPath" : "Sprites/Backgrounds/world_04/",
     "levels":[
       {
