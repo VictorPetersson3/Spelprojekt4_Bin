@@ -264,7 +264,7 @@
         "mapTilePath": "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
         "hasCutscene": false,
         "cameraAcceleration": 5.0,
-        "cameraMinBorderX": 0.0,
+        "cameraMinBorderX": 0.5,
         "cameraMaxBorderX": 2.5,
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.3,
