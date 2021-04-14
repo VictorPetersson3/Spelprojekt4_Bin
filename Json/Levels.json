@@ -400,7 +400,7 @@
         "positionX": 508,
         "positionY": 700,
         "mapTilePath": "Sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
-        "hasCutscene": true,
+        "hasCutscene": false,
         "cutSceneConversationNumber": 3,
         "cameraAcceleration": 5.0,
         "cameraMinBorderX": 0.0,
