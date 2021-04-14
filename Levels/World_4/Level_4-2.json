@@ -69,7 +69,7 @@
 		},
 		{
 			"__type": "Tiles",
-			"identifier": "BackgroundTile",
+			"identifier": "BackgroundTiles",
 			"type": "Tiles",
 			"uid": 14,
 			"gridSize": 32,
@@ -311,7 +311,7 @@
 			}
 		},
 		{
-			"identifier": "BackgroundTile",
+			"identifier": "BackgroundTiles",
 			"uid": 13,
 			"relPath": "../../Sprites/Tilesets/backTilesDark_04.png",
 			"pxWid": 256,
@@ -825,7 +825,7 @@
 					]
 				},
 				{
-					"__identifier": "BackgroundTile",
+					"__identifier": "BackgroundTiles",
 					"__type": "Tiles",
 					"__cWid": 62,
 					"__cHei": 56,
