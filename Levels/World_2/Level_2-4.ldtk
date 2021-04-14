@@ -652,53 +652,6 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [6,26],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 8,
-							"px": [192,832],
-							"fieldInstances": [
-								{
-									"__identifier": "Point",
-									"__value": [
-										{ "cx": 5, "cy": 26 },
-										{ "cx": 5, "cy": 28 },
-										{ "cx": 7, "cy": 28 },
-										{ "cx": 7, "cy": 26 },
-										{ "cx": 6, "cy": 26 }
-									],
-									"__type": "Array<Point>",
-									"defUid": 9,
-									"realEditorValues": [
-										{
-											"id": "V_String",
-											"params": ["5,26"]
-										},
-										{
-											"id": "V_String",
-											"params": ["5,28"]
-										},
-										{
-											"id": "V_String",
-											"params": ["7,28"]
-										},
-										{
-											"id": "V_String",
-											"params": ["7,26"]
-										},
-										{
-											"id": "V_String",
-											"params": ["6,26"]
-										}
-									]
-								},
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 20, "realEditorValues": [] }
-							]
-						},
-						{
-							"__identifier": "Saw",
 							"__grid": [35,26],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -757,6 +710,62 @@
 									"realEditorValues": [{
 										"id": "V_Bool",
 										"params": [ true ]
+									}]
+								}
+							]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [6,26],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 8,
+							"px": [192,832],
+							"fieldInstances": [
+								{
+									"__identifier": "Point",
+									"__value": [
+										{ "cx": 5, "cy": 26 },
+										{ "cx": 5, "cy": 28 },
+										{ "cx": 7, "cy": 28 },
+										{ "cx": 7, "cy": 26 },
+										{ "cx": 6, "cy": 26 }
+									],
+									"__type": "Array<Point>",
+									"defUid": 9,
+									"realEditorValues": [
+										{
+											"id": "V_String",
+											"params": ["5,26"]
+										},
+										{
+											"id": "V_String",
+											"params": ["5,28"]
+										},
+										{
+											"id": "V_String",
+											"params": ["7,28"]
+										},
+										{
+											"id": "V_String",
+											"params": ["7,26"]
+										},
+										{
+											"id": "V_String",
+											"params": ["6,26"]
+										}
+									]
+								},
+								{
+									"__identifier": "Boolean",
+									"__value": false,
+									"__type": "Bool",
+									"defUid": 20,
+									"realEditorValues": [{
+										"id": "V_Bool",
+										"params": [ false ]
 									}]
 								}
 							]
