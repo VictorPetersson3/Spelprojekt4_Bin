@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 21,
+	"nextUid": 24,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -243,9 +243,29 @@
 					"textLangageMode": null
 				},
 				{
-					"identifier": "Boolean",
+					"identifier": "Repeating",
 					"__type": "Bool",
 					"uid": 20,
+					"type": "F_Bool",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				},
+				{
+					"identifier": "Flip",
+					"__type": "Bool",
+					"uid": 21,
 					"type": "F_Bool",
 					"isArray": false,
 					"canBeNull": false,
@@ -293,6 +313,46 @@
 					"__type": "LocalEnum.Direction",
 					"uid": 14,
 					"type": { "id": "F_Enum", "params": [12] },
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				},
+				{
+					"identifier": "Flip",
+					"__type": "Bool",
+					"uid": 22,
+					"type": "F_Bool",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				},
+				{
+					"identifier": "Float",
+					"__type": "Float",
+					"uid": 23,
+					"type": "F_Float",
 					"isArray": false,
 					"canBeNull": false,
 					"arrayMinLength": null,
@@ -441,83 +501,33 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [24,26],
+							"__grid": [27,26],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 13,
-							"px": [768,832],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Left",
-								"__type": "LocalEnum.Direction",
-								"defUid": 14,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Left"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [29,26],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 13,
-							"px": [928,832],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "RIght",
-								"__type": "LocalEnum.Direction",
-								"defUid": 14,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["RIght"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [42,31],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 13,
-							"px": [1344,992],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Up",
-								"__type": "LocalEnum.Direction",
-								"defUid": 14,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Up"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [48,31],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 13,
-							"px": [1536,992],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Up",
-								"__type": "LocalEnum.Direction",
-								"defUid": 14,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Up"]
-								}]
-							}]
+							"px": [864,832],
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Left",
+									"__type": "LocalEnum.Direction",
+									"defUid": 14,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Left"]
+									}]
+								},
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
+								{
+									"__identifier": "Float",
+									"__value": 1.55,
+									"__type": "Float",
+									"defUid": 23,
+									"realEditorValues": [{ "id": "V_Float", "params": [1.55] }]
+								}
+							]
 						},
 						{
 							"__identifier": "Shooter",
@@ -528,16 +538,20 @@
 							"height": 32,
 							"defUid": 13,
 							"px": [1728,832],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Up",
-								"__type": "LocalEnum.Direction",
-								"defUid": 14,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Up"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Up",
+									"__type": "LocalEnum.Direction",
+									"defUid": 14,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Up"]
+									}]
+								},
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
+								{ "__identifier": "Float", "__value": 0, "__type": "Float", "defUid": 23, "realEditorValues": [] }
+							]
 						},
 						{
 							"__identifier": "Shooter",
@@ -548,16 +562,26 @@
 							"height": 32,
 							"defUid": 13,
 							"px": [1888,160],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Down",
-								"__type": "LocalEnum.Direction",
-								"defUid": 14,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Down"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Down",
+									"__type": "LocalEnum.Direction",
+									"defUid": 14,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Down"]
+									}]
+								},
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
+								{
+									"__identifier": "Float",
+									"__value": 3,
+									"__type": "Float",
+									"defUid": 23,
+									"realEditorValues": [{ "id": "V_Float", "params": [3] }]
+								}
+							]
 						},
 						{
 							"__identifier": "Shooter",
@@ -568,16 +592,26 @@
 							"height": 32,
 							"defUid": 13,
 							"px": [2016,160],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Down",
-								"__type": "LocalEnum.Direction",
-								"defUid": 14,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Down"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Down",
+									"__type": "LocalEnum.Direction",
+									"defUid": 14,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Down"]
+									}]
+								},
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
+								{
+									"__identifier": "Float",
+									"__value": 3.55,
+									"__type": "Float",
+									"defUid": 23,
+									"realEditorValues": [{ "id": "V_Float", "params": [3.55] }]
+								}
+							]
 						},
 						{
 							"__identifier": "Shooter",
@@ -588,16 +622,26 @@
 							"height": 32,
 							"defUid": 13,
 							"px": [2144,160],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Down",
-								"__type": "LocalEnum.Direction",
-								"defUid": 14,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Down"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Down",
+									"__type": "LocalEnum.Direction",
+									"defUid": 14,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Down"]
+									}]
+								},
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
+								{
+									"__identifier": "Float",
+									"__value": 2.85,
+									"__type": "Float",
+									"defUid": 23,
+									"realEditorValues": [{ "id": "V_Float", "params": [2.85] }]
+								}
+							]
 						},
 						{
 							"__identifier": "Shooter",
@@ -608,16 +652,26 @@
 							"height": 32,
 							"defUid": 13,
 							"px": [2368,160],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Down",
-								"__type": "LocalEnum.Direction",
-								"defUid": 14,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Down"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Down",
+									"__type": "LocalEnum.Direction",
+									"defUid": 14,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Down"]
+									}]
+								},
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
+								{
+									"__identifier": "Float",
+									"__value": 2.95,
+									"__type": "Float",
+									"defUid": 23,
+									"realEditorValues": [{ "id": "V_Float", "params": [2.95] }]
+								}
+							]
 						},
 						{
 							"__identifier": "Shooter",
@@ -628,16 +682,26 @@
 							"height": 32,
 							"defUid": 13,
 							"px": [2272,160],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Down",
-								"__type": "LocalEnum.Direction",
-								"defUid": 14,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Down"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Down",
+									"__type": "LocalEnum.Direction",
+									"defUid": 14,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Down"]
+									}]
+								},
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
+								{
+									"__identifier": "Float",
+									"__value": 2,
+									"__type": "Float",
+									"defUid": 23,
+									"realEditorValues": [{ "id": "V_Float", "params": [2] }]
+								}
+							]
 						},
 						{
 							"__identifier": "LevelEnd",
@@ -671,10 +735,20 @@
 									}]
 								},
 								{
-									"__identifier": "Boolean",
+									"__identifier": "Repeating",
 									"__value": true,
 									"__type": "Bool",
 									"defUid": 20,
+									"realEditorValues": [{
+										"id": "V_Bool",
+										"params": [ true ]
+									}]
+								},
+								{
+									"__identifier": "Flip",
+									"__value": true,
+									"__type": "Bool",
+									"defUid": 21,
 									"realEditorValues": [{
 										"id": "V_Bool",
 										"params": [ true ]
@@ -703,10 +777,20 @@
 									}]
 								},
 								{
-									"__identifier": "Boolean",
+									"__identifier": "Repeating",
 									"__value": true,
 									"__type": "Bool",
 									"defUid": 20,
+									"realEditorValues": [{
+										"id": "V_Bool",
+										"params": [ true ]
+									}]
+								},
+								{
+									"__identifier": "Flip",
+									"__value": true,
+									"__type": "Bool",
+									"defUid": 21,
 									"realEditorValues": [{
 										"id": "V_Bool",
 										"params": [ true ]
@@ -727,10 +811,10 @@
 								{
 									"__identifier": "Point",
 									"__value": [
-										{ "cx": 5, "cy": 26 },
-										{ "cx": 5, "cy": 28 },
-										{ "cx": 7, "cy": 28 },
 										{ "cx": 7, "cy": 26 },
+										{ "cx": 7, "cy": 28 },
+										{ "cx": 5, "cy": 28 },
+										{ "cx": 5, "cy": 26 },
 										{ "cx": 6, "cy": 26 }
 									],
 									"__type": "Array<Point>",
@@ -738,11 +822,7 @@
 									"realEditorValues": [
 										{
 											"id": "V_String",
-											"params": ["5,26"]
-										},
-										{
-											"id": "V_String",
-											"params": ["5,28"]
+											"params": ["7,26"]
 										},
 										{
 											"id": "V_String",
@@ -750,7 +830,11 @@
 										},
 										{
 											"id": "V_String",
-											"params": ["7,26"]
+											"params": ["5,28"]
+										},
+										{
+											"id": "V_String",
+											"params": ["5,26"]
 										},
 										{
 											"id": "V_String",
@@ -758,16 +842,50 @@
 										}
 									]
 								},
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 20, "realEditorValues": [] },
 								{
-									"__identifier": "Boolean",
+									"__identifier": "Flip",
+									"__value": true,
+									"__type": "Bool",
+									"defUid": 21,
+									"realEditorValues": [{
+										"id": "V_Bool",
+										"params": [ true ]
+									}]
+								}
+							]
+						},
+						{
+							"__identifier": "Shooter",
+							"__grid": [44,31],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 13,
+							"px": [1408,992],
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Up",
+									"__type": "LocalEnum.Direction",
+									"defUid": 14,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Up"]
+									}]
+								},
+								{
+									"__identifier": "Flip",
 									"__value": false,
 									"__type": "Bool",
-									"defUid": 20,
+									"defUid": 22,
 									"realEditorValues": [{
 										"id": "V_Bool",
 										"params": [ false ]
 									}]
-								}
+								},
+								{ "__identifier": "Float", "__value": 0, "__type": "Float", "defUid": 23, "realEditorValues": [] }
 							]
 						}
 					]
@@ -2119,6 +2237,7 @@
 						{ "px": [1184,960], "src": [32,32], "f": 0, "t": 9, "d": [2737] },
 						{ "px": [1216,960], "src": [32,32], "f": 0, "t": 9, "d": [2738] },
 						{ "px": [1248,960], "src": [64,32], "f": 0, "t": 10, "d": [2739] },
+						{ "px": [1440,960], "src": [96,0], "f": 0, "t": 3, "d": [2745] },
 						{ "px": [1632,960], "src": [0,32], "f": 0, "t": 8, "d": [2751] },
 						{ "px": [1664,960], "src": [32,32], "f": 0, "t": 9, "d": [2752] },
 						{ "px": [1696,960], "src": [32,32], "f": 0, "t": 9, "d": [2753] },
@@ -2171,8 +2290,7 @@
 						{ "px": [1184,992], "src": [32,32], "f": 0, "t": 9, "d": [2827] },
 						{ "px": [1216,992], "src": [32,32], "f": 0, "t": 9, "d": [2828] },
 						{ "px": [1248,992], "src": [64,32], "f": 0, "t": 10, "d": [2829] },
-						{ "px": [1376,992], "src": [96,96], "f": 0, "t": 27, "d": [2833] },
-						{ "px": [1504,992], "src": [96,96], "f": 0, "t": 27, "d": [2837] },
+						{ "px": [1440,992], "src": [96,32], "f": 0, "t": 11, "d": [2835] },
 						{ "px": [1632,992], "src": [0,32], "f": 0, "t": 8, "d": [2841] },
 						{ "px": [1664,992], "src": [32,32], "f": 0, "t": 9, "d": [2842] },
 						{ "px": [1696,992], "src": [32,32], "f": 0, "t": 9, "d": [2843] },
@@ -2225,6 +2343,7 @@
 						{ "px": [1184,1024], "src": [32,32], "f": 0, "t": 9, "d": [2917] },
 						{ "px": [1216,1024], "src": [32,32], "f": 0, "t": 9, "d": [2918] },
 						{ "px": [1248,1024], "src": [64,32], "f": 0, "t": 10, "d": [2919] },
+						{ "px": [1440,1024], "src": [96,64], "f": 0, "t": 19, "d": [2925] },
 						{ "px": [1632,1024], "src": [0,32], "f": 0, "t": 8, "d": [2931] },
 						{ "px": [1664,1024], "src": [32,32], "f": 0, "t": 9, "d": [2932] },
 						{ "px": [1696,1024], "src": [32,32], "f": 0, "t": 9, "d": [2933] },

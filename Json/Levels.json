@@ -181,7 +181,7 @@
         "mapTilePath": "Sprites/UI/P_Heart01.dds",
         "hasCutscene": false,
         "cameraAcceleration": 5.0,
-        "cameraMinBorderX": 0.0,
+        "cameraMinBorderX": 0.5,
         "cameraMaxBorderX": 1.7,
         "cameraMinBorderY": 0.5,
         "cameraMaxBorderY": 1.0,
