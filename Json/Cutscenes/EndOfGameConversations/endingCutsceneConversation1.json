@@ -2,7 +2,7 @@
 	"levelIndex" : 3,
 	"characterLeft" : "Marty",
 	"characterRight" : "Lorraine",
-	"AfterConversationImage" : "sprites/princesses/princess_duckling.dds",
+	"AfterConversationImage" : "sprites/Cutscenes/KiwiTimber.dds",
 	"dialogue" : [
 		{
 			"speaker" : "Lorraine",
