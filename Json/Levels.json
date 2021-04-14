@@ -288,7 +288,7 @@
         "hasCutscene": false,
         "cameraAcceleration": 5.0,
         "cameraMinBorderX": 0.49,
-        "cameraMaxBorderX": 1.5,
+        "cameraMaxBorderX": 1.45,
         "cameraMinBorderY": 0.0,
         "cameraMaxBorderY": 1.0,
         "cameraPosition": [ 0, 0 ],

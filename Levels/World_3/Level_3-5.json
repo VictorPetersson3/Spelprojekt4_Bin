@@ -508,24 +508,13 @@
 						},
 						{
 							"__identifier": "KillZone",
-							"__grid": [45,33],
+							"__grid": [66,33],
 							"__pivot": [0.5,0.5],
 							"__tile": null,
-							"width": 1056,
+							"width": 800,
 							"height": 32,
 							"defUid": 17,
-							"px": [1456,1072],
-							"fieldInstances": []
-						},
-						{
-							"__identifier": "KillZone",
-							"__grid": [70,33],
-							"__pivot": [0.5,0.5],
-							"__tile": null,
-							"width": 544,
-							"height": 32,
-							"defUid": 17,
-							"px": [2256,1072],
+							"px": [2128,1072],
 							"fieldInstances": []
 						},
 						{
@@ -571,6 +560,17 @@
 									}
 								]
 							}]
+						},
+						{
+							"__identifier": "KillZone",
+							"__grid": [41,33],
+							"__pivot": [0.5,0.5],
+							"__tile": null,
+							"width": 800,
+							"height": 32,
+							"defUid": 17,
+							"px": [1328,1072],
+							"fieldInstances": []
 						}
 					]
 				},
