@@ -9,11 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-<<<<<<< Updated upstream
 	"nextUid": 21,
-=======
-	"nextUid": 24,
->>>>>>> Stashed changes
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -247,11 +243,7 @@
 					"textLangageMode": null
 				},
 				{
-<<<<<<< Updated upstream
 					"identifier": "Boolean",
-=======
-					"identifier": "Repeating",
->>>>>>> Stashed changes
 					"__type": "Bool",
 					"uid": 20,
 					"type": "F_Bool",
@@ -269,29 +261,6 @@
 					"acceptFileTypes": null,
 					"defaultOverride": null,
 					"textLangageMode": null
-<<<<<<< Updated upstream
-=======
-				},
-				{
-					"identifier": "Flip",
-					"__type": "Bool",
-					"uid": 21,
-					"type": "F_Bool",
-					"isArray": false,
-					"canBeNull": false,
-					"arrayMinLength": null,
-					"arrayMaxLength": null,
-					"editorDisplayMode": "Hidden",
-					"editorDisplayPos": "Above",
-					"editorAlwaysShow": false,
-					"editorCutLongValues": true,
-					"min": null,
-					"max": null,
-					"regex": null,
-					"acceptFileTypes": null,
-					"defaultOverride": null,
-					"textLangageMode": null
->>>>>>> Stashed changes
 				}
 			]
 		},
@@ -324,46 +293,6 @@
 					"__type": "LocalEnum.Direction",
 					"uid": 14,
 					"type": { "id": "F_Enum", "params": [12] },
-					"isArray": false,
-					"canBeNull": false,
-					"arrayMinLength": null,
-					"arrayMaxLength": null,
-					"editorDisplayMode": "Hidden",
-					"editorDisplayPos": "Above",
-					"editorAlwaysShow": false,
-					"editorCutLongValues": true,
-					"min": null,
-					"max": null,
-					"regex": null,
-					"acceptFileTypes": null,
-					"defaultOverride": null,
-					"textLangageMode": null
-				},
-				{
-					"identifier": "Flipped",
-					"__type": "Bool",
-					"uid": 22,
-					"type": "F_Bool",
-					"isArray": false,
-					"canBeNull": false,
-					"arrayMinLength": null,
-					"arrayMaxLength": null,
-					"editorDisplayMode": "Hidden",
-					"editorDisplayPos": "Above",
-					"editorAlwaysShow": false,
-					"editorCutLongValues": true,
-					"min": null,
-					"max": null,
-					"regex": null,
-					"acceptFileTypes": null,
-					"defaultOverride": null,
-					"textLangageMode": null
-				},
-				{
-					"identifier": "Float",
-					"__type": "Float",
-					"uid": 23,
-					"type": "F_Float",
 					"isArray": false,
 					"canBeNull": false,
 					"arrayMinLength": null,
@@ -511,7 +440,6 @@
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 4, "realEditorValues": [] }]
 						},
 						{
-<<<<<<< Updated upstream
 							"__identifier": "Shooter",
 							"__grid": [24,26],
 							"__pivot": [0,0],
@@ -554,15 +482,10 @@
 						{
 							"__identifier": "Shooter",
 							"__grid": [42,31],
-=======
-							"__identifier": "LevelEnd",
-							"__grid": [80,28],
->>>>>>> Stashed changes
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
-<<<<<<< Updated upstream
 							"defUid": 13,
 							"px": [1344,992],
 							"fieldInstances": [{
@@ -579,20 +502,10 @@
 						{
 							"__identifier": "Shooter",
 							"__grid": [48,31],
-=======
-							"defUid": 5,
-							"px": [2560,896],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 6, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [6,26],
->>>>>>> Stashed changes
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
-<<<<<<< Updated upstream
 							"defUid": 13,
 							"px": [1536,992],
 							"fieldInstances": [{
@@ -609,141 +522,22 @@
 						{
 							"__identifier": "Shooter",
 							"__grid": [54,26],
-=======
-							"defUid": 8,
-							"px": [192,832],
-							"fieldInstances": [
-								{
-									"__identifier": "Point",
-									"__value": [
-										{ "cx": 5, "cy": 26 },
-										{ "cx": 5, "cy": 28 },
-										{ "cx": 7, "cy": 28 },
-										{ "cx": 7, "cy": 26 },
-										{ "cx": 6, "cy": 26 }
-									],
-									"__type": "Array<Point>",
-									"defUid": 9,
-									"realEditorValues": [
-										{
-											"id": "V_String",
-											"params": ["5,26"]
-										},
-										{
-											"id": "V_String",
-											"params": ["5,28"]
-										},
-										{
-											"id": "V_String",
-											"params": ["7,28"]
-										},
-										{
-											"id": "V_String",
-											"params": ["7,26"]
-										},
-										{
-											"id": "V_String",
-											"params": ["6,26"]
-										}
-									]
-								},
-								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 20, "realEditorValues": [] },
-								{
-									"__identifier": "Flip",
-									"__value": false,
-									"__type": "Bool",
-									"defUid": 21,
-									"realEditorValues": [{
-										"id": "V_Bool",
-										"params": [ false ]
-									}]
-								}
-							]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [35,26],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
-							"defUid": 8,
-							"px": [1120,832],
-							"fieldInstances": [
-								{
-									"__identifier": "Point",
-									"__value": [{ "cx": 39, "cy": 26 }],
-									"__type": "Array<Point>",
-									"defUid": 9,
-									"realEditorValues": [{
-										"id": "V_String",
-										"params": ["39,26"]
-									}]
-								},
-								{
-									"__identifier": "Repeating",
-									"__value": true,
-									"__type": "Bool",
-									"defUid": 20,
-									"realEditorValues": [{
-										"id": "V_Bool",
-										"params": [ true ]
-									}]
-								},
-								{
-									"__identifier": "Flip",
-									"__value": true,
-									"__type": "Bool",
-									"defUid": 21,
-									"realEditorValues": [{
-										"id": "V_Bool",
-										"params": [ true ]
-									}]
-								}
-							]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [55,12],
->>>>>>> Stashed changes
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 8,
-							"px": [1760,384],
-							"fieldInstances": [
-								{
-									"__identifier": "Point",
-									"__value": [{ "cx": 69, "cy": 12 }],
-									"__type": "Array<Point>",
-									"defUid": 9,
-									"realEditorValues": [{
-										"id": "V_String",
-										"params": ["69,12"]
-									}]
-								},
-								{
-									"__identifier": "Repeating",
-									"__value": true,
-									"__type": "Bool",
-									"defUid": 20,
-									"realEditorValues": [{
-										"id": "V_Bool",
-										"params": [ true ]
-									}]
-								},
-								{
-									"__identifier": "Flip",
-									"__value": true,
-									"__type": "Bool",
-									"defUid": 21,
-									"realEditorValues": [{
-										"id": "V_Bool",
-										"params": [ true ]
-									}]
-								}
-							]
+							"defUid": 13,
+							"px": [1728,832],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Up",
+								"__type": "LocalEnum.Direction",
+								"defUid": 14,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Up"]
+								}]
+							}]
 						},
 						{
 							"__identifier": "Shooter",
@@ -754,121 +548,56 @@
 							"height": 32,
 							"defUid": 13,
 							"px": [1888,160],
-							"fieldInstances": [
-								{
-									"__identifier": "Direction",
-									"__value": "Down",
-									"__type": "LocalEnum.Direction",
-									"defUid": 14,
-									"realEditorValues": [{
-										"id": "V_String",
-										"params": ["Down"]
-									}]
-								},
-								{
-									"__identifier": "Flipped",
-									"__value": false,
-									"__type": "Bool",
-									"defUid": 22,
-									"realEditorValues": [{
-										"id": "V_Bool",
-										"params": [ false ]
-									}]
-								},
-								{
-									"__identifier": "Float",
-									"__value": 3.1,
-									"__type": "Float",
-									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [3.1] }]
-								}
-							]
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 14,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
 						},
 						{
 							"__identifier": "Shooter",
-<<<<<<< Updated upstream
 							"__grid": [63,5],
-=======
-							"__grid": [64,5],
->>>>>>> Stashed changes
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 13,
-							"px": [2048,160],
-							"fieldInstances": [
-								{
-									"__identifier": "Direction",
-									"__value": "Down",
-									"__type": "LocalEnum.Direction",
-									"defUid": 14,
-									"realEditorValues": [{
-										"id": "V_String",
-										"params": ["Down"]
-									}]
-								},
-								{
-									"__identifier": "Flipped",
-									"__value": false,
-									"__type": "Bool",
-									"defUid": 22,
-									"realEditorValues": [{
-										"id": "V_Bool",
-										"params": [ false ]
-									}]
-								},
-								{
-									"__identifier": "Float",
-									"__value": 3.9,
-									"__type": "Float",
-									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [3.9] }]
-								}
-							]
+							"px": [2016,160],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 14,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
 						},
 						{
 							"__identifier": "Shooter",
-<<<<<<< Updated upstream
 							"__grid": [67,5],
-=======
-							"__grid": [69,5],
->>>>>>> Stashed changes
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 13,
-							"px": [2208,160],
-							"fieldInstances": [
-								{
-									"__identifier": "Direction",
-									"__value": "Down",
-									"__type": "LocalEnum.Direction",
-									"defUid": 14,
-									"realEditorValues": [{
-										"id": "V_String",
-										"params": ["Down"]
-									}]
-								},
-								{
-									"__identifier": "Flipped",
-									"__value": false,
-									"__type": "Bool",
-									"defUid": 22,
-									"realEditorValues": [{
-										"id": "V_Bool",
-										"params": [ false ]
-									}]
-								},
-								{
-									"__identifier": "Float",
-									"__value": 3,
-									"__type": "Float",
-									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [3] }]
-								}
-							]
+							"px": [2144,160],
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 14,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
 						},
 						{
 							"__identifier": "Shooter",
@@ -879,49 +608,25 @@
 							"height": 32,
 							"defUid": 13,
 							"px": [2368,160],
-							"fieldInstances": [
-								{
-									"__identifier": "Direction",
-									"__value": "Down",
-									"__type": "LocalEnum.Direction",
-									"defUid": 14,
-									"realEditorValues": [{
-										"id": "V_String",
-										"params": ["Down"]
-									}]
-								},
-								{
-									"__identifier": "Flipped",
-									"__value": false,
-									"__type": "Bool",
-									"defUid": 22,
-									"realEditorValues": [{
-										"id": "V_Bool",
-										"params": [ false ]
-									}]
-								},
-								{
-									"__identifier": "Float",
-									"__value": 3.45,
-									"__type": "Float",
-									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [3.45] }]
-								}
-							]
+							"fieldInstances": [{
+								"__identifier": "Direction",
+								"__value": "Down",
+								"__type": "LocalEnum.Direction",
+								"defUid": 14,
+								"realEditorValues": [{
+									"id": "V_String",
+									"params": ["Down"]
+								}]
+							}]
 						},
 						{
 							"__identifier": "Shooter",
-<<<<<<< Updated upstream
 							"__grid": [71,5],
-=======
-							"__grid": [27,26],
->>>>>>> Stashed changes
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 13,
-<<<<<<< Updated upstream
 							"px": [2272,160],
 							"fieldInstances": [{
 								"__identifier": "Direction",
@@ -1006,43 +711,16 @@
 										"id": "V_Bool",
 										"params": [ true ]
 									}]
-=======
-							"px": [864,832],
-							"fieldInstances": [
-								{
-									"__identifier": "Direction",
-									"__value": "Left",
-									"__type": "LocalEnum.Direction",
-									"defUid": 14,
-									"realEditorValues": [{
-										"id": "V_String",
-										"params": ["Left"]
-									}]
-								},
-								{ "__identifier": "Flipped", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
-								{
-									"__identifier": "Float",
-									"__value": 1.95,
-									"__type": "Float",
-									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [1.95] }]
->>>>>>> Stashed changes
 								}
 							]
 						},
 						{
-<<<<<<< Updated upstream
 							"__identifier": "Saw",
 							"__grid": [6,26],
-=======
-							"__identifier": "Shooter",
-							"__grid": [54,26],
->>>>>>> Stashed changes
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
-<<<<<<< Updated upstream
 							"defUid": 8,
 							"px": [192,832],
 							"fieldInstances": [
@@ -1090,23 +768,6 @@
 										"params": [ false ]
 									}]
 								}
-=======
-							"defUid": 13,
-							"px": [1728,832],
-							"fieldInstances": [
-								{
-									"__identifier": "Direction",
-									"__value": "Up",
-									"__type": "LocalEnum.Direction",
-									"defUid": 14,
-									"realEditorValues": [{
-										"id": "V_String",
-										"params": ["Up"]
-									}]
-								},
-								{ "__identifier": "Flipped", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
-								{ "__identifier": "Float", "__value": 0, "__type": "Float", "defUid": 23, "realEditorValues": [] }
->>>>>>> Stashed changes
 							]
 						}
 					]
@@ -1415,14 +1076,10 @@
 						{ "px": [256,0], "src": [32,32], "f": 0, "t": 9, "d": [8] },
 						{ "px": [288,0], "src": [32,32], "f": 0, "t": 9, "d": [9] },
 						{ "px": [320,0], "src": [32,32], "f": 0, "t": 9, "d": [10] },
-<<<<<<< Updated upstream
 						{ "px": [352,0], "src": [32,32], "f": 0, "t": 9, "d": [11] },
 						{ "px": [384,0], "src": [32,32], "f": 0, "t": 9, "d": [12] },
 						{ "px": [416,0], "src": [32,32], "f": 0, "t": 9, "d": [13] },
 						{ "px": [448,0], "src": [64,32], "f": 0, "t": 10, "d": [14] },
-=======
-						{ "px": [352,0], "src": [64,32], "f": 0, "t": 10, "d": [11] },
->>>>>>> Stashed changes
 						{ "px": [1728,0], "src": [0,32], "f": 0, "t": 8, "d": [54] },
 						{ "px": [1760,0], "src": [32,32], "f": 0, "t": 9, "d": [55] },
 						{ "px": [1792,0], "src": [32,32], "f": 0, "t": 9, "d": [56] },
@@ -1470,14 +1127,10 @@
 						{ "px": [256,32], "src": [32,32], "f": 0, "t": 9, "d": [98] },
 						{ "px": [288,32], "src": [32,32], "f": 0, "t": 9, "d": [99] },
 						{ "px": [320,32], "src": [32,32], "f": 0, "t": 9, "d": [100] },
-<<<<<<< Updated upstream
 						{ "px": [352,32], "src": [32,32], "f": 0, "t": 9, "d": [101] },
 						{ "px": [384,32], "src": [32,32], "f": 0, "t": 9, "d": [102] },
 						{ "px": [416,32], "src": [32,32], "f": 0, "t": 9, "d": [103] },
 						{ "px": [448,32], "src": [64,32], "f": 0, "t": 10, "d": [104] },
-=======
-						{ "px": [352,32], "src": [64,32], "f": 0, "t": 10, "d": [101] },
->>>>>>> Stashed changes
 						{ "px": [1728,32], "src": [0,32], "f": 0, "t": 8, "d": [144] },
 						{ "px": [1760,32], "src": [32,32], "f": 0, "t": 9, "d": [145] },
 						{ "px": [1792,32], "src": [32,32], "f": 0, "t": 9, "d": [146] },
@@ -1525,14 +1178,10 @@
 						{ "px": [256,64], "src": [32,32], "f": 0, "t": 9, "d": [188] },
 						{ "px": [288,64], "src": [32,32], "f": 0, "t": 9, "d": [189] },
 						{ "px": [320,64], "src": [32,32], "f": 0, "t": 9, "d": [190] },
-<<<<<<< Updated upstream
 						{ "px": [352,64], "src": [32,32], "f": 0, "t": 9, "d": [191] },
 						{ "px": [384,64], "src": [32,32], "f": 0, "t": 9, "d": [192] },
 						{ "px": [416,64], "src": [32,32], "f": 0, "t": 9, "d": [193] },
 						{ "px": [448,64], "src": [64,32], "f": 0, "t": 10, "d": [194] },
-=======
-						{ "px": [352,64], "src": [64,32], "f": 0, "t": 10, "d": [191] },
->>>>>>> Stashed changes
 						{ "px": [1728,64], "src": [0,32], "f": 0, "t": 8, "d": [234] },
 						{ "px": [1760,64], "src": [32,32], "f": 0, "t": 9, "d": [235] },
 						{ "px": [1792,64], "src": [32,32], "f": 0, "t": 9, "d": [236] },
@@ -1580,14 +1229,10 @@
 						{ "px": [256,96], "src": [32,32], "f": 0, "t": 9, "d": [278] },
 						{ "px": [288,96], "src": [32,32], "f": 0, "t": 9, "d": [279] },
 						{ "px": [320,96], "src": [32,32], "f": 0, "t": 9, "d": [280] },
-<<<<<<< Updated upstream
 						{ "px": [352,96], "src": [32,32], "f": 0, "t": 9, "d": [281] },
 						{ "px": [384,96], "src": [32,32], "f": 0, "t": 9, "d": [282] },
 						{ "px": [416,96], "src": [32,32], "f": 0, "t": 9, "d": [283] },
 						{ "px": [448,96], "src": [64,32], "f": 0, "t": 10, "d": [284] },
-=======
-						{ "px": [352,96], "src": [64,32], "f": 0, "t": 10, "d": [281] },
->>>>>>> Stashed changes
 						{ "px": [1728,96], "src": [0,32], "f": 0, "t": 8, "d": [324] },
 						{ "px": [1760,96], "src": [32,32], "f": 0, "t": 9, "d": [325] },
 						{ "px": [1792,96], "src": [32,32], "f": 0, "t": 9, "d": [326] },
@@ -1635,14 +1280,10 @@
 						{ "px": [256,128], "src": [32,32], "f": 0, "t": 9, "d": [368] },
 						{ "px": [288,128], "src": [32,32], "f": 0, "t": 9, "d": [369] },
 						{ "px": [320,128], "src": [32,32], "f": 0, "t": 9, "d": [370] },
-<<<<<<< Updated upstream
 						{ "px": [352,128], "src": [32,32], "f": 0, "t": 9, "d": [371] },
 						{ "px": [384,128], "src": [32,32], "f": 0, "t": 9, "d": [372] },
 						{ "px": [416,128], "src": [32,32], "f": 0, "t": 9, "d": [373] },
 						{ "px": [448,128], "src": [64,32], "f": 0, "t": 10, "d": [374] },
-=======
-						{ "px": [352,128], "src": [64,32], "f": 0, "t": 10, "d": [371] },
->>>>>>> Stashed changes
 						{ "px": [1728,128], "src": [0,64], "f": 0, "t": 16, "d": [414] },
 						{ "px": [1760,128], "src": [32,64], "f": 0, "t": 17, "d": [415] },
 						{ "px": [1792,128], "src": [32,64], "f": 0, "t": 17, "d": [416] },
@@ -1690,14 +1331,10 @@
 						{ "px": [256,160], "src": [32,32], "f": 0, "t": 9, "d": [458] },
 						{ "px": [288,160], "src": [32,32], "f": 0, "t": 9, "d": [459] },
 						{ "px": [320,160], "src": [32,32], "f": 0, "t": 9, "d": [460] },
-<<<<<<< Updated upstream
 						{ "px": [352,160], "src": [32,32], "f": 0, "t": 9, "d": [461] },
 						{ "px": [384,160], "src": [32,32], "f": 0, "t": 9, "d": [462] },
 						{ "px": [416,160], "src": [32,32], "f": 0, "t": 9, "d": [463] },
 						{ "px": [448,160], "src": [64,32], "f": 0, "t": 10, "d": [464] },
-=======
-						{ "px": [352,160], "src": [64,32], "f": 0, "t": 10, "d": [461] },
->>>>>>> Stashed changes
 						{ "px": [2432,160], "src": [0,32], "f": 0, "t": 8, "d": [526] },
 						{ "px": [2464,160], "src": [32,32], "f": 0, "t": 9, "d": [527] },
 						{ "px": [2496,160], "src": [32,32], "f": 0, "t": 9, "d": [528] },
@@ -1723,14 +1360,10 @@
 						{ "px": [256,192], "src": [32,32], "f": 0, "t": 9, "d": [548] },
 						{ "px": [288,192], "src": [32,32], "f": 0, "t": 9, "d": [549] },
 						{ "px": [320,192], "src": [32,32], "f": 0, "t": 9, "d": [550] },
-<<<<<<< Updated upstream
 						{ "px": [352,192], "src": [32,32], "f": 0, "t": 9, "d": [551] },
 						{ "px": [384,192], "src": [32,32], "f": 0, "t": 9, "d": [552] },
 						{ "px": [416,192], "src": [32,32], "f": 0, "t": 9, "d": [553] },
 						{ "px": [448,192], "src": [64,32], "f": 0, "t": 10, "d": [554] },
-=======
-						{ "px": [352,192], "src": [64,32], "f": 0, "t": 10, "d": [551] },
->>>>>>> Stashed changes
 						{ "px": [2432,192], "src": [0,32], "f": 0, "t": 8, "d": [616] },
 						{ "px": [2464,192], "src": [32,32], "f": 0, "t": 9, "d": [617] },
 						{ "px": [2496,192], "src": [32,32], "f": 0, "t": 9, "d": [618] },
@@ -1756,14 +1389,10 @@
 						{ "px": [256,224], "src": [32,32], "f": 0, "t": 9, "d": [638] },
 						{ "px": [288,224], "src": [32,32], "f": 0, "t": 9, "d": [639] },
 						{ "px": [320,224], "src": [32,32], "f": 0, "t": 9, "d": [640] },
-<<<<<<< Updated upstream
 						{ "px": [352,224], "src": [32,32], "f": 0, "t": 9, "d": [641] },
 						{ "px": [384,224], "src": [32,32], "f": 0, "t": 9, "d": [642] },
 						{ "px": [416,224], "src": [32,32], "f": 0, "t": 9, "d": [643] },
 						{ "px": [448,224], "src": [64,32], "f": 0, "t": 10, "d": [644] },
-=======
-						{ "px": [352,224], "src": [64,32], "f": 0, "t": 10, "d": [641] },
->>>>>>> Stashed changes
 						{ "px": [2432,224], "src": [0,32], "f": 0, "t": 8, "d": [706] },
 						{ "px": [2464,224], "src": [32,32], "f": 0, "t": 9, "d": [707] },
 						{ "px": [2496,224], "src": [32,32], "f": 0, "t": 9, "d": [708] },
@@ -1789,14 +1418,10 @@
 						{ "px": [256,256], "src": [32,32], "f": 0, "t": 9, "d": [728] },
 						{ "px": [288,256], "src": [32,32], "f": 0, "t": 9, "d": [729] },
 						{ "px": [320,256], "src": [32,32], "f": 0, "t": 9, "d": [730] },
-<<<<<<< Updated upstream
 						{ "px": [352,256], "src": [32,32], "f": 0, "t": 9, "d": [731] },
 						{ "px": [384,256], "src": [32,32], "f": 0, "t": 9, "d": [732] },
 						{ "px": [416,256], "src": [32,32], "f": 0, "t": 9, "d": [733] },
 						{ "px": [448,256], "src": [64,32], "f": 0, "t": 10, "d": [734] },
-=======
-						{ "px": [352,256], "src": [64,32], "f": 0, "t": 10, "d": [731] },
->>>>>>> Stashed changes
 						{ "px": [2432,256], "src": [0,32], "f": 0, "t": 8, "d": [796] },
 						{ "px": [2464,256], "src": [32,32], "f": 0, "t": 9, "d": [797] },
 						{ "px": [2496,256], "src": [32,32], "f": 0, "t": 9, "d": [798] },
@@ -1822,14 +1447,10 @@
 						{ "px": [256,288], "src": [32,32], "f": 0, "t": 9, "d": [818] },
 						{ "px": [288,288], "src": [32,32], "f": 0, "t": 9, "d": [819] },
 						{ "px": [320,288], "src": [32,32], "f": 0, "t": 9, "d": [820] },
-<<<<<<< Updated upstream
 						{ "px": [352,288], "src": [32,32], "f": 0, "t": 9, "d": [821] },
 						{ "px": [384,288], "src": [32,32], "f": 0, "t": 9, "d": [822] },
 						{ "px": [416,288], "src": [32,32], "f": 0, "t": 9, "d": [823] },
 						{ "px": [448,288], "src": [64,32], "f": 0, "t": 10, "d": [824] },
-=======
-						{ "px": [352,288], "src": [64,32], "f": 0, "t": 10, "d": [821] },
->>>>>>> Stashed changes
 						{ "px": [2432,288], "src": [0,32], "f": 0, "t": 8, "d": [886] },
 						{ "px": [2464,288], "src": [32,32], "f": 0, "t": 9, "d": [887] },
 						{ "px": [2496,288], "src": [32,32], "f": 0, "t": 9, "d": [888] },
@@ -1855,14 +1476,10 @@
 						{ "px": [256,320], "src": [32,32], "f": 0, "t": 9, "d": [908] },
 						{ "px": [288,320], "src": [32,32], "f": 0, "t": 9, "d": [909] },
 						{ "px": [320,320], "src": [32,32], "f": 0, "t": 9, "d": [910] },
-<<<<<<< Updated upstream
 						{ "px": [352,320], "src": [32,32], "f": 0, "t": 9, "d": [911] },
 						{ "px": [384,320], "src": [32,32], "f": 0, "t": 9, "d": [912] },
 						{ "px": [416,320], "src": [32,32], "f": 0, "t": 9, "d": [913] },
 						{ "px": [448,320], "src": [64,32], "f": 0, "t": 10, "d": [914] },
-=======
-						{ "px": [352,320], "src": [64,32], "f": 0, "t": 10, "d": [911] },
->>>>>>> Stashed changes
 						{ "px": [2432,320], "src": [0,32], "f": 0, "t": 8, "d": [976] },
 						{ "px": [2464,320], "src": [32,32], "f": 0, "t": 9, "d": [977] },
 						{ "px": [2496,320], "src": [32,32], "f": 0, "t": 9, "d": [978] },
@@ -1877,7 +1494,6 @@
 						{ "px": [2784,320], "src": [32,32], "f": 0, "t": 9, "d": [987] },
 						{ "px": [2816,320], "src": [32,32], "f": 0, "t": 9, "d": [988] },
 						{ "px": [2848,320], "src": [32,32], "f": 0, "t": 9, "d": [989] },
-<<<<<<< Updated upstream
 						{ "px": [0,352], "src": [128,0], "f": 0, "t": 4, "d": [990] },
 						{ "px": [32,352], "src": [32,64], "f": 0, "t": 17, "d": [991] },
 						{ "px": [64,352], "src": [32,64], "f": 0, "t": 17, "d": [992] },
@@ -1893,20 +1509,6 @@
 						{ "px": [384,352], "src": [32,64], "f": 0, "t": 17, "d": [1002] },
 						{ "px": [416,352], "src": [32,64], "f": 0, "t": 17, "d": [1003] },
 						{ "px": [448,352], "src": [64,64], "f": 0, "t": 18, "d": [1004] },
-=======
-						{ "px": [0,352], "src": [32,32], "f": 0, "t": 9, "d": [990] },
-						{ "px": [32,352], "src": [32,32], "f": 0, "t": 9, "d": [991] },
-						{ "px": [64,352], "src": [32,32], "f": 0, "t": 9, "d": [992] },
-						{ "px": [96,352], "src": [32,32], "f": 0, "t": 9, "d": [993] },
-						{ "px": [128,352], "src": [32,32], "f": 0, "t": 9, "d": [994] },
-						{ "px": [160,352], "src": [32,32], "f": 0, "t": 9, "d": [995] },
-						{ "px": [192,352], "src": [32,32], "f": 0, "t": 9, "d": [996] },
-						{ "px": [224,352], "src": [32,32], "f": 0, "t": 9, "d": [997] },
-						{ "px": [256,352], "src": [32,32], "f": 0, "t": 9, "d": [998] },
-						{ "px": [288,352], "src": [32,32], "f": 0, "t": 9, "d": [999] },
-						{ "px": [320,352], "src": [32,32], "f": 0, "t": 9, "d": [1000] },
-						{ "px": [352,352], "src": [64,32], "f": 0, "t": 10, "d": [1001] },
->>>>>>> Stashed changes
 						{ "px": [2432,352], "src": [0,32], "f": 0, "t": 8, "d": [1066] },
 						{ "px": [2464,352], "src": [32,32], "f": 0, "t": 9, "d": [1067] },
 						{ "px": [2496,352], "src": [32,32], "f": 0, "t": 9, "d": [1068] },
@@ -1921,22 +1523,7 @@
 						{ "px": [2784,352], "src": [32,32], "f": 0, "t": 9, "d": [1077] },
 						{ "px": [2816,352], "src": [32,32], "f": 0, "t": 9, "d": [1078] },
 						{ "px": [2848,352], "src": [32,32], "f": 0, "t": 9, "d": [1079] },
-<<<<<<< Updated upstream
 						{ "px": [0,384], "src": [64,32], "f": 0, "t": 10, "d": [1080] },
-=======
-						{ "px": [0,384], "src": [32,32], "f": 0, "t": 9, "d": [1080] },
-						{ "px": [32,384], "src": [32,32], "f": 0, "t": 9, "d": [1081] },
-						{ "px": [64,384], "src": [32,32], "f": 0, "t": 9, "d": [1082] },
-						{ "px": [96,384], "src": [32,32], "f": 0, "t": 9, "d": [1083] },
-						{ "px": [128,384], "src": [32,32], "f": 0, "t": 9, "d": [1084] },
-						{ "px": [160,384], "src": [32,32], "f": 0, "t": 9, "d": [1085] },
-						{ "px": [192,384], "src": [32,32], "f": 0, "t": 9, "d": [1086] },
-						{ "px": [224,384], "src": [32,32], "f": 0, "t": 9, "d": [1087] },
-						{ "px": [256,384], "src": [32,32], "f": 0, "t": 9, "d": [1088] },
-						{ "px": [288,384], "src": [32,32], "f": 0, "t": 9, "d": [1089] },
-						{ "px": [320,384], "src": [32,32], "f": 0, "t": 9, "d": [1090] },
-						{ "px": [352,384], "src": [64,32], "f": 0, "t": 10, "d": [1091] },
->>>>>>> Stashed changes
 						{ "px": [2432,384], "src": [0,32], "f": 0, "t": 8, "d": [1156] },
 						{ "px": [2464,384], "src": [32,32], "f": 0, "t": 9, "d": [1157] },
 						{ "px": [2496,384], "src": [32,32], "f": 0, "t": 9, "d": [1158] },
@@ -1951,22 +1538,7 @@
 						{ "px": [2784,384], "src": [32,32], "f": 0, "t": 9, "d": [1167] },
 						{ "px": [2816,384], "src": [32,32], "f": 0, "t": 9, "d": [1168] },
 						{ "px": [2848,384], "src": [32,32], "f": 0, "t": 9, "d": [1169] },
-<<<<<<< Updated upstream
 						{ "px": [0,416], "src": [64,32], "f": 0, "t": 10, "d": [1170] },
-=======
-						{ "px": [0,416], "src": [128,0], "f": 0, "t": 4, "d": [1170] },
-						{ "px": [32,416], "src": [32,64], "f": 0, "t": 17, "d": [1171] },
-						{ "px": [64,416], "src": [32,64], "f": 0, "t": 17, "d": [1172] },
-						{ "px": [96,416], "src": [32,64], "f": 0, "t": 17, "d": [1173] },
-						{ "px": [128,416], "src": [32,64], "f": 0, "t": 17, "d": [1174] },
-						{ "px": [160,416], "src": [32,64], "f": 0, "t": 17, "d": [1175] },
-						{ "px": [192,416], "src": [32,64], "f": 0, "t": 17, "d": [1176] },
-						{ "px": [224,416], "src": [32,64], "f": 0, "t": 17, "d": [1177] },
-						{ "px": [256,416], "src": [32,64], "f": 0, "t": 17, "d": [1178] },
-						{ "px": [288,416], "src": [32,64], "f": 0, "t": 17, "d": [1179] },
-						{ "px": [320,416], "src": [32,64], "f": 0, "t": 17, "d": [1180] },
-						{ "px": [352,416], "src": [64,64], "f": 0, "t": 18, "d": [1181] },
->>>>>>> Stashed changes
 						{ "px": [1760,416], "src": [0,0], "f": 0, "t": 0, "d": [1225] },
 						{ "px": [1792,416], "src": [32,0], "f": 0, "t": 1, "d": [1226] },
 						{ "px": [1824,416], "src": [32,0], "f": 0, "t": 1, "d": [1227] },
@@ -2740,13 +2312,8 @@
 						{ "px": [2816,1056], "src": [32,32], "f": 0, "t": 9, "d": [3058] },
 						{ "px": [2848,1056], "src": [32,32], "f": 0, "t": 9, "d": [3059] },
 						{ "px": [0,1088], "src": [32,32], "f": 0, "t": 9, "d": [3060] },
-<<<<<<< Updated upstream
 						{ "px": [32,1088], "src": [32,64], "f": 0, "t": 17, "d": [3061] },
 						{ "px": [64,1088], "src": [64,64], "f": 0, "t": 18, "d": [3062] },
-=======
-						{ "px": [32,1088], "src": [32,32], "f": 0, "t": 9, "d": [3061] },
-						{ "px": [64,1088], "src": [64,32], "f": 0, "t": 10, "d": [3062] },
->>>>>>> Stashed changes
 						{ "px": [320,1088], "src": [0,32], "f": 0, "t": 8, "d": [3070] },
 						{ "px": [352,1088], "src": [32,32], "f": 0, "t": 9, "d": [3071] },
 						{ "px": [384,1088], "src": [32,32], "f": 0, "t": 9, "d": [3072] },
@@ -2823,13 +2390,6 @@
 					"seed": 5016686,
 					"overrideTilesetUid": null,
 					"gridTiles": [
-<<<<<<< Updated upstream
-=======
-						{ "px": [448,832], "src": [224,0], "f": 0, "t": 7, "d": [2354] },
-						{ "px": [928,832], "src": [224,32], "f": 0, "t": 15, "d": [2369] },
-						{ "px": [1120,832], "src": [0,0], "f": 0, "t": 0, "d": [2375] },
-						{ "px": [64,928], "src": [224,64], "f": 0, "t": 23, "d": [2612] },
->>>>>>> Stashed changes
 						{ "px": [416,928], "src": [0,64], "f": 0, "t": 16, "d": [2623] },
 						{ "px": [448,928], "src": [32,64], "f": 0, "t": 17, "d": [2624] },
 						{ "px": [416,960], "src": [0,96], "f": 0, "t": 24, "d": [2713] },
