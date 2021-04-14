@@ -92,13 +92,13 @@
           "cutSceneConversationNumber": 0,
           "cameraAcceleration": 5.0,
           "cameraMinBorderX": 0.0,
-          "cameraMaxBorderX": 1.0,
-          "cameraMinBorderY": 0.0,
-          "cameraMaxBorderY": 1.0,
+          "cameraMaxBorderX": 0.96,
+          "cameraMinBorderY": 0.5,
+          "cameraMaxBorderY": 0.9,
           "upstream": null,
           "cameraPosition": [ 0, 5 ],
           "moveX": true,
-          "moveY": false
+          "moveY": true
         }
 		
       ]
