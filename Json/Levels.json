@@ -320,7 +320,7 @@
       {
         "path": "Levels/World_4/Level_4-1.json",
         "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
-        "propsTileSheetPath": "Sprites/props/props.dds",
+        "propsTileSheetPath": "Sprites/props/world_04_props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesDark_04.dds",
         "positionX": 1393,
         "positionY": 695,
@@ -340,7 +340,7 @@
       {
         "path": "Levels/World_4/Level_4-2.json",
         "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
-        "propsTileSheetPath": "Sprites/props/props.dds",
+        "propsTileSheetPath": "Sprites/props/world_04_props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesDark_04.dds",
         "positionX": 1210,
         "positionY": 680,
@@ -360,7 +360,7 @@
       {
         "path": "Levels/World_4/Level_4-3.json",
         "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
-        "propsTileSheetPath": "Sprites/props/props.dds",
+        "propsTileSheetPath": "Sprites/props/world_04_props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesDark_04.dds",
         "positionX": 925,
         "positionY": 700,
@@ -379,7 +379,7 @@
       {
         "path": "Levels/World_4/Level_4-4.json",
         "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
-        "propsTileSheetPath": "Sprites/props/props.dds",
+        "propsTileSheetPath": "Sprites/props/world_04_props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesDark_04.dds",
         "positionX": 800,
         "positionY": 680,
@@ -398,7 +398,7 @@
       {
         "path": "Levels/World_4/Level_4-5.json",
         "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
-        "propsTileSheetPath": "Sprites/props/props.dds",
+        "propsTileSheetPath": "Sprites/props/world_04_props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesDark_04.dds",
         "positionX": 737,
         "positionY": 738,
