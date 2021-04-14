@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 16,
+	"nextUid": 18,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -278,7 +278,7 @@
 			]
 		},
 		{
-			"identifier": "CollapsingTiles",
+			"identifier": "CollapsingTile",
 			"uid": 15,
 			"tags": [],
 			"width": 32,
@@ -317,6 +317,30 @@
 				"opaqueTiles": "1111111011111100111111001111110010011100000000000000000000000000",
 				"averageColors": "f655f544f655f655f444f544f5441655f555f333f555f555f434f434a6553655f655f544f655f555f544f54486553655f655f544f544f655f544f544a5551655f43386558655f433f544f54400000000322222223222422222232223022200002222000022220000122312232222000032222222322212222222022212220000"
 			}
+		},
+		{
+			"identifier": "Props",
+			"uid": 16,
+			"relPath": null,
+			"pxWid": 0,
+			"pxHei": 0,
+			"tileGridSize": 32,
+			"spacing": 0,
+			"padding": 0,
+			"savedSelections": [],
+			"cachedPixelData": null
+		},
+		{
+			"identifier": "BackgroundTiles",
+			"uid": 17,
+			"relPath": null,
+			"pxWid": 0,
+			"pxHei": 0,
+			"tileGridSize": 32,
+			"spacing": 0,
+			"padding": 0,
+			"savedSelections": [],
+			"cachedPixelData": null
 		}
 	], "enums": [], "externalEnums": [], "levelFields": [] },
 	"levels": [
@@ -438,7 +462,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [22,66],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -449,7 +473,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [24,66],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -460,7 +484,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [26,66],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -471,7 +495,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [28,66],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -482,7 +506,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [30,66],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -493,7 +517,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [32,66],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -504,7 +528,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [34,66],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -515,7 +539,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [36,66],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -526,7 +550,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [38,66],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -537,7 +561,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [40,66],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -548,7 +572,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [34,44],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -559,7 +583,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [34,46],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -570,7 +594,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [34,48],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -581,7 +605,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [34,50],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -592,7 +616,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [34,52],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -603,7 +627,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [34,54],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -614,7 +638,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [34,56],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -625,7 +649,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [34,58],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -636,7 +660,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [34,60],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -647,7 +671,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [24,40],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -658,7 +682,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [22,40],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -669,7 +693,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,40],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -680,7 +704,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,38],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -691,7 +715,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,36],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -702,7 +726,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,34],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -713,7 +737,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,32],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -724,7 +748,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,30],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -735,7 +759,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,28],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -746,7 +770,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,26],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -757,7 +781,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,24],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -768,7 +792,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,22],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -779,7 +803,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,20],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -790,7 +814,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,18],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -801,7 +825,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,16],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -812,7 +836,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,14],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -823,7 +847,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,12],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -834,7 +858,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,10],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -845,7 +869,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [20,8],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -856,7 +880,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [28,34],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -867,7 +891,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [28,32],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -878,7 +902,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [28,30],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -889,7 +913,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [28,28],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -900,7 +924,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [28,26],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -911,7 +935,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [28,24],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -922,7 +946,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [28,22],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -933,7 +957,7 @@
 							"fieldInstances": []
 						},
 						{
-							"__identifier": "CollapsingTiles",
+							"__identifier": "CollapsingTile",
 							"__grid": [28,20],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -1040,6 +1064,28 @@
 							"height": 16,
 							"defUid": 13,
 							"px": [256,1008],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 14, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [41,31],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 13,
+							"px": [656,496],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 14, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [41,22],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 16,
+							"height": 16,
+							"defUid": 13,
+							"px": [656,352],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 14, "realEditorValues": [] }]
 						}
 					]
