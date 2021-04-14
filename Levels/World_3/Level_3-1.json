@@ -549,17 +549,6 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [37,26],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 27,
-							"px": [1184,832],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 28, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
 							"__grid": [17,25],
 							"__pivot": [0,0],
 							"__tile": null,
@@ -615,15 +604,27 @@
 							]
 						},
 						{
-							"__identifier": "Saw",
-							"__grid": [36,30],
+							"__identifier": "Shooter",
+							"__grid": [42,30],
 							"__pivot": [0,0],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 27,
-							"px": [1152,960],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 28, "realEditorValues": [] }]
+							"width": 16,
+							"height": 16,
+							"defUid": 29,
+							"px": [1344,960],
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Left",
+									"__type": "LocalEnum.Direction",
+									"defUid": 31,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Left"]
+									}]
+								},
+								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 32, "realEditorValues": [] }
+							]
 						}
 					]
 				},

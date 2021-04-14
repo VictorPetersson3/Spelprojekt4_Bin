@@ -69,7 +69,7 @@
 		},
 		{
 			"__type": "Tiles",
-			"identifier": "Background",
+			"identifier": "Props",
 			"type": "Tiles",
 			"uid": 13,
 			"gridSize": 32,
@@ -1501,7 +1501,7 @@
 					"entityInstances": []
 				},
 				{
-					"__identifier": "Background",
+					"__identifier": "Props",
 					"__type": "Tiles",
 					"__cWid": 60,
 					"__cHei": 37,
