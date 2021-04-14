@@ -2,7 +2,7 @@
     "Walking and running" :
     {
         "Speed" : 1.5,
-        "Decceleration" : 2.0
+        "Decceleration" : 3.0
     },
     "Jumping" :
     {
@@ -11,7 +11,7 @@
     },
     "Wall stuff" : 
     {
-        "Jump speed" : 1.2,
+        "Jump speed" : 1.6,
         "X factor" : 0.3,
         "Wall drag" : 0.5,
         "Maximum wall slide speed" : 0.2
@@ -19,15 +19,15 @@
     "Air time" :
     {
         "Acceleration" : 1.3,
-        "Decceleration" : 1.0,
+        "Decceleration" : 1.5,
         "Maximum speed" : 0.25
     },
     "Maximum velocities and gravity" :
     {
         "Maximum horizontal velocity" : 0.25,
-        "Maximum vertical velocity" : 1.5,
+        "Maximum vertical velocity" : 3.0,
         "Gravity" : 4.0,
-        "Boost multiplier" : 2.0,
+        "Boost multiplier" : 1.9,
         "Glide falling speed" : 0.2
     },
     "Collider" :
