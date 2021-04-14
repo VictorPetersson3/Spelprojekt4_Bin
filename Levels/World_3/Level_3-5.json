@@ -452,50 +452,6 @@
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 19, "realEditorValues": [] }]
 						},
 						{
-							"__identifier": "Saw",
-							"__grid": [22,29],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 15,
-							"px": [704,928],
-							"fieldInstances": [{
-								"__identifier": "Point",
-								"__value": [
-									{ "cx": 22, "cy": 28 },
-									{ "cx": 16, "cy": 28 },
-									{ "cx": 16, "cy": 31 },
-									{ "cx": 22, "cy": 31 },
-									{ "cx": 22, "cy": 29 }
-								],
-								"__type": "Array<Point>",
-								"defUid": 19,
-								"realEditorValues": [
-									{
-										"id": "V_String",
-										"params": ["22,28"]
-									},
-									{
-										"id": "V_String",
-										"params": ["16,28"]
-									},
-									{
-										"id": "V_String",
-										"params": ["16,31"]
-									},
-									{
-										"id": "V_String",
-										"params": ["22,31"]
-									},
-									{
-										"id": "V_String",
-										"params": ["22,29"]
-									}
-								]
-							}]
-						},
-						{
 							"__identifier": "KillZone",
 							"__grid": [14,33],
 							"__pivot": [0.5,0.5],
@@ -593,6 +549,35 @@
 							"defUid": 15,
 							"px": [1792,896],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 19, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [22,30],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 15,
+							"px": [704,960],
+							"fieldInstances": [{
+								"__identifier": "Point",
+								"__value": [ { "cx": 22, "cy": 28 }, { "cx": 16, "cy": 28 }, { "cx": 16, "cy": 31 }, { "cx": 22, "cy": 31 } ],
+								"__type": "Array<Point>",
+								"defUid": 19,
+								"realEditorValues": [ {
+									"id": "V_String",
+									"params": ["22,28"]
+								}, {
+									"id": "V_String",
+									"params": ["16,28"]
+								}, {
+									"id": "V_String",
+									"params": ["16,31"]
+								}, {
+									"id": "V_String",
+									"params": ["22,31"]
+								} ]
+							}]
 						}
 					]
 				},
