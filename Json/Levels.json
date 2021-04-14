@@ -393,7 +393,7 @@
         "moveY": true
       },
       {
-        "path": "Levels/World_4/Level_4-1.json",
+        "path": "Levels/Boss/Boss_Level.json",
         "gameplayAreaTileSheetPath": "Sprites/Tilesets/tileSet_world4.dds",
         "propsTileSheetPath": "Sprites/props/props.dds",
         "backgroundTileSheetPath": "Sprites/Tilesets/backTilesdark.dds",
