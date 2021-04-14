@@ -1,0 +1,10 @@
+{
+  "MoveTimerMin": 2.0,
+  "MoveTimerMax": 4.0,
+  "Speed": 1.5,
+
+  "Position": {
+    "X": 0.5,
+    "Y": 0.5
+  }
+}
