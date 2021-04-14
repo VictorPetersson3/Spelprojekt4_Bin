@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 16,
+	"nextUid": 18,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -317,6 +317,30 @@
 				"opaqueTiles": "1111111011111100111111001111110010011100000000000000000000000000",
 				"averageColors": "f655f544f655f655f444f544f5441655f555f333f555f555f434f434a6553655f655f544f655f555f544f54486553655f655f544f544f655f544f544a5551655f43386558655f433f544f54400000000322222223222422222232223022200002222000022220000122312232222000032222222322212222222022212220000"
 			}
+		},
+		{
+			"identifier": "Props",
+			"uid": 16,
+			"relPath": null,
+			"pxWid": 0,
+			"pxHei": 0,
+			"tileGridSize": 32,
+			"spacing": 0,
+			"padding": 0,
+			"savedSelections": [],
+			"cachedPixelData": null
+		},
+		{
+			"identifier": "BackgroundTiles",
+			"uid": 17,
+			"relPath": null,
+			"pxWid": 0,
+			"pxHei": 0,
+			"tileGridSize": 32,
+			"spacing": 0,
+			"padding": 0,
+			"savedSelections": [],
+			"cachedPixelData": null
 		}
 	], "enums": [], "externalEnums": [], "levelFields": [] },
 	"levels": [
