@@ -384,13 +384,13 @@
 						},
 						{
 							"__identifier": "KillZone",
-							"__grid": [28,36],
+							"__grid": [18,36],
 							"__pivot": [0.5,0.5],
 							"__tile": null,
-							"width": 1504,
+							"width": 800,
 							"height": 96,
 							"defUid": 26,
-							"px": [912,1168],
+							"px": [592,1168],
 							"fieldInstances": []
 						},
 						{
@@ -559,14 +559,36 @@
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 28, "realEditorValues": [] }]
 						},
 						{
+							"__identifier": "Saw",
+							"__grid": [17,25],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 27,
+							"px": [544,800],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 28, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [17,21],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 27,
+							"px": [544,672],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 28, "realEditorValues": [] }]
+						},
+						{
 							"__identifier": "Shooter",
-							"__grid": [37,22],
+							"__grid": [36,23],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 29,
-							"px": [1184,704],
+							"px": [1152,736],
 							"fieldInstances": [
 								{
 									"__identifier": "Direction",
@@ -591,36 +613,25 @@
 							]
 						},
 						{
-							"__identifier": "Saw",
-							"__grid": [17,25],
-							"__pivot": [0,0],
+							"__identifier": "KillZone",
+							"__grid": [41,36],
+							"__pivot": [0.5,0.5],
 							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 27,
-							"px": [544,800],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 28, "realEditorValues": [] }]
-						},
-						{
-							"__identifier": "Saw",
-							"__grid": [17,21],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 27,
-							"px": [544,672],
-							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 28, "realEditorValues": [] }]
+							"width": 672,
+							"height": 96,
+							"defUid": 26,
+							"px": [1328,1168],
+							"fieldInstances": []
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [36,22],
+							"__grid": [37,22],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 29,
-							"px": [1152,704],
+							"px": [1184,704],
 							"fieldInstances": [
 								{
 									"__identifier": "Direction",
@@ -1216,6 +1227,7 @@
 						{ "px": [608,704], "src": [64,32], "f": 0, "t": 10, "d": [1339] },
 						{ "px": [1088,704], "src": [0,32], "f": 0, "t": 8, "d": [1354] },
 						{ "px": [1120,704], "src": [64,32], "f": 0, "t": 10, "d": [1355] },
+						{ "px": [1152,704], "src": [192,0], "f": 0, "t": 6, "d": [1356] },
 						{ "px": [1408,704], "src": [0,32], "f": 0, "t": 8, "d": [1364] },
 						{ "px": [1440,704], "src": [64,32], "f": 0, "t": 10, "d": [1365] },
 						{ "px": [1632,704], "src": [0,32], "f": 0, "t": 8, "d": [1371] },
