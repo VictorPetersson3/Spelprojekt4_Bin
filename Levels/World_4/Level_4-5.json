@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 18,
+	"nextUid": 20,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -203,6 +203,26 @@
 					"acceptFileTypes": null,
 					"defaultOverride": null,
 					"textLangageMode": null
+				},
+				{
+					"identifier": "Float",
+					"__type": "Float",
+					"uid": 19,
+					"type": "F_Float",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
 				}
 			]
 		},
@@ -251,9 +271,29 @@
 					"textLangageMode": null
 				},
 				{
-					"identifier": "Boolean",
+					"identifier": "Repeating",
 					"__type": "Bool",
 					"uid": 17,
+					"type": "F_Bool",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayPos": "Above",
+					"editorAlwaysShow": false,
+					"editorCutLongValues": true,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLangageMode": null
+				},
+				{
+					"identifier": "Flip",
+					"__type": "Bool",
+					"uid": 18,
 					"type": "F_Bool",
 					"isArray": false,
 					"canBeNull": false,
@@ -415,16 +455,25 @@
 							"height": 32,
 							"defUid": 10,
 							"px": [192,416],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Down",
-								"__type": "LocalEnum.Direction",
-								"defUid": 11,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Down"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Down",
+									"__type": "LocalEnum.Direction",
+									"defUid": 11,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Down"]
+									}]
+								},
+								{
+									"__identifier": "Float",
+									"__value": 1.6,
+									"__type": "Float",
+									"defUid": 19,
+									"realEditorValues": [{ "id": "V_Float", "params": [1.6] }]
+								}
+							]
 						},
 						{
 							"__identifier": "Shooter",
@@ -435,16 +484,25 @@
 							"height": 32,
 							"defUid": 10,
 							"px": [448,416],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Down",
-								"__type": "LocalEnum.Direction",
-								"defUid": 11,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Down"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Down",
+									"__type": "LocalEnum.Direction",
+									"defUid": 11,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Down"]
+									}]
+								},
+								{
+									"__identifier": "Float",
+									"__value": 1.5,
+									"__type": "Float",
+									"defUid": 19,
+									"realEditorValues": [{ "id": "V_Float", "params": [1.5] }]
+								}
+							]
 						},
 						{
 							"__identifier": "MovingPlatform",
@@ -475,16 +533,25 @@
 							"height": 32,
 							"defUid": 10,
 							"px": [1216,320],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Left",
-								"__type": "LocalEnum.Direction",
-								"defUid": 11,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Left"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Left",
+									"__type": "LocalEnum.Direction",
+									"defUid": 11,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Left"]
+									}]
+								},
+								{
+									"__identifier": "Float",
+									"__value": 1.15,
+									"__type": "Float",
+									"defUid": 19,
+									"realEditorValues": [{ "id": "V_Float", "params": [1.15] }]
+								}
+							]
 						},
 						{
 							"__identifier": "MovingPlatform",
@@ -517,7 +584,8 @@
 							"px": [960,480],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -553,7 +621,8 @@
 							"px": [992,544],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -567,7 +636,8 @@
 							"px": [960,608],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -581,7 +651,8 @@
 							"px": [992,672],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -595,7 +666,8 @@
 							"px": [960,736],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -609,7 +681,8 @@
 							"px": [992,800],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -623,7 +696,8 @@
 							"px": [960,864],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -637,7 +711,8 @@
 							"px": [992,928],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -651,7 +726,8 @@
 							"px": [960,992],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -665,7 +741,8 @@
 							"px": [1184,736],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -679,7 +756,8 @@
 							"px": [1152,672],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -693,7 +771,8 @@
 							"px": [1184,608],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -707,7 +786,8 @@
 							"px": [1152,544],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -721,7 +801,8 @@
 							"px": [1184,480],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -735,7 +816,8 @@
 							"px": [1152,416],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -749,7 +831,8 @@
 							"px": [1120,320],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -763,7 +846,8 @@
 							"px": [1056,256],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -777,7 +861,8 @@
 							"px": [992,192],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -791,7 +876,8 @@
 							"px": [928,128],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -805,7 +891,8 @@
 							"px": [832,160],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -819,7 +906,8 @@
 							"px": [736,256],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -843,7 +931,7 @@
 									}]
 								},
 								{
-									"__identifier": "Boolean",
+									"__identifier": "Repeating",
 									"__value": true,
 									"__type": "Bool",
 									"defUid": 17,
@@ -851,7 +939,8 @@
 										"id": "V_Bool",
 										"params": [ true ]
 									}]
-								}
+								},
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -865,7 +954,8 @@
 							"px": [1504,832],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -889,10 +979,20 @@
 									}]
 								},
 								{
-									"__identifier": "Boolean",
+									"__identifier": "Repeating",
 									"__value": true,
 									"__type": "Bool",
 									"defUid": 17,
+									"realEditorValues": [{
+										"id": "V_Bool",
+										"params": [ true ]
+									}]
+								},
+								{
+									"__identifier": "Flip",
+									"__value": true,
+									"__type": "Bool",
+									"defUid": 18,
 									"realEditorValues": [{
 										"id": "V_Bool",
 										"params": [ true ]
@@ -911,7 +1011,8 @@
 							"px": [608,448],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -925,7 +1026,8 @@
 							"px": [736,480],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -939,7 +1041,8 @@
 							"px": [1440,736],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -953,7 +1056,8 @@
 							"px": [1472,608],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -967,7 +1071,8 @@
 							"px": [320,640],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -979,16 +1084,25 @@
 							"height": 32,
 							"defUid": 10,
 							"px": [2016,448],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Up",
-								"__type": "LocalEnum.Direction",
-								"defUid": 11,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Up"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Up",
+									"__type": "LocalEnum.Direction",
+									"defUid": 11,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Up"]
+									}]
+								},
+								{
+									"__identifier": "Float",
+									"__value": 1.85,
+									"__type": "Float",
+									"defUid": 19,
+									"realEditorValues": [{ "id": "V_Float", "params": [1.85] }]
+								}
+							]
 						},
 						{
 							"__identifier": "Shooter",
@@ -999,16 +1113,25 @@
 							"height": 32,
 							"defUid": 10,
 							"px": [2176,448],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Up",
-								"__type": "LocalEnum.Direction",
-								"defUid": 11,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Up"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Up",
+									"__type": "LocalEnum.Direction",
+									"defUid": 11,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Up"]
+									}]
+								},
+								{
+									"__identifier": "Float",
+									"__value": 1.35,
+									"__type": "Float",
+									"defUid": 19,
+									"realEditorValues": [{ "id": "V_Float", "params": [1.35] }]
+								}
+							]
 						},
 						{
 							"__identifier": "Shooter",
@@ -1019,16 +1142,25 @@
 							"height": 32,
 							"defUid": 10,
 							"px": [2432,544],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Up",
-								"__type": "LocalEnum.Direction",
-								"defUid": 11,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Up"]
-								}]
-							}]
+							"fieldInstances": [
+								{
+									"__identifier": "Direction",
+									"__value": "Up",
+									"__type": "LocalEnum.Direction",
+									"defUid": 11,
+									"realEditorValues": [{
+										"id": "V_String",
+										"params": ["Up"]
+									}]
+								},
+								{
+									"__identifier": "Float",
+									"__value": 1.75,
+									"__type": "Float",
+									"defUid": 19,
+									"realEditorValues": [{ "id": "V_Float", "params": [1.75] }]
+								}
+							]
 						},
 						{
 							"__identifier": "Saw",
@@ -1041,7 +1173,8 @@
 							"px": [2336,320],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -1055,7 +1188,8 @@
 							"px": [2272,288],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -1069,7 +1203,8 @@
 							"px": [2240,224],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -1083,7 +1218,8 @@
 							"px": [2240,160],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
@@ -1097,7 +1233,8 @@
 							"px": [2272,96],
 							"fieldInstances": [
 								{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] },
-								{ "__identifier": "Boolean", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] }
+								{ "__identifier": "Repeating", "__value": false, "__type": "Bool", "defUid": 17, "realEditorValues": [] },
+								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 18, "realEditorValues": [] }
 							]
 						},
 						{
