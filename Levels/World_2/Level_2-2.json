@@ -480,59 +480,59 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [22,45],
+							"__grid": [22,44],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
 							"height": 16,
 							"defUid": 14,
-							"px": [352,720],
+							"px": [352,704],
 							"fieldInstances": [{
 								"__identifier": "Point",
-								"__value": [ { "cx": 15, "cy": 45 }, { "cx": 15, "cy": 52 }, { "cx": 22, "cy": 52 }, { "cx": 22, "cy": 45 } ],
+								"__value": [ { "cx": 14, "cy": 44 }, { "cx": 14, "cy": 52 }, { "cx": 22, "cy": 52 }, { "cx": 22, "cy": 44 } ],
 								"__type": "Array<Point>",
 								"defUid": 15,
 								"realEditorValues": [ {
 									"id": "V_String",
-									"params": ["15,45"]
+									"params": ["14,44"]
 								}, {
 									"id": "V_String",
-									"params": ["15,52"]
+									"params": ["14,52"]
 								}, {
 									"id": "V_String",
 									"params": ["22,52"]
 								}, {
 									"id": "V_String",
-									"params": ["22,45"]
+									"params": ["22,44"]
 								} ]
 							}]
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [45,55],
+							"__grid": [44,54],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
 							"height": 16,
 							"defUid": 14,
-							"px": [720,880],
+							"px": [704,864],
 							"fieldInstances": [{
 								"__identifier": "Point",
-								"__value": [ { "cx": 45, "cy": 62 }, { "cx": 56, "cy": 62 }, { "cx": 56, "cy": 55 }, { "cx": 45, "cy": 55 } ],
+								"__value": [ { "cx": 44, "cy": 62 }, { "cx": 56, "cy": 62 }, { "cx": 56, "cy": 54 }, { "cx": 44, "cy": 54 } ],
 								"__type": "Array<Point>",
 								"defUid": 15,
 								"realEditorValues": [ {
 									"id": "V_String",
-									"params": ["45,62"]
+									"params": ["44,62"]
 								}, {
 									"id": "V_String",
 									"params": ["56,62"]
 								}, {
 									"id": "V_String",
-									"params": ["56,55"]
+									"params": ["56,54"]
 								}, {
 									"id": "V_String",
-									"params": ["45,55"]
+									"params": ["44,54"]
 								} ]
 							}]
 						},
@@ -547,18 +547,18 @@
 							"px": [1376,1024],
 							"fieldInstances": [{
 								"__identifier": "Point",
-								"__value": [ { "cx": 86, "cy": 61 }, { "cx": 79, "cy": 61 }, { "cx": 79, "cy": 64 }, { "cx": 86, "cy": 64 } ],
+								"__value": [ { "cx": 86, "cy": 60 }, { "cx": 78, "cy": 60 }, { "cx": 78, "cy": 64 }, { "cx": 86, "cy": 64 } ],
 								"__type": "Array<Point>",
 								"defUid": 15,
 								"realEditorValues": [ {
 									"id": "V_String",
-									"params": ["86,61"]
+									"params": ["86,60"]
 								}, {
 									"id": "V_String",
-									"params": ["79,61"]
+									"params": ["78,60"]
 								}, {
 									"id": "V_String",
-									"params": ["79,64"]
+									"params": ["78,64"]
 								}, {
 									"id": "V_String",
 									"params": ["86,64"]
@@ -567,41 +567,41 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [98,53],
+							"__grid": [98,52],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
 							"height": 16,
 							"defUid": 14,
-							"px": [1568,848],
+							"px": [1568,832],
 							"fieldInstances": [{
 								"__identifier": "Point",
 								"__value": [
-									{ "cx": 94, "cy": 53 },
-									{ "cx": 94, "cy": 41 },
-									{ "cx": 89, "cy": 41 },
-									{ "cx": 89, "cy": 58 },
+									{ "cx": 94, "cy": 52 },
+									{ "cx": 94, "cy": 40 },
+									{ "cx": 88, "cy": 40 },
+									{ "cx": 88, "cy": 58 },
 									{ "cx": 98, "cy": 58 },
-									{ "cx": 98, "cy": 53 }
+									{ "cx": 98, "cy": 52 }
 								],
 								"__type": "Array<Point>",
 								"defUid": 15,
 								"realEditorValues": [
 									{
 										"id": "V_String",
-										"params": ["94,53"]
+										"params": ["94,52"]
 									},
 									{
 										"id": "V_String",
-										"params": ["94,41"]
+										"params": ["94,40"]
 									},
 									{
 										"id": "V_String",
-										"params": ["89,41"]
+										"params": ["88,40"]
 									},
 									{
 										"id": "V_String",
-										"params": ["89,58"]
+										"params": ["88,58"]
 									},
 									{
 										"id": "V_String",
@@ -609,7 +609,7 @@
 									},
 									{
 										"id": "V_String",
-										"params": ["98,53"]
+										"params": ["98,52"]
 									}
 								]
 							}]
@@ -684,7 +684,6 @@
 						{ "px": [1088,160], "src": [96,0], "f": 0, "t": 3, "d": [339] },
 						{ "px": [1120,160], "src": [32,32], "f": 0, "t": 9, "d": [340] },
 						{ "px": [1184,192], "src": [96,96], "f": 0, "t": 27, "d": [403] },
-						{ "px": [704,256], "src": [96,32], "f": 0, "t": 11, "d": [510] },
 						{ "px": [864,256], "src": [96,32], "f": 0, "t": 11, "d": [515] },
 						{ "px": [896,256], "src": [96,32], "f": 0, "t": 11, "d": [516] },
 						{ "px": [928,256], "src": [96,32], "f": 0, "t": 11, "d": [517] },
@@ -1671,7 +1670,9 @@
 						{ "px": [1440,896], "src": [32,32], "f": 0, "t": 9, "d": [1753] },
 						{ "px": [1440,896], "src": [0,64], "f": 0, "t": 16, "d": [1753] },
 						{ "px": [1472,896], "src": [32,32], "f": 0, "t": 9, "d": [1754] },
+						{ "px": [1472,896], "src": [32,64], "f": 0, "t": 17, "d": [1754] },
 						{ "px": [1504,896], "src": [32,32], "f": 0, "t": 9, "d": [1755] },
+						{ "px": [1504,896], "src": [32,64], "f": 0, "t": 17, "d": [1755] },
 						{ "px": [1536,896], "src": [32,32], "f": 0, "t": 9, "d": [1756] },
 						{ "px": [1536,896], "src": [64,64], "f": 0, "t": 18, "d": [1756] },
 						{ "px": [1632,896], "src": [0,32], "f": 0, "t": 8, "d": [1759] },
