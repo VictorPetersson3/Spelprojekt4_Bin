@@ -576,10 +576,10 @@
 								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
 								{
 									"__identifier": "Float",
-									"__value": 0,
+									"__value": 3,
 									"__type": "Float",
 									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [0] }]
+									"realEditorValues": [{ "id": "V_Float", "params": [3] }]
 								}
 							]
 						},
@@ -606,10 +606,10 @@
 								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
 								{
 									"__identifier": "Float",
-									"__value": 0,
+									"__value": 3.55,
 									"__type": "Float",
 									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [0] }]
+									"realEditorValues": [{ "id": "V_Float", "params": [3.55] }]
 								}
 							]
 						},
@@ -636,10 +636,10 @@
 								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
 								{
 									"__identifier": "Float",
-									"__value": 0,
+									"__value": 2.85,
 									"__type": "Float",
 									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [0] }]
+									"realEditorValues": [{ "id": "V_Float", "params": [2.85] }]
 								}
 							]
 						},
@@ -666,10 +666,10 @@
 								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
 								{
 									"__identifier": "Float",
-									"__value": 0,
+									"__value": 2.95,
 									"__type": "Float",
 									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [0] }]
+									"realEditorValues": [{ "id": "V_Float", "params": [2.95] }]
 								}
 							]
 						},
@@ -696,10 +696,10 @@
 								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
 								{
 									"__identifier": "Float",
-									"__value": 0,
+									"__value": 2,
 									"__type": "Float",
 									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [0] }]
+									"realEditorValues": [{ "id": "V_Float", "params": [2] }]
 								}
 							]
 						},
