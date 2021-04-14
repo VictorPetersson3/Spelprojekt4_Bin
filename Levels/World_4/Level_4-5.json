@@ -959,6 +959,61 @@
 							"defUid": 12,
 							"px": [2272,96],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 13, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "KillZone",
+							"__grid": [3,32],
+							"__pivot": [0.5,0.5],
+							"__tile": null,
+							"width": 96,
+							"height": 96,
+							"defUid": 16,
+							"px": [112,1040],
+							"fieldInstances": []
+						},
+						{
+							"__identifier": "KillZone",
+							"__grid": [10,32],
+							"__pivot": [0.5,0.5],
+							"__tile": null,
+							"width": 160,
+							"height": 96,
+							"defUid": 16,
+							"px": [336,1040],
+							"fieldInstances": []
+						},
+						{
+							"__identifier": "KillZone",
+							"__grid": [20,32],
+							"__pivot": [0.5,0.5],
+							"__tile": null,
+							"width": 288,
+							"height": 96,
+							"defUid": 16,
+							"px": [656,1040],
+							"fieldInstances": []
+						},
+						{
+							"__identifier": "KillZone",
+							"__grid": [41,33],
+							"__pivot": [0.5,0.5],
+							"__tile": null,
+							"width": 896,
+							"height": 64,
+							"defUid": 16,
+							"px": [1328,1072],
+							"fieldInstances": []
+						},
+						{
+							"__identifier": "KillZone",
+							"__grid": [64,33],
+							"__pivot": [0.5,0.5],
+							"__tile": null,
+							"width": 608,
+							"height": 64,
+							"defUid": 16,
+							"px": [2064,1072],
+							"fieldInstances": []
 						}
 					]
 				},
