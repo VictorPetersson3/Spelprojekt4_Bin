@@ -342,13 +342,13 @@
 					"entityInstances": [
 						{
 							"__identifier": "Shooter",
-							"__grid": [3,13],
+							"__grid": [3,16],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 11,
-							"px": [96,416],
+							"px": [96,512],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Right",
@@ -362,13 +362,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [2,17],
+							"__grid": [2,20],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 11,
-							"px": [64,544],
+							"px": [64,640],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Right",
@@ -382,33 +382,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [1,21],
+							"__grid": [17,21],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 11,
-							"px": [32,672],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Right",
-								"__type": "LocalEnum.Direction",
-								"defUid": 12,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Right"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [15,21],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 11,
-							"px": [480,672],
+							"px": [544,672],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Left",
@@ -422,13 +402,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [14,24],
+							"__grid": [16,24],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 11,
-							"px": [448,768],
+							"px": [512,768],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Left",
