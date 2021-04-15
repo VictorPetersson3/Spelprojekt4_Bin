@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 16,
+	"nextUid": 17,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -82,7 +82,7 @@
 			"autoTilesetDefUid": null,
 			"autoRuleGroups": [],
 			"autoSourceLayerDefUid": null,
-			"tilesetDefUid": 15,
+			"tilesetDefUid": 16,
 			"tilePivotX": 0,
 			"tilePivotY": 0
 		}
@@ -313,7 +313,7 @@
 			}
 		},
 		{
-			"identifier": "BackgroundTiles",
+			"identifier": "Break",
 			"uid": 15,
 			"relPath": "../../Sprites/Tilesets/breakableTileSet_03.png",
 			"pxWid": 128,
@@ -323,6 +323,21 @@
 			"padding": 0,
 			"savedSelections": [],
 			"cachedPixelData": { "opaqueTiles": "1111111000000000", "averageColors": "f544f544f544f544f555f544f544000000000000000000000000000000000000" }
+		},
+		{
+			"identifier": "BackgroundTiles",
+			"uid": 16,
+			"relPath": "../../Sprites/Tilesets/darktiles_sheet_world3.png",
+			"pxWid": 256,
+			"pxHei": 256,
+			"tileGridSize": 32,
+			"spacing": 0,
+			"padding": 0,
+			"savedSelections": [],
+			"cachedPixelData": {
+				"opaqueTiles": "1111111011111100111111001111110010011100000000000000000000000000",
+				"averageColors": "f222f222f222f222f222f222f2221222f222f112f222f222f212f212a2223222f222f222f222f222f222f22282223222f222f222f222f222f222f222a2221222f21282228222f212f222f22200000000311121113111411121112111011100002111000021110000111111112111000031112111311111112111011111110000"
+			}
 		}
 	], "enums": [{ "identifier": "Direction", "uid": 10, "values": [
 		{ "id": "Up", "tileId": null, "__tileSrcRect": null },
@@ -2271,8 +2286,8 @@
 					"__opacity": 1,
 					"__pxTotalOffsetX": 0,
 					"__pxTotalOffsetY": 0,
-					"__tilesetDefUid": 15,
-					"__tilesetRelPath": "../../Sprites/Tilesets/breakableTileSet_03.png",
+					"__tilesetDefUid": 16,
+					"__tilesetRelPath": "../../Sprites/Tilesets/darktiles_sheet_world3.png",
 					"levelId": 0,
 					"layerDefUid": 14,
 					"pxOffsetX": 0,
