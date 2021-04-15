@@ -1,5 +1,5 @@
 {
 	"name" : "Jennifer",
 	"imagepath" : "Sprites/Cutscenes/CharacterPortraits/c_robin.dds",	
-	"angryImagePath" : "Sprites/Cutscenes/CharacterPortraits/c_robin.dds"
+	"angryImagePath" : "Sprites/Cutscenes/CharacterPortraits/c_robinAngry.dds"
 }
