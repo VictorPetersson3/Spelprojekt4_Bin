@@ -1,5 +1,5 @@
 {
 	"name" : "Biff",
 	"imagepath" : "Sprites/Cutscenes/CharacterPortraits/c_frog.dds",
-	"angryImagePath" : "Sprites/Cutscenes/CharacterPortraits/c_frog.dds"
+	"angryImagePath" : "Sprites/Cutscenes/CharacterPortraits/BiffAngry.dds"
 }
