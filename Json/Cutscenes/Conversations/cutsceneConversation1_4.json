@@ -1,0 +1,11 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Null",
+	"dialogue" : [
+		{
+			"speaker" : "Marty",
+			"line" : "Saws?! What the peck! I need to tell Bill later that someone have|missplaced his factory Equipment.",
+			"mood" : "default"
+		}
+	]
+}

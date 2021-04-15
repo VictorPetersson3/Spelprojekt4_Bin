@@ -1,22 +1,31 @@
 {
-	"levelIndex" : 3,
 	"characterLeft" : "Marty",
 	"characterRight" : "Lorraine",
 	"AfterConversationImage" : "sprites/Cutscenes/KiwiTimber.dds",
 	"dialogue" : [
 		{
-			"speaker" : "Lorraine",
-			"line" : "I have found your weakness Ugly!",
+			"speaker" : "Marty",
+			"line" : "Hello Beautiful! Do you come to this place often?",
 			"mood" : "default"
+		},
+		{
+			"speaker" : "Lorraine",
+			"line" : "Wait, are you Marty?!",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Lorraine",
+			"line" : "!!!|!!!|I new it was to good to be true.",
+			"mood" : "Angry"
 		},
 		{
 			"speaker" : "Marty",
-			"line" : "Make it staahp =(",
-			"mood" : "default"
+			"line" : "What do you mean, look at this hunk of flesh, I am all you |could ever need!",
+			"mood" : "Angry"
 		},
 		{
 			"speaker" : "Lorraine",
-			"line" : "You are allergic to my sweet nectars!",
+			"line" : "Not even you can believe in that can you? This is your |timber profile Mister!",
 			"mood" : "default"
 		}
 	]

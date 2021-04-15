@@ -1,21 +1,10 @@
 {
-	"levelIndex" : 3,
-	"characterLeft" : "Biff",
-	"characterRight" : "Marty",
+	"characterLeft" : "Marty",
+	"characterRight" : "Null",
 	"dialogue" : [
 		{
 			"speaker" : "Marty",
-			"line" : "I have found your weakness Ugly!",
-			"mood" : "default"
-		},
-		{
-			"speaker" : "Biff",
-			"line" : "Make it staahp =(",
-			"mood" : "default"
-		},
-		{
-			"speaker" : "Marty",
-			"line" : "You are allergic to my sweet nectars!",
+			"line" : "Wow what a picture this Sally got! She looks gorgeous. |I sure do hope though she is honest with her profile Picture. |For now I just need to make it over these fields now.",
 			"mood" : "default"
 		}
 	]

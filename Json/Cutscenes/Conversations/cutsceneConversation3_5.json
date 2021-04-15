@@ -1,0 +1,11 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Null",
+	"dialogue" : [
+		{
+			"speaker" : "Marty",
+			"line" : "I am so looking forward to getting out of here, maybe I should go by the|Factory and see how it goes for Biff while I am in the area.",
+			"mood" : "default"
+		}
+	]
+}

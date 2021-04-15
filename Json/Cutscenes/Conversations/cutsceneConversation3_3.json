@@ -1,0 +1,11 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Null",
+	"dialogue" : [
+		{
+			"speaker" : "Marty",
+			"line" : "I sure hope it goes better for Biff with his date in the Factory.|Also I need to tell him about this place, I think some of his Factories|Beauty products are spilling out in to the river.",
+			"mood" : "default"
+		}
+	]
+}

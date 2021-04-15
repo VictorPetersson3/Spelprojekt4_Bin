@@ -1,0 +1,36 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Jennifer",
+	"dialogue" : [
+		{
+			"speaker" : "Jennifer",
+			"line" : "Well hello there, I presume that you are marty? I thought you |would be, bigger.",
+			"mood" : "default"
+		},
+			{
+			"speaker" : "Marty",
+			"line" : "Jennifer?! I thought that you would look more like on your |Timber profile?!",
+			"mood" : "default"
+		},
+			{
+			"speaker" : "Jennifer",
+			"line" : "What are you Saying? I am just as pretty if not even more pretty in |real life than a mere profile could suggest.",
+			"mood" : "default"
+		},
+			{
+			"speaker" : "Marty",
+			"line" : "No way I can go on a date with someone like you, I think you |should stop to lie on your Timber profile Miss.",
+			"mood" : "default"
+		},
+			{
+			"speaker" : "Jennifer",
+			"line" : "What! Leave immedieately, I deserve better than the like's of you.",
+			"mood" : "Angry"
+		},
+			{
+			"speaker" : "Marty",
+			"line" : "Well suits me, It seems I found a real Vixen over by the Fields!",
+			"mood" : "default"
+		}
+	]
+}

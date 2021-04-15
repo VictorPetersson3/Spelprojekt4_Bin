@@ -1,21 +1,20 @@
 {
-	"levelIndex" : 3,
-	"characterLeft" : "Biff",
-	"characterRight" : "Marty",
+	"characterLeft" : "Marty",
+	"characterRight" : "Null",
 	"dialogue" : [
 		{
 			"speaker" : "Marty",
-			"line" : "I have found your weakness Ugly!",
-			"mood" : "default"
-		},
-		{
-			"speaker" : "Biff",
-			"line" : "Make it staahp =(",
+			"line" : "Who could have known that she would not be my type?|I guess I can have a look at this Areas Timbers just to see so I do|not miss out on something.",
 			"mood" : "default"
 		},
 		{
 			"speaker" : "Marty",
-			"line" : "You are allergic to my sweet nectars!",
+			"line" : "|.....|..",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Marty",
+			"line" : "WOW! Lorraine, what a Love bird! She is Gorgeous! Now I understand|why Biff wanted to get here first.|I need to hurry before Biff does his Magic!",
 			"mood" : "default"
 		}
 	]

@@ -1,0 +1,11 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Null",
+	"dialogue" : [
+		{
+			"speaker" : "Marty",
+			"line" : "Here we go, she should be around her somewhere.|And what is this? Seems I can break through these rocks.",
+			"mood" : "default"
+		}
+	]
+}

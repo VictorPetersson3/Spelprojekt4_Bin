@@ -1,0 +1,11 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Null",
+	"dialogue" : [
+		{
+			"speaker" : "Marty",
+			"line" : "I must be getting close, I can soon see an end to this forest!|And then Jennifer, we will see what you go for.",
+			"mood" : "default"
+		}
+	]
+}
