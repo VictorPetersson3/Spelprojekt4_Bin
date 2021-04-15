@@ -4,7 +4,7 @@
 	"dialogue" : [			
 		{
 			"speaker" : "Clara",
-			"line" : "Ohh hi, you must be Morty? I thought you where going to be larger, but you|are really cute.",
+			"line" : "Ohh hi, you must be Morty? I thought you where going to be larger, |but you are really cute.",
 			"mood" : "default"
 		},
 			{
