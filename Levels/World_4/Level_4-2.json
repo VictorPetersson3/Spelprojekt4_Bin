@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 13,
+	"nextUid": 15,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -29,6 +29,25 @@
 	"backupLimit": 10,
 	"flags": [],
 	"defs": { "layers": [
+		{
+			"__type": "Tiles",
+			"identifier": "Props",
+			"type": "Tiles",
+			"uid": 13,
+			"gridSize": 32,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": null,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		},
 		{
 			"__type": "Entities",
 			"identifier": "Entities",
@@ -271,6 +290,18 @@
 				"opaqueTiles": "0000000001000000000000000000000010010000000000000000000000000000",
 				"averageColors": "fc69fc69fc69fc69fc59fc5900000000fc69f93afc69fc69fc59fc5900000000fc69fc69fc69fc69fc5a000000000000fc69fc69fc69fc59fc59fc5900000000fc598c698c69fc590000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 			}
+		},
+		{
+			"identifier": "Props",
+			"uid": 14,
+			"relPath": null,
+			"pxWid": 0,
+			"pxHei": 0,
+			"tileGridSize": 32,
+			"spacing": 0,
+			"padding": 0,
+			"savedSelections": [],
+			"cachedPixelData": null
 		}
 	], "enums": [], "externalEnums": [], "levelFields": [] },
 	"levels": [
@@ -291,6 +322,30 @@
 			"externalRelPath": null,
 			"fieldInstances": [],
 			"layerInstances": [
+				{
+					"__identifier": "Props",
+					"__type": "Tiles",
+					"__cWid": 62,
+					"__cHei": 56,
+					"__gridSize": 32,
+					"__opacity": 1,
+					"__pxTotalOffsetX": 0,
+					"__pxTotalOffsetY": 0,
+					"__tilesetDefUid": null,
+					"__tilesetRelPath": null,
+					"levelId": 0,
+					"layerDefUid": 13,
+					"pxOffsetX": 0,
+					"pxOffsetY": 0,
+					"visible": true,
+					"intGrid": [],
+					"intGridCsv": [],
+					"autoLayerTiles": [],
+					"seed": 1216000,
+					"overrideTilesetUid": null,
+					"gridTiles": [],
+					"entityInstances": []
+				},
 				{
 					"__identifier": "Entities",
 					"__type": "Entities",
@@ -404,44 +459,45 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [48,60],
+							"__grid": [47,59],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
 							"height": 16,
 							"defUid": 10,
-							"px": [768,960],
+							"px": [752,944],
 							"fieldInstances": [{
 								"__identifier": "Point",
 								"__value": [
-									{ "cx": 48, "cy": 68 },
-									{ "cx": 54, "cy": 68 },
-									{ "cx": 54, "cy": 66 },
-									{ "cx": 56, "cy": 66 },
+									{ "cx": 47, "cy": 69 },
+									{ "cx": 55, "cy": 69 },
+									{ "cx": 55, "cy": 67 },
+									{ "cx": 56, "cy": 67 },
 									{ "cx": 56, "cy": 81 },
-									{ "cx": 60, "cy": 81 },
-									{ "cx": 60, "cy": 62 },
-									{ "cx": 54, "cy": 62 },
-									{ "cx": 54, "cy": 60 }
+									{ "cx": 61, "cy": 81 },
+									{ "cx": 61, "cy": 61 },
+									{ "cx": 55, "cy": 61 },
+									{ "cx": 55, "cy": 59 },
+									{ "cx": 48, "cy": 59 }
 								],
 								"__type": "Array<Point>",
 								"defUid": 11,
 								"realEditorValues": [
 									{
 										"id": "V_String",
-										"params": ["48,68"]
+										"params": ["47,69"]
 									},
 									{
 										"id": "V_String",
-										"params": ["54,68"]
+										"params": ["55,69"]
 									},
 									{
 										"id": "V_String",
-										"params": ["54,66"]
+										"params": ["55,67"]
 									},
 									{
 										"id": "V_String",
-										"params": ["56,66"]
+										"params": ["56,67"]
 									},
 									{
 										"id": "V_String",
@@ -449,63 +505,72 @@
 									},
 									{
 										"id": "V_String",
-										"params": ["60,81"]
+										"params": ["61,81"]
 									},
 									{
 										"id": "V_String",
-										"params": ["60,62"]
+										"params": ["61,61"]
 									},
 									{
 										"id": "V_String",
-										"params": ["54,62"]
+										"params": ["55,61"]
 									},
 									{
 										"id": "V_String",
-										"params": ["54,60"]
+										"params": ["55,59"]
+									},
+									{
+										"id": "V_String",
+										"params": ["48,59"]
 									}
 								]
 							}]
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [68,52],
+							"__grid": [67,51],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
 							"height": 16,
 							"defUid": 10,
-							"px": [1088,832],
+							"px": [1072,816],
 							"fieldInstances": [{
 								"__identifier": "Point",
 								"__value": [
-									{ "cx": 68, "cy": 54 },
-									{ "cx": 56, "cy": 54 },
-									{ "cx": 56, "cy": 58 },
-									{ "cx": 80, "cy": 58 },
-									{ "cx": 80, "cy": 52 }
+									{ "cx": 67, "cy": 53 },
+									{ "cx": 55, "cy": 53 },
+									{ "cx": 55, "cy": 59 },
+									{ "cx": 81, "cy": 59 },
+									{ "cx": 81, "cy": 51 },
+									{ "cx": 67, "cy": 51 }
 								],
 								"__type": "Array<Point>",
 								"defUid": 11,
 								"realEditorValues": [
 									{
 										"id": "V_String",
-										"params": ["68,54"]
+										"params": ["67,53"]
 									},
 									{
 										"id": "V_String",
-										"params": ["56,54"]
+										"params": ["55,53"]
 									},
 									{
 										"id": "V_String",
-										"params": ["56,58"]
+										"params": ["55,59"]
 									},
 									{
 										"id": "V_String",
-										"params": ["80,58"]
+										"params": ["81,59"]
 									},
 									{
 										"id": "V_String",
-										"params": ["80,52"]
+										"params": ["81,51"]
+									},
+									{
+										"id": "V_String",
+										"params": ["67,51"]
 									}
 								]
 							}]
