@@ -30,6 +30,25 @@
 	"flags": [],
 	"defs": { "layers": [
 		{
+			"__type": "Tiles",
+			"identifier": "Props",
+			"type": "Tiles",
+			"uid": 16,
+			"gridSize": 32,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": 18,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		},
+		{
 			"__type": "Entities",
 			"identifier": "Entities",
 			"type": "Entities",
@@ -83,25 +102,6 @@
 			"autoRuleGroups": [],
 			"autoSourceLayerDefUid": null,
 			"tilesetDefUid": 1,
-			"tilePivotX": 0,
-			"tilePivotY": 0
-		},
-		{
-			"__type": "Tiles",
-			"identifier": "Props",
-			"type": "Tiles",
-			"uid": 16,
-			"gridSize": 32,
-			"displayOpacity": 1,
-			"pxOffsetX": 0,
-			"pxOffsetY": 0,
-			"requiredTags": [],
-			"excludedTags": [],
-			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
-			"autoTilesetDefUid": null,
-			"autoRuleGroups": [],
-			"autoSourceLayerDefUid": null,
-			"tilesetDefUid": 18,
 			"tilePivotX": 0,
 			"tilePivotY": 0
 		}
@@ -465,6 +465,38 @@
 			"externalRelPath": null,
 			"fieldInstances": [],
 			"layerInstances": [
+				{
+					"__identifier": "Props",
+					"__type": "Tiles",
+					"__cWid": 90,
+					"__cHei": 35,
+					"__gridSize": 32,
+					"__opacity": 1,
+					"__pxTotalOffsetX": 0,
+					"__pxTotalOffsetY": 0,
+					"__tilesetDefUid": 18,
+					"__tilesetRelPath": "../../Sprites/props/world2_props.png",
+					"levelId": 10,
+					"layerDefUid": 16,
+					"pxOffsetX": 0,
+					"pxOffsetY": 0,
+					"visible": true,
+					"intGrid": [],
+					"intGridCsv": [],
+					"autoLayerTiles": [],
+					"seed": 5016686,
+					"overrideTilesetUid": null,
+					"gridTiles": [
+						{ "px": [2560,896], "src": [0,224], "f": 0, "t": 56, "d": [2600] },
+						{ "px": [416,928], "src": [0,64], "f": 0, "t": 16, "d": [2623] },
+						{ "px": [448,928], "src": [32,64], "f": 0, "t": 17, "d": [2624] },
+						{ "px": [416,960], "src": [0,96], "f": 0, "t": 24, "d": [2713] },
+						{ "px": [448,960], "src": [32,96], "f": 0, "t": 25, "d": [2714] },
+						{ "px": [416,992], "src": [0,128], "f": 0, "t": 32, "d": [2803] },
+						{ "px": [448,992], "src": [32,128], "f": 0, "t": 33, "d": [2804] }
+					],
+					"entityInstances": []
+				},
 				{
 					"__identifier": "Entities",
 					"__type": "Entities",
@@ -2484,37 +2516,6 @@
 						{ "px": [2784,1088], "src": [32,32], "f": 0, "t": 9, "d": [3147] },
 						{ "px": [2816,1088], "src": [32,32], "f": 0, "t": 9, "d": [3148] },
 						{ "px": [2848,1088], "src": [32,32], "f": 0, "t": 9, "d": [3149] }
-					],
-					"entityInstances": []
-				},
-				{
-					"__identifier": "Props",
-					"__type": "Tiles",
-					"__cWid": 90,
-					"__cHei": 35,
-					"__gridSize": 32,
-					"__opacity": 1,
-					"__pxTotalOffsetX": 0,
-					"__pxTotalOffsetY": 0,
-					"__tilesetDefUid": 18,
-					"__tilesetRelPath": "../../Sprites/props/world2_props.png",
-					"levelId": 10,
-					"layerDefUid": 16,
-					"pxOffsetX": 0,
-					"pxOffsetY": 0,
-					"visible": true,
-					"intGrid": [],
-					"intGridCsv": [],
-					"autoLayerTiles": [],
-					"seed": 5016686,
-					"overrideTilesetUid": null,
-					"gridTiles": [
-						{ "px": [416,928], "src": [0,64], "f": 0, "t": 16, "d": [2623] },
-						{ "px": [448,928], "src": [32,64], "f": 0, "t": 17, "d": [2624] },
-						{ "px": [416,960], "src": [0,96], "f": 0, "t": 24, "d": [2713] },
-						{ "px": [448,960], "src": [32,96], "f": 0, "t": 25, "d": [2714] },
-						{ "px": [416,992], "src": [0,128], "f": 0, "t": 32, "d": [2803] },
-						{ "px": [448,992], "src": [32,128], "f": 0, "t": 33, "d": [2804] }
 					],
 					"entityInstances": []
 				}
