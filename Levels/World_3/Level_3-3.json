@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 17,
+	"nextUid": 19,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -83,6 +83,25 @@
 			"autoRuleGroups": [],
 			"autoSourceLayerDefUid": null,
 			"tilesetDefUid": 1,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		},
+		{
+			"__type": "Tiles",
+			"identifier": "BackgroundTiles",
+			"type": "Tiles",
+			"uid": 18,
+			"gridSize": 32,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": 17,
 			"tilePivotX": 0,
 			"tilePivotY": 0
 		}
@@ -345,6 +364,21 @@
 			"cachedPixelData": {
 				"opaqueTiles": "0000000000000000000000000000000000000000000000000000000000000000",
 				"averageColors": "364538b838b878b879c979a839a9000096568756176716795ab80000000000000c661e890000000000000000000000006e8a8d8900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+			}
+		},
+		{
+			"identifier": "BackgroundTiles",
+			"uid": 17,
+			"relPath": "../../Sprites/Tilesets/darktiles_sheet_world3.png",
+			"pxWid": 256,
+			"pxHei": 256,
+			"tileGridSize": 32,
+			"spacing": 0,
+			"padding": 0,
+			"savedSelections": [],
+			"cachedPixelData": {
+				"opaqueTiles": "1111111011111100111111001111110010011100000000000000000000000000",
+				"averageColors": "f222f222f222f222f222f222f2221222f222f112f222f222f212f212a2223222f222f222f222f222f222f22282223222f222f222f222f222f222f222a2221222f21282228222f212f222f22200000000311121113111411121112111011100002111000021110000111111112111000031112111311111112111011111110000"
 			}
 		}
 	], "enums": [{ "identifier": "Direction", "uid": 12, "values": [
@@ -1307,6 +1341,30 @@
 						{ "px": [3552,1408], "src": [0,32], "f": 0, "t": 8, "d": [5083] },
 						{ "px": [3584,1408], "src": [32,32], "f": 0, "t": 9, "d": [5084] }
 					],
+					"entityInstances": []
+				},
+				{
+					"__identifier": "BackgroundTiles",
+					"__type": "Tiles",
+					"__cWid": 113,
+					"__cHei": 46,
+					"__gridSize": 32,
+					"__opacity": 1,
+					"__pxTotalOffsetX": 0,
+					"__pxTotalOffsetY": 0,
+					"__tilesetDefUid": 17,
+					"__tilesetRelPath": "../../Sprites/Tilesets/darktiles_sheet_world3.png",
+					"levelId": 0,
+					"layerDefUid": 18,
+					"pxOffsetX": 0,
+					"pxOffsetY": 0,
+					"visible": true,
+					"intGrid": [],
+					"intGridCsv": [],
+					"autoLayerTiles": [],
+					"seed": 2460814,
+					"overrideTilesetUid": null,
+					"gridTiles": [],
 					"entityInstances": []
 				}
 			],
