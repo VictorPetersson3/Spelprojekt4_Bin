@@ -430,13 +430,13 @@
 					"entityInstances": [
 						{
 							"__identifier": "Shooter",
-							"__grid": [31,19],
+							"__grid": [28,18],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 13,
-							"px": [992,624],
+							"px": [896,592],
 							"fieldInstances": [
 								{
 									"__identifier": "Direction",
@@ -462,13 +462,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [45,19],
+							"__grid": [43,18],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 13,
-							"px": [1440,624],
+							"px": [1376,592],
 							"fieldInstances": [
 								{
 									"__identifier": "Direction",
@@ -485,13 +485,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [82,22],
+							"__grid": [84,22],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 13,
-							"px": [2624,720],
+							"px": [2688,720],
 							"fieldInstances": [
 								{
 									"__identifier": "Direction",
@@ -508,13 +508,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [84,18],
+							"__grid": [86,18],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 13,
-							"px": [2688,592],
+							"px": [2752,592],
 							"fieldInstances": [
 								{
 									"__identifier": "Direction",
@@ -531,13 +531,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [82,14],
+							"__grid": [84,14],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 13,
-							"px": [2624,464],
+							"px": [2688,464],
 							"fieldInstances": [
 								{
 									"__identifier": "Direction",
