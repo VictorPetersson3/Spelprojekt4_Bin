@@ -1,21 +1,25 @@
 {
-	"levelIndex" : 3,
-	"characterLeft" : "Marty",
-	"characterRight" : "Lorraine",
+	"characterLeft" : "Lorraine",
+	"characterRight" : "Biff",
 	"dialogue" : [
 		{
-			"speaker" : "Lorraine",
-			"line" : "I thought you where suppose dto be beautiful?",
-			"mood" : "default"
-		},
-		{
-			"speaker" : "Marty",
-			"line" : "Lady, I have spent so much time trying to get here you have no idea.",
+			"speaker" : "Biff",
+			"line" : "Excuse me Miss, is this little Fruitbowl bothering you?",
 			"mood" : "default"
 		},
 		{
 			"speaker" : "Lorraine",
-			"line" : "Why would that matter? Please leave to the tree you jumped out of!",
+			"line" : "Ohh my, no not at all, I get these low life after me all the time.|You seem to know your way with a lady, want to go out for a Brunch maybe?",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Biff",
+			"line" : "Off course, and as I own the place we can go to the finest area in town.",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Lorraine",
+			"line" : "That sounds splendid.",
 			"mood" : "default"
 		}
 	]

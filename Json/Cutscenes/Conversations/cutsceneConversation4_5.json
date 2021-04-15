@@ -1,0 +1,31 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Biff",
+	"dialogue" : [
+		{
+			"speaker" : "Biff",
+			"line" : "Marty, what are you doing here!?",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Marty",
+			"line" : "Biff, I could not find any nice matches, but then I see this Lorraine|Chick on Timber, and now I am here!",
+			"mood" : "default"
+		},		
+		{
+			"speaker" : "Biff",
+			"line" : "Nah nah Marty, she is mine and I will not let you get to her!",
+			"mood" : "Angry"
+		},
+		{
+			"speaker" : "Marty",
+			"line" : "I would like to see you try Frog Legs!",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Biff",
+			"line" : "You damn Chicken Nugget!!!",
+			"mood" : "Angry"
+		}
+	]
+}

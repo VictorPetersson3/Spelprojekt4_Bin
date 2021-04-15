@@ -1,0 +1,26 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Biff",
+	"dialogue" : [
+		{
+			"speaker" : "Marty",
+			"line" : "Biff, I thought we where friends!",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Biff",
+			"line" : "Well, we are friends Morty, but as you know, everything is fair in|War and in Love! Now go Home Morty.",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Marty",
+			"line" : "But, but, but...|",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Biff",
+			"line" : "No Buts! Go by my office and get yourself something to stop|thinking about it? Okay Morty",
+			"mood" : "default"
+		}
+	]
+}
