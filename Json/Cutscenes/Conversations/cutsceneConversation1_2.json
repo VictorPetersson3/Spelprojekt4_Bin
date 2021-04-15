@@ -1,0 +1,21 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Biff",
+	"dialogue" : [
+		{
+			"speaker" : "Biff",
+			"line" : "Alright Marty, do you get any new Matches up here?",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Marty",
+			"line" : "Yea I do, its a Red Robin Named Jennifer, she lives at the |outskirts of the forest.",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Biff",
+			"line" : "Alright, I will let you chase this one, I think I got a date |over by my Factory.",
+			"mood" : "default"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Biff",
+	"dialogue" : [
+		{
+			"speaker" : "Marty",
+			"line" : "Hey Biff, you know I feel it is getting really hard to find a pretty |date on Timber now a days.",
+			"mood" : "default"
+		},		
+		{
+			"speaker" : "Biff",
+			"line" : "Do you think you might find a different match if we climb this cliff?",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Marty",
+			"line" : "You know biff, for being such a brute you somehow manage to surprise |me with your wits some times.",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Biff",
+			"line" : "!!!",
+			"mood" : "Angry"
+		}
+	]
+}
