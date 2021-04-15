@@ -551,6 +551,28 @@
 							"defUid": 7,
 							"px": [992,320],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 8, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [34,12],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 7,
+							"px": [1088,384],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 8, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [38,10],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 7,
+							"px": [1216,320],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 8, "realEditorValues": [] }]
 						}
 					]
 				},
@@ -737,6 +759,8 @@
 						{ "px": [320,736], "src": [32,0], "f": 0, "t": 1, "d": [1965] },
 						{ "px": [352,736], "src": [32,0], "f": 0, "t": 1, "d": [1966] },
 						{ "px": [384,736], "src": [32,0], "f": 0, "t": 1, "d": [1967] },
+						{ "px": [416,736], "src": [32,0], "f": 0, "t": 1, "d": [1968] },
+						{ "px": [480,736], "src": [32,0], "f": 0, "t": 1, "d": [1970] },
 						{ "px": [512,736], "src": [32,0], "f": 0, "t": 1, "d": [1971] },
 						{ "px": [544,736], "src": [32,0], "f": 0, "t": 1, "d": [1972] },
 						{ "px": [576,736], "src": [32,0], "f": 0, "t": 1, "d": [1973] },
