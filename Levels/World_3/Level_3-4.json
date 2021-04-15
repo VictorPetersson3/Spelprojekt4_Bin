@@ -1101,13 +1101,13 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [30,17],
+							"__grid": [29,17],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
 							"height": 16,
 							"defUid": 13,
-							"px": [960,544],
+							"px": [928,544],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 14, "realEditorValues": [] }]
 						},
 						{
