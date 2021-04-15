@@ -14,6 +14,8 @@
           "mapTilePath": "sprites/UI/LevelSelect/LevelSelect_Map_Marker.dds",
           "hasCutscene": true,
           "cutSceneConversationNumber": 0,
+          "hasEndCutscene": true,
+          "EndCutsceneConversationNumber":1,
           "cameraAcceleration": 5.0,
           "cameraMinBorderX": 0.6,
           "cameraMaxBorderX": 0.9,
