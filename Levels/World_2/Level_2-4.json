@@ -576,10 +576,10 @@
 								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
 								{
 									"__identifier": "Float",
-									"__value": 3,
+									"__value": 5.15,
 									"__type": "Float",
 									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [3] }]
+									"realEditorValues": [{ "id": "V_Float", "params": [5.15] }]
 								}
 							]
 						},
@@ -606,10 +606,10 @@
 								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
 								{
 									"__identifier": "Float",
-									"__value": 3.55,
+									"__value": 5.65,
 									"__type": "Float",
 									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [3.55] }]
+									"realEditorValues": [{ "id": "V_Float", "params": [5.65] }]
 								}
 							]
 						},
@@ -636,10 +636,10 @@
 								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
 								{
 									"__identifier": "Float",
-									"__value": 2.85,
+									"__value": 7.25,
 									"__type": "Float",
 									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [2.85] }]
+									"realEditorValues": [{ "id": "V_Float", "params": [7.25] }]
 								}
 							]
 						},
@@ -666,10 +666,10 @@
 								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
 								{
 									"__identifier": "Float",
-									"__value": 2.95,
+									"__value": 7.8,
 									"__type": "Float",
 									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [2.95] }]
+									"realEditorValues": [{ "id": "V_Float", "params": [7.8] }]
 								}
 							]
 						},
@@ -696,10 +696,10 @@
 								{ "__identifier": "Flip", "__value": false, "__type": "Bool", "defUid": 22, "realEditorValues": [] },
 								{
 									"__identifier": "Float",
-									"__value": 2,
+									"__value": 3.8,
 									"__type": "Float",
 									"defUid": 23,
-									"realEditorValues": [{ "id": "V_Float", "params": [2] }]
+									"realEditorValues": [{ "id": "V_Float", "params": [3.8] }]
 								}
 							]
 						},
