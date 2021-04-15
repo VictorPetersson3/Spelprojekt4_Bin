@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 14,
+	"nextUid": 16,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -64,6 +64,25 @@
 			"autoRuleGroups": [],
 			"autoSourceLayerDefUid": null,
 			"tilesetDefUid": 1,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		},
+		{
+			"__type": "Tiles",
+			"identifier": "BackgroundTiles",
+			"type": "Tiles",
+			"uid": 14,
+			"gridSize": 32,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": 15,
 			"tilePivotX": 0,
 			"tilePivotY": 0
 		}
@@ -292,6 +311,18 @@
 				"opaqueTiles": "1111111011111100111111001111110010011100000000000000000000000000",
 				"averageColors": "f655f544f655f655f444f544f5441655f555f333f555f555f434f434a6553655f655f544f655f555f544f54486553655f655f544f544f655f544f544a5551655f43386558655f433f544f54400000000322222223222422222232223022200002222000022220000122312232222000032222222322212222222022212220000"
 			}
+		},
+		{
+			"identifier": "BackgroundTiles",
+			"uid": 15,
+			"relPath": "../../Sprites/Tilesets/breakableTileSet_03.png",
+			"pxWid": 128,
+			"pxHei": 128,
+			"tileGridSize": 32,
+			"spacing": 0,
+			"padding": 0,
+			"savedSelections": [],
+			"cachedPixelData": { "opaqueTiles": "1111111000000000", "averageColors": "f544f544f544f544f555f544f544000000000000000000000000000000000000" }
 		}
 	], "enums": [{ "identifier": "Direction", "uid": 10, "values": [
 		{ "id": "Up", "tileId": null, "__tileSrcRect": null },
@@ -342,13 +373,13 @@
 					"entityInstances": [
 						{
 							"__identifier": "Shooter",
-							"__grid": [3,13],
+							"__grid": [3,16],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 11,
-							"px": [96,416],
+							"px": [96,512],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Right",
@@ -362,13 +393,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [2,17],
+							"__grid": [2,20],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 11,
-							"px": [64,544],
+							"px": [64,640],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Right",
@@ -382,33 +413,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [1,21],
+							"__grid": [17,21],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 11,
-							"px": [32,672],
-							"fieldInstances": [{
-								"__identifier": "Direction",
-								"__value": "Right",
-								"__type": "LocalEnum.Direction",
-								"defUid": 12,
-								"realEditorValues": [{
-									"id": "V_String",
-									"params": ["Right"]
-								}]
-							}]
-						},
-						{
-							"__identifier": "Shooter",
-							"__grid": [15,21],
-							"__pivot": [0,0],
-							"__tile": null,
-							"width": 32,
-							"height": 32,
-							"defUid": 11,
-							"px": [480,672],
+							"px": [544,672],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Left",
@@ -422,13 +433,13 @@
 						},
 						{
 							"__identifier": "Shooter",
-							"__grid": [14,24],
+							"__grid": [16,24],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
 							"height": 32,
 							"defUid": 11,
-							"px": [448,768],
+							"px": [512,768],
 							"fieldInstances": [{
 								"__identifier": "Direction",
 								"__value": "Left",
@@ -1499,9 +1510,6 @@
 						{ "px": [96,704], "src": [0,0], "f": 0, "t": 0, "d": [1345] },
 						{ "px": [128,704], "src": [32,96], "f": 0, "t": 25, "d": [1346] },
 						{ "px": [160,704], "src": [64,0], "f": 0, "t": 2, "d": [1347] },
-						{ "px": [480,704], "src": [192,64], "f": 0, "t": 22, "d": [1357] },
-						{ "px": [512,704], "src": [192,32], "f": 0, "t": 14, "d": [1358] },
-						{ "px": [544,704], "src": [224,64], "f": 0, "t": 23, "d": [1359] },
 						{ "px": [576,704], "src": [0,32], "f": 0, "t": 8, "d": [1360] },
 						{ "px": [608,704], "src": [32,32], "f": 0, "t": 9, "d": [1361] },
 						{ "px": [640,704], "src": [32,32], "f": 0, "t": 9, "d": [1362] },
@@ -1624,9 +1632,6 @@
 						{ "px": [1888,768], "src": [32,0], "f": 0, "t": 1, "d": [1523] },
 						{ "px": [1920,768], "src": [64,0], "f": 0, "t": 2, "d": [1524] },
 						{ "px": [0,800], "src": [64,32], "f": 0, "t": 10, "d": [1525] },
-						{ "px": [448,800], "src": [192,96], "f": 0, "t": 30, "d": [1539] },
-						{ "px": [480,800], "src": [192,64], "f": 0, "t": 22, "d": [1540] },
-						{ "px": [512,800], "src": [224,64], "f": 0, "t": 23, "d": [1541] },
 						{ "px": [576,800], "src": [0,32], "f": 0, "t": 8, "d": [1543] },
 						{ "px": [608,800], "src": [32,32], "f": 0, "t": 9, "d": [1544] },
 						{ "px": [640,800], "src": [32,32], "f": 0, "t": 9, "d": [1545] },
@@ -1751,13 +1756,6 @@
 						{ "px": [1888,864], "src": [32,32], "f": 0, "t": 9, "d": [1706] },
 						{ "px": [1920,864], "src": [64,32], "f": 0, "t": 10, "d": [1707] },
 						{ "px": [0,896], "src": [64,32], "f": 0, "t": 10, "d": [1708] },
-						{ "px": [288,896], "src": [192,64], "f": 0, "t": 22, "d": [1717] },
-						{ "px": [320,896], "src": [192,96], "f": 0, "t": 30, "d": [1718] },
-						{ "px": [352,896], "src": [192,96], "f": 0, "t": 30, "d": [1719] },
-						{ "px": [384,896], "src": [192,64], "f": 0, "t": 22, "d": [1720] },
-						{ "px": [416,896], "src": [192,64], "f": 0, "t": 22, "d": [1721] },
-						{ "px": [448,896], "src": [192,64], "f": 0, "t": 22, "d": [1722] },
-						{ "px": [480,896], "src": [224,64], "f": 0, "t": 23, "d": [1723] },
 						{ "px": [576,896], "src": [0,32], "f": 0, "t": 8, "d": [1726] },
 						{ "px": [608,896], "src": [32,32], "f": 0, "t": 9, "d": [1727] },
 						{ "px": [640,896], "src": [32,32], "f": 0, "t": 9, "d": [1728] },
@@ -1878,11 +1876,6 @@
 						{ "px": [1888,960], "src": [32,32], "f": 0, "t": 9, "d": [1889] },
 						{ "px": [1920,960], "src": [64,32], "f": 0, "t": 10, "d": [1890] },
 						{ "px": [0,992], "src": [64,32], "f": 0, "t": 10, "d": [1891] },
-						{ "px": [160,992], "src": [192,64], "f": 0, "t": 22, "d": [1896] },
-						{ "px": [192,992], "src": [192,32], "f": 0, "t": 14, "d": [1897] },
-						{ "px": [224,992], "src": [192,64], "f": 0, "t": 22, "d": [1898] },
-						{ "px": [256,992], "src": [192,96], "f": 0, "t": 30, "d": [1899] },
-						{ "px": [288,992], "src": [224,96], "f": 0, "t": 31, "d": [1900] },
 						{ "px": [576,992], "src": [0,32], "f": 0, "t": 8, "d": [1909] },
 						{ "px": [608,992], "src": [32,32], "f": 0, "t": 9, "d": [1910] },
 						{ "px": [640,992], "src": [32,32], "f": 0, "t": 9, "d": [1911] },
@@ -2267,6 +2260,30 @@
 						{ "px": [1888,1568], "src": [32,32], "f": 0, "t": 9, "d": [3048] },
 						{ "px": [1920,1568], "src": [64,32], "f": 0, "t": 10, "d": [3049] }
 					],
+					"entityInstances": []
+				},
+				{
+					"__identifier": "BackgroundTiles",
+					"__type": "Tiles",
+					"__cWid": 61,
+					"__cHei": 50,
+					"__gridSize": 32,
+					"__opacity": 1,
+					"__pxTotalOffsetX": 0,
+					"__pxTotalOffsetY": 0,
+					"__tilesetDefUid": 15,
+					"__tilesetRelPath": "../../Sprites/Tilesets/breakableTileSet_03.png",
+					"levelId": 0,
+					"layerDefUid": 14,
+					"pxOffsetX": 0,
+					"pxOffsetY": 0,
+					"visible": true,
+					"intGrid": [],
+					"intGridCsv": [],
+					"autoLayerTiles": [],
+					"seed": 6815161,
+					"overrideTilesetUid": null,
+					"gridTiles": [],
 					"entityInstances": []
 				}
 			],
