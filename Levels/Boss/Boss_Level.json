@@ -224,13 +224,13 @@
 					"entityInstances": [
 						{
 							"__identifier": "PlayerStart",
-							"__grid": [52,34],
+							"__grid": [54,34],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
 							"height": 16,
 							"defUid": 4,
-							"px": [1664,1088],
+							"px": [1728,1088],
 							"fieldInstances": []
 						},
 						{
@@ -572,6 +572,39 @@
 							"height": 32,
 							"defUid": 7,
 							"px": [1184,544],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 8, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [38,41],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 7,
+							"px": [1216,1312],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 8, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [39,40],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 7,
+							"px": [1248,1280],
+							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 8, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Saw",
+							"__grid": [40,41],
+							"__pivot": [0,0],
+							"__tile": null,
+							"width": 32,
+							"height": 32,
+							"defUid": 7,
+							"px": [1280,1312],
 							"fieldInstances": [{ "__identifier": "Point", "__value": [], "__type": "Array<Point>", "defUid": 8, "realEditorValues": [] }]
 						}
 					]
