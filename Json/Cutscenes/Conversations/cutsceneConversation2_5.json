@@ -1,0 +1,36 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Sally & Emmett",
+	"dialogue" : [
+			{
+			"speaker" : "Marty",
+			"line" : "Hey Sally! I am Marty, who the peck is this?!",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Sally & Emmett",
+			"line" : "Hi Morty, this is Emmett. He is my Partner for life. |And we saw your picture, so we could not resist to try something new.",
+			"mood" : "default"
+		},
+			{
+			"speaker" : "Marty",
+			"line" : "What do you think I am? I am not in to those kind of stuff.",
+			"mood" : "default"
+		},
+			{
+			"speaker" : "Sally & Emmett",
+			"line" : "|Well as you are such a little party fruit we figured you|would be more open minded. Seems like we have missed the mark|on this one Honey.",
+			"mood" : "default"
+		},
+			{
+			"speaker" : "Marty",
+			"line" : "I am off, but you two Lovebirds should stop with this false |Advertising on Timber!",
+			"mood" : "default"
+		},
+			{
+			"speaker" : "Sally & Emmett",
+			"line" : "Like you have anything to say anything on this Matter! Adieu.",
+			"mood" : "Angry"
+		}
+	]
+}

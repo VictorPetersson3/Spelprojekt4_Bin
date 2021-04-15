@@ -1,0 +1,11 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Null",
+	"dialogue" : [
+		{
+			"speaker" : "Marty",
+			"line" : "This is ludicrous! Geckos too?! |I better evade their spit so they do not ruin my great look.",
+			"mood" : "default"
+		}
+	]
+}

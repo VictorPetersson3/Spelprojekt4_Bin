@@ -1,0 +1,41 @@
+{
+	"characterLeft" : "Marty",
+	"characterRight" : "Clara",
+	"dialogue" : [			
+		{
+			"speaker" : "Clara",
+			"line" : "Ohh hi, you must be Morty? I thought you where going to be larger, but you|are really cute.",
+			"mood" : "default"
+		},
+			{
+			"speaker" : "Marty",
+			"line" : "Wow really? That is very sweet of you, I wish I could say the same...",
+			"mood" : "default"
+		},
+			{
+			"speaker" : "Clara",
+			"line" : "!!!!|",
+			"mood" : "Angry"
+		},
+			{
+			"speaker" : "Marty",
+			"line" : "Well I did not expect you to be this Furry, and you know, so not Birdy.",
+			"mood" : "default"
+		},
+			{
+			"speaker" : "Clara",
+			"line" : "Did you even look at my Timber profile mister!?",
+			"mood" : "Angry"
+		},
+		{
+			"speaker" : "Marty",
+			"line" : ".|.|.|",
+			"mood" : "default"
+		},
+		{
+			"speaker" : "Marty",
+			"line" : "I take this as my time to leave. Bye bye!",
+			"mood" : "default"
+		}
+	]
+}
