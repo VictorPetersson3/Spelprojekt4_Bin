@@ -53,7 +53,7 @@
 			"identifier": "Entities",
 			"type": "Entities",
 			"uid": 8,
-			"gridSize": 16,
+			"gridSize": 32,
 			"displayOpacity": 1,
 			"pxOffsetX": 0,
 			"pxOffsetY": 0,
@@ -496,9 +496,9 @@
 				{
 					"__identifier": "Entities",
 					"__type": "Entities",
-					"__cWid": 120,
-					"__cHei": 71,
-					"__gridSize": 16,
+					"__cWid": 60,
+					"__cHei": 36,
+					"__gridSize": 32,
 					"__opacity": 1,
 					"__pxTotalOffsetX": 0,
 					"__pxTotalOffsetY": 0,
@@ -518,7 +518,7 @@
 					"entityInstances": [
 						{
 							"__identifier": "PlayerStart",
-							"__grid": [19,64],
+							"__grid": [9,32],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
@@ -529,7 +529,7 @@
 						},
 						{
 							"__identifier": "LevelEnd",
-							"__grid": [58,46],
+							"__grid": [29,23],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -540,7 +540,7 @@
 						},
 						{
 							"__identifier": "KillZone",
-							"__grid": [31,70],
+							"__grid": [15,35],
 							"__pivot": [0.5,0.5],
 							"__tile": null,
 							"width": 304,
@@ -551,7 +551,7 @@
 						},
 						{
 							"__identifier": "KillZone",
-							"__grid": [53,70],
+							"__grid": [26,35],
 							"__pivot": [0.5,0.5],
 							"__tile": null,
 							"width": 208,
@@ -562,7 +562,7 @@
 						},
 						{
 							"__identifier": "KillZone",
-							"__grid": [70,70],
+							"__grid": [35,35],
 							"__pivot": [0.5,0.5],
 							"__tile": null,
 							"width": 144,
@@ -573,7 +573,7 @@
 						},
 						{
 							"__identifier": "KillZone",
-							"__grid": [41,70],
+							"__grid": [20,35],
 							"__pivot": [0.5,0.5],
 							"__tile": null,
 							"width": 16,
@@ -584,7 +584,7 @@
 						},
 						{
 							"__identifier": "KillZone",
-							"__grid": [46,70],
+							"__grid": [23,35],
 							"__pivot": [0.5,0.5],
 							"__tile": null,
 							"width": 16,
@@ -595,7 +595,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [22,66],
+							"__grid": [11,33],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -606,7 +606,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [24,66],
+							"__grid": [12,33],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -617,7 +617,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [26,66],
+							"__grid": [13,33],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -628,7 +628,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [28,66],
+							"__grid": [14,33],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -639,7 +639,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [30,66],
+							"__grid": [15,33],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -650,7 +650,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [32,66],
+							"__grid": [16,33],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -661,7 +661,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [34,66],
+							"__grid": [17,33],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -672,7 +672,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [36,66],
+							"__grid": [18,33],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -683,7 +683,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [38,66],
+							"__grid": [19,33],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -694,7 +694,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [40,66],
+							"__grid": [20,33],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -705,7 +705,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [34,44],
+							"__grid": [17,22],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -716,7 +716,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [34,46],
+							"__grid": [17,23],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -727,7 +727,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [34,48],
+							"__grid": [17,24],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -738,7 +738,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [34,50],
+							"__grid": [17,25],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -749,7 +749,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [34,52],
+							"__grid": [17,26],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -760,7 +760,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [34,54],
+							"__grid": [17,27],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -771,7 +771,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [34,56],
+							"__grid": [17,28],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -782,7 +782,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [34,58],
+							"__grid": [17,29],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -793,7 +793,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [34,60],
+							"__grid": [17,30],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -804,7 +804,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [24,40],
+							"__grid": [12,20],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -815,7 +815,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [22,40],
+							"__grid": [11,20],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -826,7 +826,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,40],
+							"__grid": [10,20],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -837,7 +837,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,38],
+							"__grid": [10,19],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -848,7 +848,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,36],
+							"__grid": [10,18],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -859,7 +859,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,34],
+							"__grid": [10,17],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -870,7 +870,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,32],
+							"__grid": [10,16],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -881,7 +881,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,30],
+							"__grid": [10,15],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -892,7 +892,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,28],
+							"__grid": [10,14],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -903,7 +903,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,26],
+							"__grid": [10,13],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -914,7 +914,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,24],
+							"__grid": [10,12],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -925,7 +925,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,22],
+							"__grid": [10,11],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -936,7 +936,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,20],
+							"__grid": [10,10],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -947,7 +947,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,18],
+							"__grid": [10,9],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -958,7 +958,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,16],
+							"__grid": [10,8],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -969,7 +969,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,14],
+							"__grid": [10,7],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -980,7 +980,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,12],
+							"__grid": [10,6],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -991,7 +991,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,10],
+							"__grid": [10,5],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -1002,7 +1002,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [20,8],
+							"__grid": [10,4],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -1013,7 +1013,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [28,34],
+							"__grid": [14,17],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -1024,7 +1024,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [28,32],
+							"__grid": [14,16],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -1035,7 +1035,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [28,30],
+							"__grid": [14,15],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -1046,7 +1046,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [28,28],
+							"__grid": [14,14],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -1057,7 +1057,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [28,26],
+							"__grid": [14,13],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -1068,7 +1068,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [28,24],
+							"__grid": [14,12],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -1079,7 +1079,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [28,22],
+							"__grid": [14,11],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -1090,7 +1090,7 @@
 						},
 						{
 							"__identifier": "CollapsingTile",
-							"__grid": [28,20],
+							"__grid": [14,10],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 32,
@@ -1101,7 +1101,7 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [60,34],
+							"__grid": [30,17],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
@@ -1112,7 +1112,7 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [65,39],
+							"__grid": [32,19],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
@@ -1123,7 +1123,7 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [70,34],
+							"__grid": [35,17],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
@@ -1134,7 +1134,7 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [16,53],
+							"__grid": [8,26],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
@@ -1145,7 +1145,7 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [16,43],
+							"__grid": [8,21],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
@@ -1156,7 +1156,7 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [16,33],
+							"__grid": [8,16],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
@@ -1167,7 +1167,7 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [16,23],
+							"__grid": [8,11],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
@@ -1178,7 +1178,7 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [16,13],
+							"__grid": [8,6],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
@@ -1189,7 +1189,7 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [16,63],
+							"__grid": [8,31],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
@@ -1200,7 +1200,7 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [41,31],
+							"__grid": [20,15],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
@@ -1211,7 +1211,7 @@
 						},
 						{
 							"__identifier": "Saw",
-							"__grid": [41,22],
+							"__grid": [20,11],
 							"__pivot": [0,0],
 							"__tile": null,
 							"width": 16,
