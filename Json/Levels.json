@@ -434,7 +434,7 @@
         "cameraPosition": [ 0, 0 ],
         "moveX": true,
         "moveY": true,
-        "hasBoss": false
+        "hasBoss": true
       }
       ]
     }
