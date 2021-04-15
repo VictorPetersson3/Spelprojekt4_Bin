@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.8.1",
-	"nextUid": 20,
+	"nextUid": 22,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -29,6 +29,25 @@
 	"backupLimit": 10,
 	"flags": [],
 	"defs": { "layers": [
+		{
+			"__type": "Tiles",
+			"identifier": "BackgroundTiles",
+			"type": "Tiles",
+			"uid": 21,
+			"gridSize": 32,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": 20,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		},
 		{
 			"__type": "Entities",
 			"identifier": "Entities",
@@ -294,9 +313,9 @@
 			}
 		},
 		{
-			"identifier": "Props",
-			"uid": 4,
-			"relPath": "../../Sprites/props/props.png",
+			"identifier": "Darktiles_sheet_world3",
+			"uid": 20,
+			"relPath": "../../Sprites/Tilesets/darktiles_sheet_world3.png",
 			"pxWid": 256,
 			"pxHei": 256,
 			"tileGridSize": 32,
@@ -304,23 +323,8 @@
 			"padding": 0,
 			"savedSelections": [],
 			"cachedPixelData": {
-				"opaqueTiles": "0000000000000000000000000000000000000000000000000000000000000000",
-				"averageColors": "364538b838b878b879c979a839a9000096568756176716795ab80000000000000c661e890000000000000000000000006e8a8d8900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-			}
-		},
-		{
-			"identifier": "Obstacles",
-			"uid": 5,
-			"relPath": "../../Sprites/obstacles/obstacles.png",
-			"pxWid": 512,
-			"pxHei": 256,
-			"tileGridSize": 32,
-			"spacing": 0,
-			"padding": 0,
-			"savedSelections": [],
-			"cachedPixelData": {
-				"opaqueTiles": "00000000000000001111111111111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-				"averageColors": "5e9a5d8a5e9a6d8a5e9a5d8a5e9a5d8a5e9a5d8a5e9a5d8a5e9a5d8a5e9a5d8af78af78af78af78af78af78af78af78af78af78af78af78af78af78af78af78a389a489a5c880a6607450000000000000000000000000000000000000000000037993789000078c87c6500009b787b6928b868b82c976c9700000000000000007577346685773467757734677577346766a757a86b765c86000000000000000077987855000000000000000000000000000000000000000000000000000000006da95db95db95cb95bb85ac869c84c8a367a4d8a3679000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+				"opaqueTiles": "1111111011111100111111001111110010011100000000000000000000000000",
+				"averageColors": "f222f222f222f222f222f222f2221222f222f112f222f222f212f212a2223222f222f222f222f222f222f22282223222f222f222f222f222f222f222a2221222f21282228222f212f222f22200000000311121113111411121112111011100002111000021110000111111112111000031112111311111112111011111110000"
 			}
 		}
 	], "enums": [], "externalEnums": [], "levelFields": [] },
@@ -342,6 +346,30 @@
 			"externalRelPath": null,
 			"fieldInstances": [],
 			"layerInstances": [
+				{
+					"__identifier": "BackgroundTiles",
+					"__type": "Tiles",
+					"__cWid": 79,
+					"__cHei": 34,
+					"__gridSize": 32,
+					"__opacity": 1,
+					"__pxTotalOffsetX": 0,
+					"__pxTotalOffsetY": 0,
+					"__tilesetDefUid": 20,
+					"__tilesetRelPath": "../../Sprites/Tilesets/darktiles_sheet_world3.png",
+					"levelId": 12,
+					"layerDefUid": 21,
+					"pxOffsetX": 0,
+					"pxOffsetY": 0,
+					"visible": true,
+					"intGrid": [],
+					"intGridCsv": [],
+					"autoLayerTiles": [],
+					"seed": 9333016,
+					"overrideTilesetUid": null,
+					"gridTiles": [],
+					"entityInstances": []
+				},
 				{
 					"__identifier": "Entities",
 					"__type": "Entities",
