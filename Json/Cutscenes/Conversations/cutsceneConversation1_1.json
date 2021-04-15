@@ -3,29 +3,24 @@
 	"characterRight" : "Biff",
 	"dialogue" : [
 		{
+			"speaker" : "Marty",
+			"line" : "Hey Biff, you know I feel it is getting really hard to find a pretty |date on Timber now a days.",
+			"mood" : "default"
+		},		
+		{
 			"speaker" : "Biff",
-			"line" : ": Stop right there!",
+			"line" : "Do you think you might find a different match if we climb this cliff?",
 			"mood" : "default"
 		},
 		{
 			"speaker" : "Marty",
-			"line" : ": No, let me through.",
+			"line" : "You know biff, for being such a brute you somehow manage to surprise |me with your wits some times.",
 			"mood" : "default"
 		},
 		{
 			"speaker" : "Biff",
-			"line" : ": To do what? Without power of flight, you'll never reach the top.",
-			"mood" : "default"
-		},
-		{
-			"speaker" : "Marty",
-			"line" : ": Let me show you, stupid toad.",
+			"line" : "!!!",
 			"mood" : "Angry"
-		},
-		{
-			"speaker" : "Biff",
-			"line" : ": Yeah good luck, chicken nugget.",
-			"mood" : "default"
 		}
 	]
 }

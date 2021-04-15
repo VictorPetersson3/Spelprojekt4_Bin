@@ -4,27 +4,17 @@
 	"dialogue" : [
 		{
 			"speaker" : "Biff",
-			"line" : ": Stop right there!",
+			"line" : "Alright Marty, do you get any new Matches up here?",
 			"mood" : "default"
 		},
 		{
 			"speaker" : "Marty",
-			"line" : ": No, let me through.",
+			"line" : "Yea I do, its a Red Robin Named Jennifer, she lives at the |outskirts of the forest.",
 			"mood" : "default"
 		},
 		{
 			"speaker" : "Biff",
-			"line" : ": To do what? Without power of flight, you'll never reach the top.",
-			"mood" : "default"
-		},
-		{
-			"speaker" : "Marty",
-			"line" : ": Let me show you, stupid toad.",
-			"mood" : "Angry"
-		},
-		{
-			"speaker" : "Biff",
-			"line" : ": Yeah good luck, chicken nugget.",
+			"line" : "Alright, I will let you chase this one, I think I got a date |over by my Factory.",
 			"mood" : "default"
 		}
 	]
